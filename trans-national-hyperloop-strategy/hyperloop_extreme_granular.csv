@@ -1,0 +1,1558 @@
+ID,WBS,Task Name,Duration (days),Start,Finish,Predecessors,Resource Names,Lump-Sum Cost (USD),Resource-Based Cost (USD)
+1,0.1,Form Steering Committee,30,2025-01-01,2025-01-30,,Project Leadership,200000,180000
+2,0.2,Define Vision & Objectives,14,2025-02-01,2025-02-14,1,Project Leadership,50000,45000
+3,0.3,Legal advisor engagement,60,2025-01-16,2025-03-16,1,Legal Team,150000,140000
+4,0.4,Initial market analysis,45,2025-01-11,2025-02-24,2,Market Analysts,120000,100000
+5,0.5,Identify potential pilot corridors,90,2025-01-21,2025-04-20,"2,4",Route Planning Team,300000,270000
+6,0.6,Stakeholder mapping & outreach plan,60,2025-01-26,2025-03-26,1,Communications,80000,70000
+7,0.7,Initial funding commitments (letters of intent),120,2025-02-10,2025-06-09,3,Finance Team,500000,450000
+8,0.8,Create SPV & governance draft,90,2025-02-15,2025-05-15,3,Legal Team,200000,180000
+9,0.9,Pre-feasibility report,120,2025-03-02,2025-06-29,5,Engineering,250000,220000
+10,0.10,Public relations kickoff & website,30,2025-01-11,2025-02-09,6,Communications,30000,25000
+11,0.11,Procurement strategy & PPP model,45,2025-03-22,2025-05-05,"7,8",Procurement,120000,110000
+12,0.12,Intellectual property & tech scouting,60,2025-03-27,2025-05-25,6,R&D Team,90000,80000
+13,0.13,Early risk register & mitigation plan,30,2025-04-11,2025-05-10,9,Risk Team,40000,35000
+14,0.14,Initial environmental scoping,45,2025-04-06,2025-05-20,6,Environmental Consultants,70000,65000
+15,0.15,Set up data room & NDA templates,21,2025-02-20,2025-03-12,7,Legal Team,15000,12000
+16,0.16,Initial TBM / pylon vendor shortlist,30,2025-04-21,2025-05-20,12,Procurement,40000,35000
+17,0.17,Preliminary safety standards review,30,2025-04-26,2025-05-25,12,Safety Team,30000,27000
+18,0.18,Preliminary governance treaty outreach,90,2025-05-01,2025-07-29,8,Legal Team,80000,72000
+19,0.19,Define KPIs & success metrics,21,2025-05-11,2025-05-31,2,PMO,10000,9000
+20,0.20,Set up core office & hire key staff,60,2025-01-11,2025-03-11,1,HR,100000,90000
+21,1.1.1,Geotech borings segment 1 (20 boreholes),30,2025-05-31,2025-06-29,,Geotech Team,200000,180000
+22,1.1.1,Soil lab testing segment 1,20,2025-07-01,2025-07-20,21,Geotech Lab,80000,72000
+23,1.1.1,Groundwater & pore pressure monitoring 1,45,2025-06-10,2025-07-24,21,Hydrogeology Team,60000,54000
+24,1.2.1,Environmental sampling segment 1 - marine/terrestrial,25,2025-06-05,2025-06-29,,Environmental Consultants,50000,45000
+25,1.3.1,Community consultations segment 1,14,2025-06-15,2025-06-28,,Communications,20000,18000
+26,1.1.2,Geotech borings segment 2 (20 boreholes),30,2025-06-10,2025-07-09,,Geotech Team,200000,180000
+27,1.1.2,Soil lab testing segment 2,20,2025-07-11,2025-07-30,26,Geotech Lab,80000,72000
+28,1.1.2,Groundwater & pore pressure monitoring 2,45,2025-06-20,2025-08-03,26,Hydrogeology Team,60000,54000
+29,1.2.2,Environmental sampling segment 2 - marine/terrestrial,25,2025-06-15,2025-07-09,,Environmental Consultants,50000,45000
+30,1.3.2,Community consultations segment 2,14,2025-06-25,2025-07-08,,Communications,20000,18000
+31,1.1.3,Geotech borings segment 3 (20 boreholes),30,2025-06-20,2025-07-19,,Geotech Team,200000,180000
+32,1.1.3,Soil lab testing segment 3,20,2025-07-21,2025-08-09,31,Geotech Lab,80000,72000
+33,1.1.3,Groundwater & pore pressure monitoring 3,45,2025-06-30,2025-08-13,31,Hydrogeology Team,60000,54000
+34,1.2.3,Environmental sampling segment 3 - marine/terrestrial,25,2025-06-25,2025-07-19,,Environmental Consultants,50000,45000
+35,1.3.3,Community consultations segment 3,14,2025-07-05,2025-07-18,,Communications,20000,18000
+36,1.1.4,Geotech borings segment 4 (20 boreholes),30,2025-06-30,2025-07-29,,Geotech Team,200000,180000
+37,1.1.4,Soil lab testing segment 4,20,2025-07-31,2025-08-19,36,Geotech Lab,80000,72000
+38,1.1.4,Groundwater & pore pressure monitoring 4,45,2025-07-10,2025-08-23,36,Hydrogeology Team,60000,54000
+39,1.2.4,Environmental sampling segment 4 - marine/terrestrial,25,2025-07-05,2025-07-29,,Environmental Consultants,50000,45000
+40,1.3.4,Community consultations segment 4,14,2025-07-15,2025-07-28,,Communications,20000,18000
+41,1.1.5,Geotech borings segment 5 (20 boreholes),30,2025-07-10,2025-08-08,,Geotech Team,200000,180000
+42,1.1.5,Soil lab testing segment 5,20,2025-08-10,2025-08-29,41,Geotech Lab,80000,72000
+43,1.1.5,Groundwater & pore pressure monitoring 5,45,2025-07-20,2025-09-02,41,Hydrogeology Team,60000,54000
+44,1.2.5,Environmental sampling segment 5 - marine/terrestrial,25,2025-07-15,2025-08-08,,Environmental Consultants,50000,45000
+45,1.3.5,Community consultations segment 5,14,2025-07-25,2025-08-07,,Communications,20000,18000
+46,1.1.6,Geotech borings segment 6 (20 boreholes),30,2025-07-20,2025-08-18,,Geotech Team,200000,180000
+47,1.1.6,Soil lab testing segment 6,20,2025-08-20,2025-09-08,46,Geotech Lab,80000,72000
+48,1.1.6,Groundwater & pore pressure monitoring 6,45,2025-07-30,2025-09-12,46,Hydrogeology Team,60000,54000
+49,1.2.6,Environmental sampling segment 6 - marine/terrestrial,25,2025-07-25,2025-08-18,,Environmental Consultants,50000,45000
+50,1.3.6,Community consultations segment 6,14,2025-08-04,2025-08-17,,Communications,20000,18000
+51,1.1.7,Geotech borings segment 7 (20 boreholes),30,2025-07-30,2025-08-28,,Geotech Team,200000,180000
+52,1.1.7,Soil lab testing segment 7,20,2025-08-30,2025-09-18,51,Geotech Lab,80000,72000
+53,1.1.7,Groundwater & pore pressure monitoring 7,45,2025-08-09,2025-09-22,51,Hydrogeology Team,60000,54000
+54,1.2.7,Environmental sampling segment 7 - marine/terrestrial,25,2025-08-04,2025-08-28,,Environmental Consultants,50000,45000
+55,1.3.7,Community consultations segment 7,14,2025-08-14,2025-08-27,,Communications,20000,18000
+56,1.1.8,Geotech borings segment 8 (20 boreholes),30,2025-08-09,2025-09-07,,Geotech Team,200000,180000
+57,1.1.8,Soil lab testing segment 8,20,2025-09-09,2025-09-28,56,Geotech Lab,80000,72000
+58,1.1.8,Groundwater & pore pressure monitoring 8,45,2025-08-19,2025-10-02,56,Hydrogeology Team,60000,54000
+59,1.2.8,Environmental sampling segment 8 - marine/terrestrial,25,2025-08-14,2025-09-07,,Environmental Consultants,50000,45000
+60,1.3.8,Community consultations segment 8,14,2025-08-24,2025-09-06,,Communications,20000,18000
+61,1.1.9,Geotech borings segment 9 (20 boreholes),30,2025-08-19,2025-09-17,,Geotech Team,200000,180000
+62,1.1.9,Soil lab testing segment 9,20,2025-09-19,2025-10-08,61,Geotech Lab,80000,72000
+63,1.1.9,Groundwater & pore pressure monitoring 9,45,2025-08-29,2025-10-12,61,Hydrogeology Team,60000,54000
+64,1.2.9,Environmental sampling segment 9 - marine/terrestrial,25,2025-08-24,2025-09-17,,Environmental Consultants,50000,45000
+65,1.3.9,Community consultations segment 9,14,2025-09-03,2025-09-16,,Communications,20000,18000
+66,1.1.10,Geotech borings segment 10 (20 boreholes),30,2025-08-29,2025-09-27,,Geotech Team,200000,180000
+67,1.1.10,Soil lab testing segment 10,20,2025-09-29,2025-10-18,66,Geotech Lab,80000,72000
+68,1.1.10,Groundwater & pore pressure monitoring 10,45,2025-09-08,2025-10-22,66,Hydrogeology Team,60000,54000
+69,1.2.10,Environmental sampling segment 10 - marine/terrestrial,25,2025-09-03,2025-09-27,,Environmental Consultants,50000,45000
+70,1.3.10,Community consultations segment 10,14,2025-09-13,2025-09-26,,Communications,20000,18000
+71,1.1.11,Geotech borings segment 11 (20 boreholes),30,2025-09-08,2025-10-07,,Geotech Team,200000,180000
+72,1.1.11,Soil lab testing segment 11,20,2025-10-09,2025-10-28,71,Geotech Lab,80000,72000
+73,1.1.11,Groundwater & pore pressure monitoring 11,45,2025-09-18,2025-11-01,71,Hydrogeology Team,60000,54000
+74,1.2.11,Environmental sampling segment 11 - marine/terrestrial,25,2025-09-13,2025-10-07,,Environmental Consultants,50000,45000
+75,1.3.11,Community consultations segment 11,14,2025-09-23,2025-10-06,,Communications,20000,18000
+76,1.1.12,Geotech borings segment 12 (20 boreholes),30,2025-09-18,2025-10-17,,Geotech Team,200000,180000
+77,1.1.12,Soil lab testing segment 12,20,2025-10-19,2025-11-07,76,Geotech Lab,80000,72000
+78,1.1.12,Groundwater & pore pressure monitoring 12,45,2025-09-28,2025-11-11,76,Hydrogeology Team,60000,54000
+79,1.2.12,Environmental sampling segment 12 - marine/terrestrial,25,2025-09-23,2025-10-17,,Environmental Consultants,50000,45000
+80,1.3.12,Community consultations segment 12,14,2025-10-03,2025-10-16,,Communications,20000,18000
+81,1.1.13,Geotech borings segment 13 (20 boreholes),30,2025-09-28,2025-10-27,,Geotech Team,200000,180000
+82,1.1.13,Soil lab testing segment 13,20,2025-10-29,2025-11-17,81,Geotech Lab,80000,72000
+83,1.1.13,Groundwater & pore pressure monitoring 13,45,2025-10-08,2025-11-21,81,Hydrogeology Team,60000,54000
+84,1.2.13,Environmental sampling segment 13 - marine/terrestrial,25,2025-10-03,2025-10-27,,Environmental Consultants,50000,45000
+85,1.3.13,Community consultations segment 13,14,2025-10-13,2025-10-26,,Communications,20000,18000
+86,1.1.14,Geotech borings segment 14 (20 boreholes),30,2025-10-08,2025-11-06,,Geotech Team,200000,180000
+87,1.1.14,Soil lab testing segment 14,20,2025-11-08,2025-11-27,86,Geotech Lab,80000,72000
+88,1.1.14,Groundwater & pore pressure monitoring 14,45,2025-10-18,2025-12-01,86,Hydrogeology Team,60000,54000
+89,1.2.14,Environmental sampling segment 14 - marine/terrestrial,25,2025-10-13,2025-11-06,,Environmental Consultants,50000,45000
+90,1.3.14,Community consultations segment 14,14,2025-10-23,2025-11-05,,Communications,20000,18000
+91,1.1.15,Geotech borings segment 15 (20 boreholes),30,2025-10-18,2025-11-16,,Geotech Team,200000,180000
+92,1.1.15,Soil lab testing segment 15,20,2025-11-18,2025-12-07,91,Geotech Lab,80000,72000
+93,1.1.15,Groundwater & pore pressure monitoring 15,45,2025-10-28,2025-12-11,91,Hydrogeology Team,60000,54000
+94,1.2.15,Environmental sampling segment 15 - marine/terrestrial,25,2025-10-23,2025-11-16,,Environmental Consultants,50000,45000
+95,1.3.15,Community consultations segment 15,14,2025-11-02,2025-11-15,,Communications,20000,18000
+96,1.1.16,Geotech borings segment 16 (20 boreholes),30,2025-10-28,2025-11-26,,Geotech Team,200000,180000
+97,1.1.16,Soil lab testing segment 16,20,2025-11-28,2025-12-17,96,Geotech Lab,80000,72000
+98,1.1.16,Groundwater & pore pressure monitoring 16,45,2025-11-07,2025-12-21,96,Hydrogeology Team,60000,54000
+99,1.2.16,Environmental sampling segment 16 - marine/terrestrial,25,2025-11-02,2025-11-26,,Environmental Consultants,50000,45000
+100,1.3.16,Community consultations segment 16,14,2025-11-12,2025-11-25,,Communications,20000,18000
+101,1.1.17,Geotech borings segment 17 (20 boreholes),30,2025-11-07,2025-12-06,,Geotech Team,200000,180000
+102,1.1.17,Soil lab testing segment 17,20,2025-12-08,2025-12-27,101,Geotech Lab,80000,72000
+103,1.1.17,Groundwater & pore pressure monitoring 17,45,2025-11-17,2025-12-31,101,Hydrogeology Team,60000,54000
+104,1.2.17,Environmental sampling segment 17 - marine/terrestrial,25,2025-11-12,2025-12-06,,Environmental Consultants,50000,45000
+105,1.3.17,Community consultations segment 17,14,2025-11-22,2025-12-05,,Communications,20000,18000
+106,1.1.18,Geotech borings segment 18 (20 boreholes),30,2025-11-17,2025-12-16,,Geotech Team,200000,180000
+107,1.1.18,Soil lab testing segment 18,20,2025-12-18,2026-01-06,106,Geotech Lab,80000,72000
+108,1.1.18,Groundwater & pore pressure monitoring 18,45,2025-11-27,2026-01-10,106,Hydrogeology Team,60000,54000
+109,1.2.18,Environmental sampling segment 18 - marine/terrestrial,25,2025-11-22,2025-12-16,,Environmental Consultants,50000,45000
+110,1.3.18,Community consultations segment 18,14,2025-12-02,2025-12-15,,Communications,20000,18000
+111,1.1.19,Geotech borings segment 19 (20 boreholes),30,2025-11-27,2025-12-26,,Geotech Team,200000,180000
+112,1.1.19,Soil lab testing segment 19,20,2025-12-28,2026-01-16,111,Geotech Lab,80000,72000
+113,1.1.19,Groundwater & pore pressure monitoring 19,45,2025-12-07,2026-01-20,111,Hydrogeology Team,60000,54000
+114,1.2.19,Environmental sampling segment 19 - marine/terrestrial,25,2025-12-02,2025-12-26,,Environmental Consultants,50000,45000
+115,1.3.19,Community consultations segment 19,14,2025-12-12,2025-12-25,,Communications,20000,18000
+116,1.1.20,Geotech borings segment 20 (20 boreholes),30,2025-12-07,2026-01-05,,Geotech Team,200000,180000
+117,1.1.20,Soil lab testing segment 20,20,2026-01-07,2026-01-26,116,Geotech Lab,80000,72000
+118,1.1.20,Groundwater & pore pressure monitoring 20,45,2025-12-17,2026-01-30,116,Hydrogeology Team,60000,54000
+119,1.2.20,Environmental sampling segment 20 - marine/terrestrial,25,2025-12-12,2026-01-05,,Environmental Consultants,50000,45000
+120,1.3.20,Community consultations segment 20,14,2025-12-22,2026-01-04,,Communications,20000,18000
+121,1.1.21,Geotech borings segment 21 (20 boreholes),30,2025-12-17,2026-01-15,,Geotech Team,200000,180000
+122,1.1.21,Soil lab testing segment 21,20,2026-01-17,2026-02-05,121,Geotech Lab,80000,72000
+123,1.1.21,Groundwater & pore pressure monitoring 21,45,2025-12-27,2026-02-09,121,Hydrogeology Team,60000,54000
+124,1.2.21,Environmental sampling segment 21 - marine/terrestrial,25,2025-12-22,2026-01-15,,Environmental Consultants,50000,45000
+125,1.3.21,Community consultations segment 21,14,2026-01-01,2026-01-14,,Communications,20000,18000
+126,1.1.22,Geotech borings segment 22 (20 boreholes),30,2025-12-27,2026-01-25,,Geotech Team,200000,180000
+127,1.1.22,Soil lab testing segment 22,20,2026-01-27,2026-02-15,126,Geotech Lab,80000,72000
+128,1.1.22,Groundwater & pore pressure monitoring 22,45,2026-01-06,2026-02-19,126,Hydrogeology Team,60000,54000
+129,1.2.22,Environmental sampling segment 22 - marine/terrestrial,25,2026-01-01,2026-01-25,,Environmental Consultants,50000,45000
+130,1.3.22,Community consultations segment 22,14,2026-01-11,2026-01-24,,Communications,20000,18000
+131,1.1.23,Geotech borings segment 23 (20 boreholes),30,2026-01-06,2026-02-04,,Geotech Team,200000,180000
+132,1.1.23,Soil lab testing segment 23,20,2026-02-06,2026-02-25,131,Geotech Lab,80000,72000
+133,1.1.23,Groundwater & pore pressure monitoring 23,45,2026-01-16,2026-03-01,131,Hydrogeology Team,60000,54000
+134,1.2.23,Environmental sampling segment 23 - marine/terrestrial,25,2026-01-11,2026-02-04,,Environmental Consultants,50000,45000
+135,1.3.23,Community consultations segment 23,14,2026-01-21,2026-02-03,,Communications,20000,18000
+136,1.1.24,Geotech borings segment 24 (20 boreholes),30,2026-01-16,2026-02-14,,Geotech Team,200000,180000
+137,1.1.24,Soil lab testing segment 24,20,2026-02-16,2026-03-07,136,Geotech Lab,80000,72000
+138,1.1.24,Groundwater & pore pressure monitoring 24,45,2026-01-26,2026-03-11,136,Hydrogeology Team,60000,54000
+139,1.2.24,Environmental sampling segment 24 - marine/terrestrial,25,2026-01-21,2026-02-14,,Environmental Consultants,50000,45000
+140,1.3.24,Community consultations segment 24,14,2026-01-31,2026-02-13,,Communications,20000,18000
+141,1.1.25,Geotech borings segment 25 (20 boreholes),30,2026-01-26,2026-02-24,,Geotech Team,200000,180000
+142,1.1.25,Soil lab testing segment 25,20,2026-02-26,2026-03-17,141,Geotech Lab,80000,72000
+143,1.1.25,Groundwater & pore pressure monitoring 25,45,2026-02-05,2026-03-21,141,Hydrogeology Team,60000,54000
+144,1.2.25,Environmental sampling segment 25 - marine/terrestrial,25,2026-01-31,2026-02-24,,Environmental Consultants,50000,45000
+145,1.3.25,Community consultations segment 25,14,2026-02-10,2026-02-23,,Communications,20000,18000
+146,1.1.26,Geotech borings segment 26 (20 boreholes),30,2026-02-05,2026-03-06,,Geotech Team,200000,180000
+147,1.1.26,Soil lab testing segment 26,20,2026-03-08,2026-03-27,146,Geotech Lab,80000,72000
+148,1.1.26,Groundwater & pore pressure monitoring 26,45,2026-02-15,2026-03-31,146,Hydrogeology Team,60000,54000
+149,1.2.26,Environmental sampling segment 26 - marine/terrestrial,25,2026-02-10,2026-03-06,,Environmental Consultants,50000,45000
+150,1.3.26,Community consultations segment 26,14,2026-02-20,2026-03-05,,Communications,20000,18000
+151,1.1.27,Geotech borings segment 27 (20 boreholes),30,2026-02-15,2026-03-16,,Geotech Team,200000,180000
+152,1.1.27,Soil lab testing segment 27,20,2026-03-18,2026-04-06,151,Geotech Lab,80000,72000
+153,1.1.27,Groundwater & pore pressure monitoring 27,45,2026-02-25,2026-04-10,151,Hydrogeology Team,60000,54000
+154,1.2.27,Environmental sampling segment 27 - marine/terrestrial,25,2026-02-20,2026-03-16,,Environmental Consultants,50000,45000
+155,1.3.27,Community consultations segment 27,14,2026-03-02,2026-03-15,,Communications,20000,18000
+156,1.1.28,Geotech borings segment 28 (20 boreholes),30,2026-02-25,2026-03-26,,Geotech Team,200000,180000
+157,1.1.28,Soil lab testing segment 28,20,2026-03-28,2026-04-16,156,Geotech Lab,80000,72000
+158,1.1.28,Groundwater & pore pressure monitoring 28,45,2026-03-07,2026-04-20,156,Hydrogeology Team,60000,54000
+159,1.2.28,Environmental sampling segment 28 - marine/terrestrial,25,2026-03-02,2026-03-26,,Environmental Consultants,50000,45000
+160,1.3.28,Community consultations segment 28,14,2026-03-12,2026-03-25,,Communications,20000,18000
+161,1.1.29,Geotech borings segment 29 (20 boreholes),30,2026-03-07,2026-04-05,,Geotech Team,200000,180000
+162,1.1.29,Soil lab testing segment 29,20,2026-04-07,2026-04-26,161,Geotech Lab,80000,72000
+163,1.1.29,Groundwater & pore pressure monitoring 29,45,2026-03-17,2026-04-30,161,Hydrogeology Team,60000,54000
+164,1.2.29,Environmental sampling segment 29 - marine/terrestrial,25,2026-03-12,2026-04-05,,Environmental Consultants,50000,45000
+165,1.3.29,Community consultations segment 29,14,2026-03-22,2026-04-04,,Communications,20000,18000
+166,1.1.30,Geotech borings segment 30 (20 boreholes),30,2026-03-17,2026-04-15,,Geotech Team,200000,180000
+167,1.1.30,Soil lab testing segment 30,20,2026-04-17,2026-05-06,166,Geotech Lab,80000,72000
+168,1.1.30,Groundwater & pore pressure monitoring 30,45,2026-03-27,2026-05-10,166,Hydrogeology Team,60000,54000
+169,1.2.30,Environmental sampling segment 30 - marine/terrestrial,25,2026-03-22,2026-04-15,,Environmental Consultants,50000,45000
+170,1.3.30,Community consultations segment 30,14,2026-04-01,2026-04-14,,Communications,20000,18000
+171,1.4,Hydrology & flood risk assessment,120,2025-05-31,2025-09-27,21,Hydrogeology Team,150000,135000
+172,1.5,Seismic & fault line analysis,90,2025-06-10,2025-09-07,21,Seismic Experts,120000,110000
+173,1.6,Aviation & airspace impact study,60,2025-06-05,2025-08-03,,Aviation Liaison,80000,72000
+174,1.7,"Detailed EIA chapters - biodiversity, noise, visual",180,2025-06-30,2025-12-26,,Environmental Consultants,400000,360000
+175,1.8,Permit applications (national level),240,2025-07-30,2026-03-26,,Legal Team,250000,230000
+176,1.9,Cross-border regulatory alignment workshops,120,2025-08-29,2025-12-26,,Legal Team,150000,140000
+177,1.10,Traffic & transport modelling,120,2025-06-20,2025-10-17,,Transport Modelers,180000,160000
+178,2.1,Test track site selection & survey,60,2027-01-01,2027-03-01,,Survey Team,200000,180000
+179,2.2,Test track geotech & soil improvement,120,2027-01-11,2027-05-10,,Geotech Team,400000,360000
+180,2.3,Test track detailed design - civil,180,2027-01-21,2027-07-19,,Civil Engineering,800000,720000
+181,2.4,Test track tube manufacturing prototype (pilot runs),240,2027-02-10,2027-10-07,,Tube Manufacturer,5000000,4500000
+182,2.5,Vacuum system prototype design & pumps R&D,240,2027-02-10,2027-10-07,,Vacuum Systems,1200000,1080000
+183,2.6,Pod prototype manufacture #1,300,2027-03-02,2027-12-26,,Pod Manufacturer,2000000,1800000
+184,2.7,"Pod lab testing (aero, levitation)",120,2027-07-20,2027-11-16,create_task,Test Labs,500000,450000
+185,2.8,TBM procurement - spec & RFP,90,2027-01-31,2027-04-30,,Procurement,150000,135000
+186,2.9,TBM assembly & factory acceptance tests,120,2027-05-11,2027-09-07,,TBM Vendor,2000000,1800000
+187,2.10,Test track civil works - pile foundations,180,2027-05-31,2027-11-26,,Construction Contractor,2000000,1800000
+188,2.11,Tube segment fabrication batch 1,14,2027-07-27,2027-08-09,,Tube Manufacturer,100000,90000
+189,2.12,Tube segment QA & NDT batch 1,7,2027-08-10,2027-08-16,,QA Team,20000,18000
+190,2.13,Tube segment transport to site batch 1,10,2027-08-17,2027-08-26,,Logistics,30000,27000
+191,2.11,Tube segment fabrication batch 2,14,2027-08-03,2027-08-16,,Tube Manufacturer,100000,90000
+192,2.12,Tube segment QA & NDT batch 2,7,2027-08-17,2027-08-23,,QA Team,20000,18000
+193,2.13,Tube segment transport to site batch 2,10,2027-08-24,2027-09-02,,Logistics,30000,27000
+194,2.11,Tube segment fabrication batch 3,14,2027-08-10,2027-08-23,,Tube Manufacturer,100000,90000
+195,2.12,Tube segment QA & NDT batch 3,7,2027-08-24,2027-08-30,,QA Team,20000,18000
+196,2.13,Tube segment transport to site batch 3,10,2027-08-31,2027-09-09,,Logistics,30000,27000
+197,2.11,Tube segment fabrication batch 4,14,2027-08-17,2027-08-30,,Tube Manufacturer,100000,90000
+198,2.12,Tube segment QA & NDT batch 4,7,2027-08-31,2027-09-06,,QA Team,20000,18000
+199,2.13,Tube segment transport to site batch 4,10,2027-09-07,2027-09-16,,Logistics,30000,27000
+200,2.11,Tube segment fabrication batch 5,14,2027-08-24,2027-09-06,,Tube Manufacturer,100000,90000
+201,2.12,Tube segment QA & NDT batch 5,7,2027-09-07,2027-09-13,,QA Team,20000,18000
+202,2.13,Tube segment transport to site batch 5,10,2027-09-14,2027-09-23,,Logistics,30000,27000
+203,2.11,Tube segment fabrication batch 6,14,2027-08-31,2027-09-13,,Tube Manufacturer,100000,90000
+204,2.12,Tube segment QA & NDT batch 6,7,2027-09-14,2027-09-20,,QA Team,20000,18000
+205,2.13,Tube segment transport to site batch 6,10,2027-09-21,2027-09-30,,Logistics,30000,27000
+206,2.11,Tube segment fabrication batch 7,14,2027-09-07,2027-09-20,,Tube Manufacturer,100000,90000
+207,2.12,Tube segment QA & NDT batch 7,7,2027-09-21,2027-09-27,,QA Team,20000,18000
+208,2.13,Tube segment transport to site batch 7,10,2027-09-28,2027-10-07,,Logistics,30000,27000
+209,2.11,Tube segment fabrication batch 8,14,2027-09-14,2027-09-27,,Tube Manufacturer,100000,90000
+210,2.12,Tube segment QA & NDT batch 8,7,2027-09-28,2027-10-04,,QA Team,20000,18000
+211,2.13,Tube segment transport to site batch 8,10,2027-10-05,2027-10-14,,Logistics,30000,27000
+212,2.11,Tube segment fabrication batch 9,14,2027-09-21,2027-10-04,,Tube Manufacturer,100000,90000
+213,2.12,Tube segment QA & NDT batch 9,7,2027-10-05,2027-10-11,,QA Team,20000,18000
+214,2.13,Tube segment transport to site batch 9,10,2027-10-12,2027-10-21,,Logistics,30000,27000
+215,2.11,Tube segment fabrication batch 10,14,2027-09-28,2027-10-11,,Tube Manufacturer,100000,90000
+216,2.12,Tube segment QA & NDT batch 10,7,2027-10-12,2027-10-18,,QA Team,20000,18000
+217,2.13,Tube segment transport to site batch 10,10,2027-10-19,2027-10-28,,Logistics,30000,27000
+218,2.11,Tube segment fabrication batch 11,14,2027-10-05,2027-10-18,,Tube Manufacturer,100000,90000
+219,2.12,Tube segment QA & NDT batch 11,7,2027-10-19,2027-10-25,,QA Team,20000,18000
+220,2.13,Tube segment transport to site batch 11,10,2027-10-26,2027-11-04,,Logistics,30000,27000
+221,2.11,Tube segment fabrication batch 12,14,2027-10-12,2027-10-25,,Tube Manufacturer,100000,90000
+222,2.12,Tube segment QA & NDT batch 12,7,2027-10-26,2027-11-01,,QA Team,20000,18000
+223,2.13,Tube segment transport to site batch 12,10,2027-11-02,2027-11-11,,Logistics,30000,27000
+224,2.11,Tube segment fabrication batch 13,14,2027-10-19,2027-11-01,,Tube Manufacturer,100000,90000
+225,2.12,Tube segment QA & NDT batch 13,7,2027-11-02,2027-11-08,,QA Team,20000,18000
+226,2.13,Tube segment transport to site batch 13,10,2027-11-09,2027-11-18,,Logistics,30000,27000
+227,2.11,Tube segment fabrication batch 14,14,2027-10-26,2027-11-08,,Tube Manufacturer,100000,90000
+228,2.12,Tube segment QA & NDT batch 14,7,2027-11-09,2027-11-15,,QA Team,20000,18000
+229,2.13,Tube segment transport to site batch 14,10,2027-11-16,2027-11-25,,Logistics,30000,27000
+230,2.11,Tube segment fabrication batch 15,14,2027-11-02,2027-11-15,,Tube Manufacturer,100000,90000
+231,2.12,Tube segment QA & NDT batch 15,7,2027-11-16,2027-11-22,,QA Team,20000,18000
+232,2.13,Tube segment transport to site batch 15,10,2027-11-23,2027-12-02,,Logistics,30000,27000
+233,2.11,Tube segment fabrication batch 16,14,2027-11-09,2027-11-22,,Tube Manufacturer,100000,90000
+234,2.12,Tube segment QA & NDT batch 16,7,2027-11-23,2027-11-29,,QA Team,20000,18000
+235,2.13,Tube segment transport to site batch 16,10,2027-11-30,2027-12-09,,Logistics,30000,27000
+236,2.11,Tube segment fabrication batch 17,14,2027-11-16,2027-11-29,,Tube Manufacturer,100000,90000
+237,2.12,Tube segment QA & NDT batch 17,7,2027-11-30,2027-12-06,,QA Team,20000,18000
+238,2.13,Tube segment transport to site batch 17,10,2027-12-07,2027-12-16,,Logistics,30000,27000
+239,2.11,Tube segment fabrication batch 18,14,2027-11-23,2027-12-06,,Tube Manufacturer,100000,90000
+240,2.12,Tube segment QA & NDT batch 18,7,2027-12-07,2027-12-13,,QA Team,20000,18000
+241,2.13,Tube segment transport to site batch 18,10,2027-12-14,2027-12-23,,Logistics,30000,27000
+242,2.11,Tube segment fabrication batch 19,14,2027-11-30,2027-12-13,,Tube Manufacturer,100000,90000
+243,2.12,Tube segment QA & NDT batch 19,7,2027-12-14,2027-12-20,,QA Team,20000,18000
+244,2.13,Tube segment transport to site batch 19,10,2027-12-21,2027-12-30,,Logistics,30000,27000
+245,2.11,Tube segment fabrication batch 20,14,2027-12-07,2027-12-20,,Tube Manufacturer,100000,90000
+246,2.12,Tube segment QA & NDT batch 20,7,2027-12-21,2027-12-27,,QA Team,20000,18000
+247,2.13,Tube segment transport to site batch 20,10,2027-12-28,2028-01-06,,Logistics,30000,27000
+248,2.11,Tube segment fabrication batch 21,14,2027-12-14,2027-12-27,,Tube Manufacturer,100000,90000
+249,2.12,Tube segment QA & NDT batch 21,7,2027-12-28,2028-01-03,,QA Team,20000,18000
+250,2.13,Tube segment transport to site batch 21,10,2028-01-04,2028-01-13,,Logistics,30000,27000
+251,2.11,Tube segment fabrication batch 22,14,2027-12-21,2028-01-03,,Tube Manufacturer,100000,90000
+252,2.12,Tube segment QA & NDT batch 22,7,2028-01-04,2028-01-10,,QA Team,20000,18000
+253,2.13,Tube segment transport to site batch 22,10,2028-01-11,2028-01-20,,Logistics,30000,27000
+254,2.11,Tube segment fabrication batch 23,14,2027-12-28,2028-01-10,,Tube Manufacturer,100000,90000
+255,2.12,Tube segment QA & NDT batch 23,7,2028-01-11,2028-01-17,,QA Team,20000,18000
+256,2.13,Tube segment transport to site batch 23,10,2028-01-18,2028-01-27,,Logistics,30000,27000
+257,2.11,Tube segment fabrication batch 24,14,2028-01-04,2028-01-17,,Tube Manufacturer,100000,90000
+258,2.12,Tube segment QA & NDT batch 24,7,2028-01-18,2028-01-24,,QA Team,20000,18000
+259,2.13,Tube segment transport to site batch 24,10,2028-01-25,2028-02-03,,Logistics,30000,27000
+260,2.11,Tube segment fabrication batch 25,14,2028-01-11,2028-01-24,,Tube Manufacturer,100000,90000
+261,2.12,Tube segment QA & NDT batch 25,7,2028-01-25,2028-01-31,,QA Team,20000,18000
+262,2.13,Tube segment transport to site batch 25,10,2028-02-01,2028-02-10,,Logistics,30000,27000
+263,2.11,Tube segment fabrication batch 26,14,2028-01-18,2028-01-31,,Tube Manufacturer,100000,90000
+264,2.12,Tube segment QA & NDT batch 26,7,2028-02-01,2028-02-07,,QA Team,20000,18000
+265,2.13,Tube segment transport to site batch 26,10,2028-02-08,2028-02-17,,Logistics,30000,27000
+266,2.11,Tube segment fabrication batch 27,14,2028-01-25,2028-02-07,,Tube Manufacturer,100000,90000
+267,2.12,Tube segment QA & NDT batch 27,7,2028-02-08,2028-02-14,,QA Team,20000,18000
+268,2.13,Tube segment transport to site batch 27,10,2028-02-15,2028-02-24,,Logistics,30000,27000
+269,2.11,Tube segment fabrication batch 28,14,2028-02-01,2028-02-14,,Tube Manufacturer,100000,90000
+270,2.12,Tube segment QA & NDT batch 28,7,2028-02-15,2028-02-21,,QA Team,20000,18000
+271,2.13,Tube segment transport to site batch 28,10,2028-02-22,2028-03-02,,Logistics,30000,27000
+272,2.11,Tube segment fabrication batch 29,14,2028-02-08,2028-02-21,,Tube Manufacturer,100000,90000
+273,2.12,Tube segment QA & NDT batch 29,7,2028-02-22,2028-02-28,,QA Team,20000,18000
+274,2.13,Tube segment transport to site batch 29,10,2028-02-29,2028-03-09,,Logistics,30000,27000
+275,2.11,Tube segment fabrication batch 30,14,2028-02-15,2028-02-28,,Tube Manufacturer,100000,90000
+276,2.12,Tube segment QA & NDT batch 30,7,2028-02-29,2028-03-06,,QA Team,20000,18000
+277,2.13,Tube segment transport to site batch 30,10,2028-03-07,2028-03-16,,Logistics,30000,27000
+278,2.11,Tube segment fabrication batch 31,14,2028-02-22,2028-03-06,,Tube Manufacturer,100000,90000
+279,2.12,Tube segment QA & NDT batch 31,7,2028-03-07,2028-03-13,,QA Team,20000,18000
+280,2.13,Tube segment transport to site batch 31,10,2028-03-14,2028-03-23,,Logistics,30000,27000
+281,2.11,Tube segment fabrication batch 32,14,2028-02-29,2028-03-13,,Tube Manufacturer,100000,90000
+282,2.12,Tube segment QA & NDT batch 32,7,2028-03-14,2028-03-20,,QA Team,20000,18000
+283,2.13,Tube segment transport to site batch 32,10,2028-03-21,2028-03-30,,Logistics,30000,27000
+284,2.11,Tube segment fabrication batch 33,14,2028-03-07,2028-03-20,,Tube Manufacturer,100000,90000
+285,2.12,Tube segment QA & NDT batch 33,7,2028-03-21,2028-03-27,,QA Team,20000,18000
+286,2.13,Tube segment transport to site batch 33,10,2028-03-28,2028-04-06,,Logistics,30000,27000
+287,2.11,Tube segment fabrication batch 34,14,2028-03-14,2028-03-27,,Tube Manufacturer,100000,90000
+288,2.12,Tube segment QA & NDT batch 34,7,2028-03-28,2028-04-03,,QA Team,20000,18000
+289,2.13,Tube segment transport to site batch 34,10,2028-04-04,2028-04-13,,Logistics,30000,27000
+290,2.11,Tube segment fabrication batch 35,14,2028-03-21,2028-04-03,,Tube Manufacturer,100000,90000
+291,2.12,Tube segment QA & NDT batch 35,7,2028-04-04,2028-04-10,,QA Team,20000,18000
+292,2.13,Tube segment transport to site batch 35,10,2028-04-11,2028-04-20,,Logistics,30000,27000
+293,2.11,Tube segment fabrication batch 36,14,2028-03-28,2028-04-10,,Tube Manufacturer,100000,90000
+294,2.12,Tube segment QA & NDT batch 36,7,2028-04-11,2028-04-17,,QA Team,20000,18000
+295,2.13,Tube segment transport to site batch 36,10,2028-04-18,2028-04-27,,Logistics,30000,27000
+296,2.11,Tube segment fabrication batch 37,14,2028-04-04,2028-04-17,,Tube Manufacturer,100000,90000
+297,2.12,Tube segment QA & NDT batch 37,7,2028-04-18,2028-04-24,,QA Team,20000,18000
+298,2.13,Tube segment transport to site batch 37,10,2028-04-25,2028-05-04,,Logistics,30000,27000
+299,2.11,Tube segment fabrication batch 38,14,2028-04-11,2028-04-24,,Tube Manufacturer,100000,90000
+300,2.12,Tube segment QA & NDT batch 38,7,2028-04-25,2028-05-01,,QA Team,20000,18000
+301,2.13,Tube segment transport to site batch 38,10,2028-05-02,2028-05-11,,Logistics,30000,27000
+302,2.11,Tube segment fabrication batch 39,14,2028-04-18,2028-05-01,,Tube Manufacturer,100000,90000
+303,2.12,Tube segment QA & NDT batch 39,7,2028-05-02,2028-05-08,,QA Team,20000,18000
+304,2.13,Tube segment transport to site batch 39,10,2028-05-09,2028-05-18,,Logistics,30000,27000
+305,2.11,Tube segment fabrication batch 40,14,2028-04-25,2028-05-08,,Tube Manufacturer,100000,90000
+306,2.12,Tube segment QA & NDT batch 40,7,2028-05-09,2028-05-15,,QA Team,20000,18000
+307,2.13,Tube segment transport to site batch 40,10,2028-05-16,2028-05-25,,Logistics,30000,27000
+308,2.11,Tube segment fabrication batch 41,14,2028-05-02,2028-05-15,,Tube Manufacturer,100000,90000
+309,2.12,Tube segment QA & NDT batch 41,7,2028-05-16,2028-05-22,,QA Team,20000,18000
+310,2.13,Tube segment transport to site batch 41,10,2028-05-23,2028-06-01,,Logistics,30000,27000
+311,2.11,Tube segment fabrication batch 42,14,2028-05-09,2028-05-22,,Tube Manufacturer,100000,90000
+312,2.12,Tube segment QA & NDT batch 42,7,2028-05-23,2028-05-29,,QA Team,20000,18000
+313,2.13,Tube segment transport to site batch 42,10,2028-05-30,2028-06-08,,Logistics,30000,27000
+314,2.11,Tube segment fabrication batch 43,14,2028-05-16,2028-05-29,,Tube Manufacturer,100000,90000
+315,2.12,Tube segment QA & NDT batch 43,7,2028-05-30,2028-06-05,,QA Team,20000,18000
+316,2.13,Tube segment transport to site batch 43,10,2028-06-06,2028-06-15,,Logistics,30000,27000
+317,2.11,Tube segment fabrication batch 44,14,2028-05-23,2028-06-05,,Tube Manufacturer,100000,90000
+318,2.12,Tube segment QA & NDT batch 44,7,2028-06-06,2028-06-12,,QA Team,20000,18000
+319,2.13,Tube segment transport to site batch 44,10,2028-06-13,2028-06-22,,Logistics,30000,27000
+320,2.11,Tube segment fabrication batch 45,14,2028-05-30,2028-06-12,,Tube Manufacturer,100000,90000
+321,2.12,Tube segment QA & NDT batch 45,7,2028-06-13,2028-06-19,,QA Team,20000,18000
+322,2.13,Tube segment transport to site batch 45,10,2028-06-20,2028-06-29,,Logistics,30000,27000
+323,2.11,Tube segment fabrication batch 46,14,2028-06-06,2028-06-19,,Tube Manufacturer,100000,90000
+324,2.12,Tube segment QA & NDT batch 46,7,2028-06-20,2028-06-26,,QA Team,20000,18000
+325,2.13,Tube segment transport to site batch 46,10,2028-06-27,2028-07-06,,Logistics,30000,27000
+326,2.11,Tube segment fabrication batch 47,14,2028-06-13,2028-06-26,,Tube Manufacturer,100000,90000
+327,2.12,Tube segment QA & NDT batch 47,7,2028-06-27,2028-07-03,,QA Team,20000,18000
+328,2.13,Tube segment transport to site batch 47,10,2028-07-04,2028-07-13,,Logistics,30000,27000
+329,2.11,Tube segment fabrication batch 48,14,2028-06-20,2028-07-03,,Tube Manufacturer,100000,90000
+330,2.12,Tube segment QA & NDT batch 48,7,2028-07-04,2028-07-10,,QA Team,20000,18000
+331,2.13,Tube segment transport to site batch 48,10,2028-07-11,2028-07-20,,Logistics,30000,27000
+332,2.11,Tube segment fabrication batch 49,14,2028-06-27,2028-07-10,,Tube Manufacturer,100000,90000
+333,2.12,Tube segment QA & NDT batch 49,7,2028-07-11,2028-07-17,,QA Team,20000,18000
+334,2.13,Tube segment transport to site batch 49,10,2028-07-18,2028-07-27,,Logistics,30000,27000
+335,2.11,Tube segment fabrication batch 50,14,2028-07-04,2028-07-17,,Tube Manufacturer,100000,90000
+336,2.12,Tube segment QA & NDT batch 50,7,2028-07-18,2028-07-24,,QA Team,20000,18000
+337,2.13,Tube segment transport to site batch 50,10,2028-07-25,2028-08-03,,Logistics,30000,27000
+338,2.11,Tube segment fabrication batch 51,14,2028-07-11,2028-07-24,,Tube Manufacturer,100000,90000
+339,2.12,Tube segment QA & NDT batch 51,7,2028-07-25,2028-07-31,,QA Team,20000,18000
+340,2.13,Tube segment transport to site batch 51,10,2028-08-01,2028-08-10,,Logistics,30000,27000
+341,2.11,Tube segment fabrication batch 52,14,2028-07-18,2028-07-31,,Tube Manufacturer,100000,90000
+342,2.12,Tube segment QA & NDT batch 52,7,2028-08-01,2028-08-07,,QA Team,20000,18000
+343,2.13,Tube segment transport to site batch 52,10,2028-08-08,2028-08-17,,Logistics,30000,27000
+344,2.11,Tube segment fabrication batch 53,14,2028-07-25,2028-08-07,,Tube Manufacturer,100000,90000
+345,2.12,Tube segment QA & NDT batch 53,7,2028-08-08,2028-08-14,,QA Team,20000,18000
+346,2.13,Tube segment transport to site batch 53,10,2028-08-15,2028-08-24,,Logistics,30000,27000
+347,2.11,Tube segment fabrication batch 54,14,2028-08-01,2028-08-14,,Tube Manufacturer,100000,90000
+348,2.12,Tube segment QA & NDT batch 54,7,2028-08-15,2028-08-21,,QA Team,20000,18000
+349,2.13,Tube segment transport to site batch 54,10,2028-08-22,2028-08-31,,Logistics,30000,27000
+350,2.11,Tube segment fabrication batch 55,14,2028-08-08,2028-08-21,,Tube Manufacturer,100000,90000
+351,2.12,Tube segment QA & NDT batch 55,7,2028-08-22,2028-08-28,,QA Team,20000,18000
+352,2.13,Tube segment transport to site batch 55,10,2028-08-29,2028-09-07,,Logistics,30000,27000
+353,2.11,Tube segment fabrication batch 56,14,2028-08-15,2028-08-28,,Tube Manufacturer,100000,90000
+354,2.12,Tube segment QA & NDT batch 56,7,2028-08-29,2028-09-04,,QA Team,20000,18000
+355,2.13,Tube segment transport to site batch 56,10,2028-09-05,2028-09-14,,Logistics,30000,27000
+356,2.11,Tube segment fabrication batch 57,14,2028-08-22,2028-09-04,,Tube Manufacturer,100000,90000
+357,2.12,Tube segment QA & NDT batch 57,7,2028-09-05,2028-09-11,,QA Team,20000,18000
+358,2.13,Tube segment transport to site batch 57,10,2028-09-12,2028-09-21,,Logistics,30000,27000
+359,2.11,Tube segment fabrication batch 58,14,2028-08-29,2028-09-11,,Tube Manufacturer,100000,90000
+360,2.12,Tube segment QA & NDT batch 58,7,2028-09-12,2028-09-18,,QA Team,20000,18000
+361,2.13,Tube segment transport to site batch 58,10,2028-09-19,2028-09-28,,Logistics,30000,27000
+362,2.11,Tube segment fabrication batch 59,14,2028-09-05,2028-09-18,,Tube Manufacturer,100000,90000
+363,2.12,Tube segment QA & NDT batch 59,7,2028-09-19,2028-09-25,,QA Team,20000,18000
+364,2.13,Tube segment transport to site batch 59,10,2028-09-26,2028-10-05,,Logistics,30000,27000
+365,2.11,Tube segment fabrication batch 60,14,2028-09-12,2028-09-25,,Tube Manufacturer,100000,90000
+366,2.12,Tube segment QA & NDT batch 60,7,2028-09-26,2028-10-02,,QA Team,20000,18000
+367,2.13,Tube segment transport to site batch 60,10,2028-10-03,2028-10-12,,Logistics,30000,27000
+368,2.14,Test track tube assembly - 1km sectors,180,2027-08-19,2028-02-14,,Assembly Crew,1500000,1350000
+369,2.15,Vacuum pump station build & install,120,2027-09-18,2028-01-15,,Vacuum Systems,800000,720000
+370,2.16,Control system install (test track),90,2027-10-18,2028-01-15,,Control Systems,500000,450000
+371,2.17,Test track electrical & SCADA,120,2027-10-28,2028-02-24,,Electrical Contractor,400000,360000
+372,2.18,Pod integration & docking station,90,2027-11-17,2028-02-14,,Pod Manufacturer,600000,540000
+373,2.19,Test track safety systems & emergency egress,60,2027-12-07,2028-02-04,,Safety Team,200000,180000
+374,2.20,Machine shop & spare parts procurement,60,2027-09-18,2027-11-16,,Procurement,100000,90000
+375,2.21,Test cycle 1 - vacuum integrity tests,14,2028-03-06,2028-03-19,,Test Labs,50000,45000
+376,2.22,Test cycle 1 - levitation & stability tests,14,2028-03-21,2028-04-03,,Test Labs,60000,54000
+377,2.23,Test cycle 1 - emergency evacuation drill,7,2028-04-05,2028-04-11,,Safety Team,15000,13500
+378,2.21,Test cycle 2 - vacuum integrity tests,14,2028-04-05,2028-04-18,,Test Labs,50000,45000
+379,2.22,Test cycle 2 - levitation & stability tests,14,2028-04-20,2028-05-03,,Test Labs,60000,54000
+380,2.23,Test cycle 2 - emergency evacuation drill,7,2028-05-05,2028-05-11,,Safety Team,15000,13500
+381,2.21,Test cycle 3 - vacuum integrity tests,14,2028-05-05,2028-05-18,,Test Labs,50000,45000
+382,2.22,Test cycle 3 - levitation & stability tests,14,2028-05-20,2028-06-02,,Test Labs,60000,54000
+383,2.23,Test cycle 3 - emergency evacuation drill,7,2028-06-04,2028-06-10,,Safety Team,15000,13500
+384,2.21,Test cycle 4 - vacuum integrity tests,14,2028-06-04,2028-06-17,,Test Labs,50000,45000
+385,2.22,Test cycle 4 - levitation & stability tests,14,2028-06-19,2028-07-02,,Test Labs,60000,54000
+386,2.23,Test cycle 4 - emergency evacuation drill,7,2028-07-04,2028-07-10,,Safety Team,15000,13500
+387,2.21,Test cycle 5 - vacuum integrity tests,14,2028-07-04,2028-07-17,,Test Labs,50000,45000
+388,2.22,Test cycle 5 - levitation & stability tests,14,2028-07-19,2028-08-01,,Test Labs,60000,54000
+389,2.23,Test cycle 5 - emergency evacuation drill,7,2028-08-03,2028-08-09,,Safety Team,15000,13500
+390,2.21,Test cycle 6 - vacuum integrity tests,14,2028-08-03,2028-08-16,,Test Labs,50000,45000
+391,2.22,Test cycle 6 - levitation & stability tests,14,2028-08-18,2028-08-31,,Test Labs,60000,54000
+392,2.23,Test cycle 6 - emergency evacuation drill,7,2028-09-02,2028-09-08,,Safety Team,15000,13500
+393,2.21,Test cycle 7 - vacuum integrity tests,14,2028-09-02,2028-09-15,,Test Labs,50000,45000
+394,2.22,Test cycle 7 - levitation & stability tests,14,2028-09-17,2028-09-30,,Test Labs,60000,54000
+395,2.23,Test cycle 7 - emergency evacuation drill,7,2028-10-02,2028-10-08,,Safety Team,15000,13500
+396,2.21,Test cycle 8 - vacuum integrity tests,14,2028-10-02,2028-10-15,,Test Labs,50000,45000
+397,2.22,Test cycle 8 - levitation & stability tests,14,2028-10-17,2028-10-30,,Test Labs,60000,54000
+398,2.23,Test cycle 8 - emergency evacuation drill,7,2028-11-01,2028-11-07,,Safety Team,15000,13500
+399,3.1.1,Zone 1 - mobilize site compound,14,2030-07-01,2030-07-14,,Construction Contractor,50000,45000
+400,3.1.2,Zone 1 - establish access roads,21,2030-07-06,2030-07-26,,Civil Contractor,80000,72000
+401,3.1.3,Zone 1 - utility diversions & protections,28,2030-07-11,2030-08-07,,Utilities Contractor,100000,90000
+402,3.1.4,Zone 1 - pile layout & markout,7,2030-07-13,2030-07-19,,Survey Team,15000,13500
+403,3.1.5,Zone 1 - bore piles / drilled shafts (batch),30,2030-07-21,2030-08-19,,Pile Contractor,300000,270000
+404,3.1.6,Zone 1 - cap beams & pile caps,14,2030-08-20,2030-09-02,,Concrete Contractor,120000,108000
+405,3.1.7,Zone 1 - erect pylon segments 1-5,21,2030-09-09,2030-09-29,,Steel Erector,180000,162000
+406,3.1.8,Zone 1 - install tube supports & saddles,14,2030-10-04,2030-10-17,,Assembly Crew,90000,81000
+407,3.1.9,Zone 1 - tube section lift & place (10 sections),30,2030-10-19,2030-11-17,,Heavy Lift,250000,225000
+408,3.1.10,Zone 1 - tube welding & seal welding,14,2030-11-18,2030-12-01,,Welding Team,80000,72000
+409,3.1.11,Zone 1 - NDT & pressure testing,10,2030-12-03,2030-12-12,,QA Team,40000,36000
+410,3.1.12,Zone 1 - pipework & HVAC for tube segment,21,2030-12-18,2031-01-07,,MEP Contractor,90000,81000
+411,3.1.13,Zone 1 - install access hatches & maintenance walkways,10,2031-01-12,2031-01-21,,Steel Erector,30000,27000
+412,3.1.14,Zone 1 - local controller & sensors install,14,2031-01-22,2031-02-04,,Control Systems,50000,45000
+413,3.1.15,Zone 1 - cable tray & fiber install,10,2031-02-06,2031-02-15,,Telco Contractor,30000,27000
+414,3.1.16,Zone 1 - access road rehabilitation,7,2031-02-21,2031-02-27,,Civil Contractor,15000,13500
+415,3.2.1,Zone 2 - mobilize site compound,14,2030-07-08,2030-07-21,,Construction Contractor,50000,45000
+416,3.2.2,Zone 2 - establish access roads,21,2030-07-13,2030-08-02,,Civil Contractor,80000,72000
+417,3.2.3,Zone 2 - utility diversions & protections,28,2030-07-18,2030-08-14,,Utilities Contractor,100000,90000
+418,3.2.4,Zone 2 - pile layout & markout,7,2030-07-20,2030-07-26,,Survey Team,15000,13500
+419,3.2.5,Zone 2 - bore piles / drilled shafts (batch),30,2030-07-28,2030-08-26,,Pile Contractor,300000,270000
+420,3.2.6,Zone 2 - cap beams & pile caps,14,2030-08-27,2030-09-09,,Concrete Contractor,120000,108000
+421,3.2.7,Zone 2 - erect pylon segments 1-5,21,2030-09-16,2030-10-06,,Steel Erector,180000,162000
+422,3.2.8,Zone 2 - install tube supports & saddles,14,2030-10-11,2030-10-24,,Assembly Crew,90000,81000
+423,3.2.9,Zone 2 - tube section lift & place (10 sections),30,2030-10-26,2030-11-24,,Heavy Lift,250000,225000
+424,3.2.10,Zone 2 - tube welding & seal welding,14,2030-11-25,2030-12-08,,Welding Team,80000,72000
+425,3.2.11,Zone 2 - NDT & pressure testing,10,2030-12-10,2030-12-19,,QA Team,40000,36000
+426,3.2.12,Zone 2 - pipework & HVAC for tube segment,21,2030-12-25,2031-01-14,,MEP Contractor,90000,81000
+427,3.2.13,Zone 2 - install access hatches & maintenance walkways,10,2031-01-19,2031-01-28,,Steel Erector,30000,27000
+428,3.2.14,Zone 2 - local controller & sensors install,14,2031-01-29,2031-02-11,,Control Systems,50000,45000
+429,3.2.15,Zone 2 - cable tray & fiber install,10,2031-02-13,2031-02-22,,Telco Contractor,30000,27000
+430,3.2.16,Zone 2 - access road rehabilitation,7,2031-02-28,2031-03-06,,Civil Contractor,15000,13500
+431,3.3.1,Zone 3 - mobilize site compound,14,2030-07-15,2030-07-28,,Construction Contractor,50000,45000
+432,3.3.2,Zone 3 - establish access roads,21,2030-07-20,2030-08-09,,Civil Contractor,80000,72000
+433,3.3.3,Zone 3 - utility diversions & protections,28,2030-07-25,2030-08-21,,Utilities Contractor,100000,90000
+434,3.3.4,Zone 3 - pile layout & markout,7,2030-07-27,2030-08-02,,Survey Team,15000,13500
+435,3.3.5,Zone 3 - bore piles / drilled shafts (batch),30,2030-08-04,2030-09-02,,Pile Contractor,300000,270000
+436,3.3.6,Zone 3 - cap beams & pile caps,14,2030-09-03,2030-09-16,,Concrete Contractor,120000,108000
+437,3.3.7,Zone 3 - erect pylon segments 1-5,21,2030-09-23,2030-10-13,,Steel Erector,180000,162000
+438,3.3.8,Zone 3 - install tube supports & saddles,14,2030-10-18,2030-10-31,,Assembly Crew,90000,81000
+439,3.3.9,Zone 3 - tube section lift & place (10 sections),30,2030-11-02,2030-12-01,,Heavy Lift,250000,225000
+440,3.3.10,Zone 3 - tube welding & seal welding,14,2030-12-02,2030-12-15,,Welding Team,80000,72000
+441,3.3.11,Zone 3 - NDT & pressure testing,10,2030-12-17,2030-12-26,,QA Team,40000,36000
+442,3.3.12,Zone 3 - pipework & HVAC for tube segment,21,2031-01-01,2031-01-21,,MEP Contractor,90000,81000
+443,3.3.13,Zone 3 - install access hatches & maintenance walkways,10,2031-01-26,2031-02-04,,Steel Erector,30000,27000
+444,3.3.14,Zone 3 - local controller & sensors install,14,2031-02-05,2031-02-18,,Control Systems,50000,45000
+445,3.3.15,Zone 3 - cable tray & fiber install,10,2031-02-20,2031-03-01,,Telco Contractor,30000,27000
+446,3.3.16,Zone 3 - access road rehabilitation,7,2031-03-07,2031-03-13,,Civil Contractor,15000,13500
+447,3.4.1,Zone 4 - mobilize site compound,14,2030-07-22,2030-08-04,,Construction Contractor,50000,45000
+448,3.4.2,Zone 4 - establish access roads,21,2030-07-27,2030-08-16,,Civil Contractor,80000,72000
+449,3.4.3,Zone 4 - utility diversions & protections,28,2030-08-01,2030-08-28,,Utilities Contractor,100000,90000
+450,3.4.4,Zone 4 - pile layout & markout,7,2030-08-03,2030-08-09,,Survey Team,15000,13500
+451,3.4.5,Zone 4 - bore piles / drilled shafts (batch),30,2030-08-11,2030-09-09,,Pile Contractor,300000,270000
+452,3.4.6,Zone 4 - cap beams & pile caps,14,2030-09-10,2030-09-23,,Concrete Contractor,120000,108000
+453,3.4.7,Zone 4 - erect pylon segments 1-5,21,2030-09-30,2030-10-20,,Steel Erector,180000,162000
+454,3.4.8,Zone 4 - install tube supports & saddles,14,2030-10-25,2030-11-07,,Assembly Crew,90000,81000
+455,3.4.9,Zone 4 - tube section lift & place (10 sections),30,2030-11-09,2030-12-08,,Heavy Lift,250000,225000
+456,3.4.10,Zone 4 - tube welding & seal welding,14,2030-12-09,2030-12-22,,Welding Team,80000,72000
+457,3.4.11,Zone 4 - NDT & pressure testing,10,2030-12-24,2031-01-02,,QA Team,40000,36000
+458,3.4.12,Zone 4 - pipework & HVAC for tube segment,21,2031-01-08,2031-01-28,,MEP Contractor,90000,81000
+459,3.4.13,Zone 4 - install access hatches & maintenance walkways,10,2031-02-02,2031-02-11,,Steel Erector,30000,27000
+460,3.4.14,Zone 4 - local controller & sensors install,14,2031-02-12,2031-02-25,,Control Systems,50000,45000
+461,3.4.15,Zone 4 - cable tray & fiber install,10,2031-02-27,2031-03-08,,Telco Contractor,30000,27000
+462,3.4.16,Zone 4 - access road rehabilitation,7,2031-03-14,2031-03-20,,Civil Contractor,15000,13500
+463,3.5.1,Zone 5 - mobilize site compound,14,2030-07-29,2030-08-11,,Construction Contractor,50000,45000
+464,3.5.2,Zone 5 - establish access roads,21,2030-08-03,2030-08-23,,Civil Contractor,80000,72000
+465,3.5.3,Zone 5 - utility diversions & protections,28,2030-08-08,2030-09-04,,Utilities Contractor,100000,90000
+466,3.5.4,Zone 5 - pile layout & markout,7,2030-08-10,2030-08-16,,Survey Team,15000,13500
+467,3.5.5,Zone 5 - bore piles / drilled shafts (batch),30,2030-08-18,2030-09-16,,Pile Contractor,300000,270000
+468,3.5.6,Zone 5 - cap beams & pile caps,14,2030-09-17,2030-09-30,,Concrete Contractor,120000,108000
+469,3.5.7,Zone 5 - erect pylon segments 1-5,21,2030-10-07,2030-10-27,,Steel Erector,180000,162000
+470,3.5.8,Zone 5 - install tube supports & saddles,14,2030-11-01,2030-11-14,,Assembly Crew,90000,81000
+471,3.5.9,Zone 5 - tube section lift & place (10 sections),30,2030-11-16,2030-12-15,,Heavy Lift,250000,225000
+472,3.5.10,Zone 5 - tube welding & seal welding,14,2030-12-16,2030-12-29,,Welding Team,80000,72000
+473,3.5.11,Zone 5 - NDT & pressure testing,10,2030-12-31,2031-01-09,,QA Team,40000,36000
+474,3.5.12,Zone 5 - pipework & HVAC for tube segment,21,2031-01-15,2031-02-04,,MEP Contractor,90000,81000
+475,3.5.13,Zone 5 - install access hatches & maintenance walkways,10,2031-02-09,2031-02-18,,Steel Erector,30000,27000
+476,3.5.14,Zone 5 - local controller & sensors install,14,2031-02-19,2031-03-04,,Control Systems,50000,45000
+477,3.5.15,Zone 5 - cable tray & fiber install,10,2031-03-06,2031-03-15,,Telco Contractor,30000,27000
+478,3.5.16,Zone 5 - access road rehabilitation,7,2031-03-21,2031-03-27,,Civil Contractor,15000,13500
+479,3.6.1,Zone 6 - mobilize site compound,14,2030-08-05,2030-08-18,,Construction Contractor,50000,45000
+480,3.6.2,Zone 6 - establish access roads,21,2030-08-10,2030-08-30,,Civil Contractor,80000,72000
+481,3.6.3,Zone 6 - utility diversions & protections,28,2030-08-15,2030-09-11,,Utilities Contractor,100000,90000
+482,3.6.4,Zone 6 - pile layout & markout,7,2030-08-17,2030-08-23,,Survey Team,15000,13500
+483,3.6.5,Zone 6 - bore piles / drilled shafts (batch),30,2030-08-25,2030-09-23,,Pile Contractor,300000,270000
+484,3.6.6,Zone 6 - cap beams & pile caps,14,2030-09-24,2030-10-07,,Concrete Contractor,120000,108000
+485,3.6.7,Zone 6 - erect pylon segments 1-5,21,2030-10-14,2030-11-03,,Steel Erector,180000,162000
+486,3.6.8,Zone 6 - install tube supports & saddles,14,2030-11-08,2030-11-21,,Assembly Crew,90000,81000
+487,3.6.9,Zone 6 - tube section lift & place (10 sections),30,2030-11-23,2030-12-22,,Heavy Lift,250000,225000
+488,3.6.10,Zone 6 - tube welding & seal welding,14,2030-12-23,2031-01-05,,Welding Team,80000,72000
+489,3.6.11,Zone 6 - NDT & pressure testing,10,2031-01-07,2031-01-16,,QA Team,40000,36000
+490,3.6.12,Zone 6 - pipework & HVAC for tube segment,21,2031-01-22,2031-02-11,,MEP Contractor,90000,81000
+491,3.6.13,Zone 6 - install access hatches & maintenance walkways,10,2031-02-16,2031-02-25,,Steel Erector,30000,27000
+492,3.6.14,Zone 6 - local controller & sensors install,14,2031-02-26,2031-03-11,,Control Systems,50000,45000
+493,3.6.15,Zone 6 - cable tray & fiber install,10,2031-03-13,2031-03-22,,Telco Contractor,30000,27000
+494,3.6.16,Zone 6 - access road rehabilitation,7,2031-03-28,2031-04-03,,Civil Contractor,15000,13500
+495,3.7.1,Zone 7 - mobilize site compound,14,2030-08-12,2030-08-25,,Construction Contractor,50000,45000
+496,3.7.2,Zone 7 - establish access roads,21,2030-08-17,2030-09-06,,Civil Contractor,80000,72000
+497,3.7.3,Zone 7 - utility diversions & protections,28,2030-08-22,2030-09-18,,Utilities Contractor,100000,90000
+498,3.7.4,Zone 7 - pile layout & markout,7,2030-08-24,2030-08-30,,Survey Team,15000,13500
+499,3.7.5,Zone 7 - bore piles / drilled shafts (batch),30,2030-09-01,2030-09-30,,Pile Contractor,300000,270000
+500,3.7.6,Zone 7 - cap beams & pile caps,14,2030-10-01,2030-10-14,,Concrete Contractor,120000,108000
+501,3.7.7,Zone 7 - erect pylon segments 1-5,21,2030-10-21,2030-11-10,,Steel Erector,180000,162000
+502,3.7.8,Zone 7 - install tube supports & saddles,14,2030-11-15,2030-11-28,,Assembly Crew,90000,81000
+503,3.7.9,Zone 7 - tube section lift & place (10 sections),30,2030-11-30,2030-12-29,,Heavy Lift,250000,225000
+504,3.7.10,Zone 7 - tube welding & seal welding,14,2030-12-30,2031-01-12,,Welding Team,80000,72000
+505,3.7.11,Zone 7 - NDT & pressure testing,10,2031-01-14,2031-01-23,,QA Team,40000,36000
+506,3.7.12,Zone 7 - pipework & HVAC for tube segment,21,2031-01-29,2031-02-18,,MEP Contractor,90000,81000
+507,3.7.13,Zone 7 - install access hatches & maintenance walkways,10,2031-02-23,2031-03-04,,Steel Erector,30000,27000
+508,3.7.14,Zone 7 - local controller & sensors install,14,2031-03-05,2031-03-18,,Control Systems,50000,45000
+509,3.7.15,Zone 7 - cable tray & fiber install,10,2031-03-20,2031-03-29,,Telco Contractor,30000,27000
+510,3.7.16,Zone 7 - access road rehabilitation,7,2031-04-04,2031-04-10,,Civil Contractor,15000,13500
+511,3.8.1,Zone 8 - mobilize site compound,14,2030-08-19,2030-09-01,,Construction Contractor,50000,45000
+512,3.8.2,Zone 8 - establish access roads,21,2030-08-24,2030-09-13,,Civil Contractor,80000,72000
+513,3.8.3,Zone 8 - utility diversions & protections,28,2030-08-29,2030-09-25,,Utilities Contractor,100000,90000
+514,3.8.4,Zone 8 - pile layout & markout,7,2030-08-31,2030-09-06,,Survey Team,15000,13500
+515,3.8.5,Zone 8 - bore piles / drilled shafts (batch),30,2030-09-08,2030-10-07,,Pile Contractor,300000,270000
+516,3.8.6,Zone 8 - cap beams & pile caps,14,2030-10-08,2030-10-21,,Concrete Contractor,120000,108000
+517,3.8.7,Zone 8 - erect pylon segments 1-5,21,2030-10-28,2030-11-17,,Steel Erector,180000,162000
+518,3.8.8,Zone 8 - install tube supports & saddles,14,2030-11-22,2030-12-05,,Assembly Crew,90000,81000
+519,3.8.9,Zone 8 - tube section lift & place (10 sections),30,2030-12-07,2031-01-05,,Heavy Lift,250000,225000
+520,3.8.10,Zone 8 - tube welding & seal welding,14,2031-01-06,2031-01-19,,Welding Team,80000,72000
+521,3.8.11,Zone 8 - NDT & pressure testing,10,2031-01-21,2031-01-30,,QA Team,40000,36000
+522,3.8.12,Zone 8 - pipework & HVAC for tube segment,21,2031-02-05,2031-02-25,,MEP Contractor,90000,81000
+523,3.8.13,Zone 8 - install access hatches & maintenance walkways,10,2031-03-02,2031-03-11,,Steel Erector,30000,27000
+524,3.8.14,Zone 8 - local controller & sensors install,14,2031-03-12,2031-03-25,,Control Systems,50000,45000
+525,3.8.15,Zone 8 - cable tray & fiber install,10,2031-03-27,2031-04-05,,Telco Contractor,30000,27000
+526,3.8.16,Zone 8 - access road rehabilitation,7,2031-04-11,2031-04-17,,Civil Contractor,15000,13500
+527,3.9.1,Zone 9 - mobilize site compound,14,2030-08-26,2030-09-08,,Construction Contractor,50000,45000
+528,3.9.2,Zone 9 - establish access roads,21,2030-08-31,2030-09-20,,Civil Contractor,80000,72000
+529,3.9.3,Zone 9 - utility diversions & protections,28,2030-09-05,2030-10-02,,Utilities Contractor,100000,90000
+530,3.9.4,Zone 9 - pile layout & markout,7,2030-09-07,2030-09-13,,Survey Team,15000,13500
+531,3.9.5,Zone 9 - bore piles / drilled shafts (batch),30,2030-09-15,2030-10-14,,Pile Contractor,300000,270000
+532,3.9.6,Zone 9 - cap beams & pile caps,14,2030-10-15,2030-10-28,,Concrete Contractor,120000,108000
+533,3.9.7,Zone 9 - erect pylon segments 1-5,21,2030-11-04,2030-11-24,,Steel Erector,180000,162000
+534,3.9.8,Zone 9 - install tube supports & saddles,14,2030-11-29,2030-12-12,,Assembly Crew,90000,81000
+535,3.9.9,Zone 9 - tube section lift & place (10 sections),30,2030-12-14,2031-01-12,,Heavy Lift,250000,225000
+536,3.9.10,Zone 9 - tube welding & seal welding,14,2031-01-13,2031-01-26,,Welding Team,80000,72000
+537,3.9.11,Zone 9 - NDT & pressure testing,10,2031-01-28,2031-02-06,,QA Team,40000,36000
+538,3.9.12,Zone 9 - pipework & HVAC for tube segment,21,2031-02-12,2031-03-04,,MEP Contractor,90000,81000
+539,3.9.13,Zone 9 - install access hatches & maintenance walkways,10,2031-03-09,2031-03-18,,Steel Erector,30000,27000
+540,3.9.14,Zone 9 - local controller & sensors install,14,2031-03-19,2031-04-01,,Control Systems,50000,45000
+541,3.9.15,Zone 9 - cable tray & fiber install,10,2031-04-03,2031-04-12,,Telco Contractor,30000,27000
+542,3.9.16,Zone 9 - access road rehabilitation,7,2031-04-18,2031-04-24,,Civil Contractor,15000,13500
+543,3.10.1,Zone 10 - mobilize site compound,14,2030-09-02,2030-09-15,,Construction Contractor,50000,45000
+544,3.10.2,Zone 10 - establish access roads,21,2030-09-07,2030-09-27,,Civil Contractor,80000,72000
+545,3.10.3,Zone 10 - utility diversions & protections,28,2030-09-12,2030-10-09,,Utilities Contractor,100000,90000
+546,3.10.4,Zone 10 - pile layout & markout,7,2030-09-14,2030-09-20,,Survey Team,15000,13500
+547,3.10.5,Zone 10 - bore piles / drilled shafts (batch),30,2030-09-22,2030-10-21,,Pile Contractor,300000,270000
+548,3.10.6,Zone 10 - cap beams & pile caps,14,2030-10-22,2030-11-04,,Concrete Contractor,120000,108000
+549,3.10.7,Zone 10 - erect pylon segments 1-5,21,2030-11-11,2030-12-01,,Steel Erector,180000,162000
+550,3.10.8,Zone 10 - install tube supports & saddles,14,2030-12-06,2030-12-19,,Assembly Crew,90000,81000
+551,3.10.9,Zone 10 - tube section lift & place (10 sections),30,2030-12-21,2031-01-19,,Heavy Lift,250000,225000
+552,3.10.10,Zone 10 - tube welding & seal welding,14,2031-01-20,2031-02-02,,Welding Team,80000,72000
+553,3.10.11,Zone 10 - NDT & pressure testing,10,2031-02-04,2031-02-13,,QA Team,40000,36000
+554,3.10.12,Zone 10 - pipework & HVAC for tube segment,21,2031-02-19,2031-03-11,,MEP Contractor,90000,81000
+555,3.10.13,Zone 10 - install access hatches & maintenance walkways,10,2031-03-16,2031-03-25,,Steel Erector,30000,27000
+556,3.10.14,Zone 10 - local controller & sensors install,14,2031-03-26,2031-04-08,,Control Systems,50000,45000
+557,3.10.15,Zone 10 - cable tray & fiber install,10,2031-04-10,2031-04-19,,Telco Contractor,30000,27000
+558,3.10.16,Zone 10 - access road rehabilitation,7,2031-04-25,2031-05-01,,Civil Contractor,15000,13500
+559,3.11.1,Zone 11 - mobilize site compound,14,2030-09-09,2030-09-22,,Construction Contractor,50000,45000
+560,3.11.2,Zone 11 - establish access roads,21,2030-09-14,2030-10-04,,Civil Contractor,80000,72000
+561,3.11.3,Zone 11 - utility diversions & protections,28,2030-09-19,2030-10-16,,Utilities Contractor,100000,90000
+562,3.11.4,Zone 11 - pile layout & markout,7,2030-09-21,2030-09-27,,Survey Team,15000,13500
+563,3.11.5,Zone 11 - bore piles / drilled shafts (batch),30,2030-09-29,2030-10-28,,Pile Contractor,300000,270000
+564,3.11.6,Zone 11 - cap beams & pile caps,14,2030-10-29,2030-11-11,,Concrete Contractor,120000,108000
+565,3.11.7,Zone 11 - erect pylon segments 1-5,21,2030-11-18,2030-12-08,,Steel Erector,180000,162000
+566,3.11.8,Zone 11 - install tube supports & saddles,14,2030-12-13,2030-12-26,,Assembly Crew,90000,81000
+567,3.11.9,Zone 11 - tube section lift & place (10 sections),30,2030-12-28,2031-01-26,,Heavy Lift,250000,225000
+568,3.11.10,Zone 11 - tube welding & seal welding,14,2031-01-27,2031-02-09,,Welding Team,80000,72000
+569,3.11.11,Zone 11 - NDT & pressure testing,10,2031-02-11,2031-02-20,,QA Team,40000,36000
+570,3.11.12,Zone 11 - pipework & HVAC for tube segment,21,2031-02-26,2031-03-18,,MEP Contractor,90000,81000
+571,3.11.13,Zone 11 - install access hatches & maintenance walkways,10,2031-03-23,2031-04-01,,Steel Erector,30000,27000
+572,3.11.14,Zone 11 - local controller & sensors install,14,2031-04-02,2031-04-15,,Control Systems,50000,45000
+573,3.11.15,Zone 11 - cable tray & fiber install,10,2031-04-17,2031-04-26,,Telco Contractor,30000,27000
+574,3.11.16,Zone 11 - access road rehabilitation,7,2031-05-02,2031-05-08,,Civil Contractor,15000,13500
+575,3.12.1,Zone 12 - mobilize site compound,14,2030-09-16,2030-09-29,,Construction Contractor,50000,45000
+576,3.12.2,Zone 12 - establish access roads,21,2030-09-21,2030-10-11,,Civil Contractor,80000,72000
+577,3.12.3,Zone 12 - utility diversions & protections,28,2030-09-26,2030-10-23,,Utilities Contractor,100000,90000
+578,3.12.4,Zone 12 - pile layout & markout,7,2030-09-28,2030-10-04,,Survey Team,15000,13500
+579,3.12.5,Zone 12 - bore piles / drilled shafts (batch),30,2030-10-06,2030-11-04,,Pile Contractor,300000,270000
+580,3.12.6,Zone 12 - cap beams & pile caps,14,2030-11-05,2030-11-18,,Concrete Contractor,120000,108000
+581,3.12.7,Zone 12 - erect pylon segments 1-5,21,2030-11-25,2030-12-15,,Steel Erector,180000,162000
+582,3.12.8,Zone 12 - install tube supports & saddles,14,2030-12-20,2031-01-02,,Assembly Crew,90000,81000
+583,3.12.9,Zone 12 - tube section lift & place (10 sections),30,2031-01-04,2031-02-02,,Heavy Lift,250000,225000
+584,3.12.10,Zone 12 - tube welding & seal welding,14,2031-02-03,2031-02-16,,Welding Team,80000,72000
+585,3.12.11,Zone 12 - NDT & pressure testing,10,2031-02-18,2031-02-27,,QA Team,40000,36000
+586,3.12.12,Zone 12 - pipework & HVAC for tube segment,21,2031-03-05,2031-03-25,,MEP Contractor,90000,81000
+587,3.12.13,Zone 12 - install access hatches & maintenance walkways,10,2031-03-30,2031-04-08,,Steel Erector,30000,27000
+588,3.12.14,Zone 12 - local controller & sensors install,14,2031-04-09,2031-04-22,,Control Systems,50000,45000
+589,3.12.15,Zone 12 - cable tray & fiber install,10,2031-04-24,2031-05-03,,Telco Contractor,30000,27000
+590,3.12.16,Zone 12 - access road rehabilitation,7,2031-05-09,2031-05-15,,Civil Contractor,15000,13500
+591,3.13.1,Zone 13 - mobilize site compound,14,2030-09-23,2030-10-06,,Construction Contractor,50000,45000
+592,3.13.2,Zone 13 - establish access roads,21,2030-09-28,2030-10-18,,Civil Contractor,80000,72000
+593,3.13.3,Zone 13 - utility diversions & protections,28,2030-10-03,2030-10-30,,Utilities Contractor,100000,90000
+594,3.13.4,Zone 13 - pile layout & markout,7,2030-10-05,2030-10-11,,Survey Team,15000,13500
+595,3.13.5,Zone 13 - bore piles / drilled shafts (batch),30,2030-10-13,2030-11-11,,Pile Contractor,300000,270000
+596,3.13.6,Zone 13 - cap beams & pile caps,14,2030-11-12,2030-11-25,,Concrete Contractor,120000,108000
+597,3.13.7,Zone 13 - erect pylon segments 1-5,21,2030-12-02,2030-12-22,,Steel Erector,180000,162000
+598,3.13.8,Zone 13 - install tube supports & saddles,14,2030-12-27,2031-01-09,,Assembly Crew,90000,81000
+599,3.13.9,Zone 13 - tube section lift & place (10 sections),30,2031-01-11,2031-02-09,,Heavy Lift,250000,225000
+600,3.13.10,Zone 13 - tube welding & seal welding,14,2031-02-10,2031-02-23,,Welding Team,80000,72000
+601,3.13.11,Zone 13 - NDT & pressure testing,10,2031-02-25,2031-03-06,,QA Team,40000,36000
+602,3.13.12,Zone 13 - pipework & HVAC for tube segment,21,2031-03-12,2031-04-01,,MEP Contractor,90000,81000
+603,3.13.13,Zone 13 - install access hatches & maintenance walkways,10,2031-04-06,2031-04-15,,Steel Erector,30000,27000
+604,3.13.14,Zone 13 - local controller & sensors install,14,2031-04-16,2031-04-29,,Control Systems,50000,45000
+605,3.13.15,Zone 13 - cable tray & fiber install,10,2031-05-01,2031-05-10,,Telco Contractor,30000,27000
+606,3.13.16,Zone 13 - access road rehabilitation,7,2031-05-16,2031-05-22,,Civil Contractor,15000,13500
+607,3.14.1,Zone 14 - mobilize site compound,14,2030-09-30,2030-10-13,,Construction Contractor,50000,45000
+608,3.14.2,Zone 14 - establish access roads,21,2030-10-05,2030-10-25,,Civil Contractor,80000,72000
+609,3.14.3,Zone 14 - utility diversions & protections,28,2030-10-10,2030-11-06,,Utilities Contractor,100000,90000
+610,3.14.4,Zone 14 - pile layout & markout,7,2030-10-12,2030-10-18,,Survey Team,15000,13500
+611,3.14.5,Zone 14 - bore piles / drilled shafts (batch),30,2030-10-20,2030-11-18,,Pile Contractor,300000,270000
+612,3.14.6,Zone 14 - cap beams & pile caps,14,2030-11-19,2030-12-02,,Concrete Contractor,120000,108000
+613,3.14.7,Zone 14 - erect pylon segments 1-5,21,2030-12-09,2030-12-29,,Steel Erector,180000,162000
+614,3.14.8,Zone 14 - install tube supports & saddles,14,2031-01-03,2031-01-16,,Assembly Crew,90000,81000
+615,3.14.9,Zone 14 - tube section lift & place (10 sections),30,2031-01-18,2031-02-16,,Heavy Lift,250000,225000
+616,3.14.10,Zone 14 - tube welding & seal welding,14,2031-02-17,2031-03-02,,Welding Team,80000,72000
+617,3.14.11,Zone 14 - NDT & pressure testing,10,2031-03-04,2031-03-13,,QA Team,40000,36000
+618,3.14.12,Zone 14 - pipework & HVAC for tube segment,21,2031-03-19,2031-04-08,,MEP Contractor,90000,81000
+619,3.14.13,Zone 14 - install access hatches & maintenance walkways,10,2031-04-13,2031-04-22,,Steel Erector,30000,27000
+620,3.14.14,Zone 14 - local controller & sensors install,14,2031-04-23,2031-05-06,,Control Systems,50000,45000
+621,3.14.15,Zone 14 - cable tray & fiber install,10,2031-05-08,2031-05-17,,Telco Contractor,30000,27000
+622,3.14.16,Zone 14 - access road rehabilitation,7,2031-05-23,2031-05-29,,Civil Contractor,15000,13500
+623,3.15.1,Zone 15 - mobilize site compound,14,2030-10-07,2030-10-20,,Construction Contractor,50000,45000
+624,3.15.2,Zone 15 - establish access roads,21,2030-10-12,2030-11-01,,Civil Contractor,80000,72000
+625,3.15.3,Zone 15 - utility diversions & protections,28,2030-10-17,2030-11-13,,Utilities Contractor,100000,90000
+626,3.15.4,Zone 15 - pile layout & markout,7,2030-10-19,2030-10-25,,Survey Team,15000,13500
+627,3.15.5,Zone 15 - bore piles / drilled shafts (batch),30,2030-10-27,2030-11-25,,Pile Contractor,300000,270000
+628,3.15.6,Zone 15 - cap beams & pile caps,14,2030-11-26,2030-12-09,,Concrete Contractor,120000,108000
+629,3.15.7,Zone 15 - erect pylon segments 1-5,21,2030-12-16,2031-01-05,,Steel Erector,180000,162000
+630,3.15.8,Zone 15 - install tube supports & saddles,14,2031-01-10,2031-01-23,,Assembly Crew,90000,81000
+631,3.15.9,Zone 15 - tube section lift & place (10 sections),30,2031-01-25,2031-02-23,,Heavy Lift,250000,225000
+632,3.15.10,Zone 15 - tube welding & seal welding,14,2031-02-24,2031-03-09,,Welding Team,80000,72000
+633,3.15.11,Zone 15 - NDT & pressure testing,10,2031-03-11,2031-03-20,,QA Team,40000,36000
+634,3.15.12,Zone 15 - pipework & HVAC for tube segment,21,2031-03-26,2031-04-15,,MEP Contractor,90000,81000
+635,3.15.13,Zone 15 - install access hatches & maintenance walkways,10,2031-04-20,2031-04-29,,Steel Erector,30000,27000
+636,3.15.14,Zone 15 - local controller & sensors install,14,2031-04-30,2031-05-13,,Control Systems,50000,45000
+637,3.15.15,Zone 15 - cable tray & fiber install,10,2031-05-15,2031-05-24,,Telco Contractor,30000,27000
+638,3.15.16,Zone 15 - access road rehabilitation,7,2031-05-30,2031-06-05,,Civil Contractor,15000,13500
+639,3.16.1,Zone 16 - mobilize site compound,14,2030-10-14,2030-10-27,,Construction Contractor,50000,45000
+640,3.16.2,Zone 16 - establish access roads,21,2030-10-19,2030-11-08,,Civil Contractor,80000,72000
+641,3.16.3,Zone 16 - utility diversions & protections,28,2030-10-24,2030-11-20,,Utilities Contractor,100000,90000
+642,3.16.4,Zone 16 - pile layout & markout,7,2030-10-26,2030-11-01,,Survey Team,15000,13500
+643,3.16.5,Zone 16 - bore piles / drilled shafts (batch),30,2030-11-03,2030-12-02,,Pile Contractor,300000,270000
+644,3.16.6,Zone 16 - cap beams & pile caps,14,2030-12-03,2030-12-16,,Concrete Contractor,120000,108000
+645,3.16.7,Zone 16 - erect pylon segments 1-5,21,2030-12-23,2031-01-12,,Steel Erector,180000,162000
+646,3.16.8,Zone 16 - install tube supports & saddles,14,2031-01-17,2031-01-30,,Assembly Crew,90000,81000
+647,3.16.9,Zone 16 - tube section lift & place (10 sections),30,2031-02-01,2031-03-02,,Heavy Lift,250000,225000
+648,3.16.10,Zone 16 - tube welding & seal welding,14,2031-03-03,2031-03-16,,Welding Team,80000,72000
+649,3.16.11,Zone 16 - NDT & pressure testing,10,2031-03-18,2031-03-27,,QA Team,40000,36000
+650,3.16.12,Zone 16 - pipework & HVAC for tube segment,21,2031-04-02,2031-04-22,,MEP Contractor,90000,81000
+651,3.16.13,Zone 16 - install access hatches & maintenance walkways,10,2031-04-27,2031-05-06,,Steel Erector,30000,27000
+652,3.16.14,Zone 16 - local controller & sensors install,14,2031-05-07,2031-05-20,,Control Systems,50000,45000
+653,3.16.15,Zone 16 - cable tray & fiber install,10,2031-05-22,2031-05-31,,Telco Contractor,30000,27000
+654,3.16.16,Zone 16 - access road rehabilitation,7,2031-06-06,2031-06-12,,Civil Contractor,15000,13500
+655,3.17.1,Zone 17 - mobilize site compound,14,2030-10-21,2030-11-03,,Construction Contractor,50000,45000
+656,3.17.2,Zone 17 - establish access roads,21,2030-10-26,2030-11-15,,Civil Contractor,80000,72000
+657,3.17.3,Zone 17 - utility diversions & protections,28,2030-10-31,2030-11-27,,Utilities Contractor,100000,90000
+658,3.17.4,Zone 17 - pile layout & markout,7,2030-11-02,2030-11-08,,Survey Team,15000,13500
+659,3.17.5,Zone 17 - bore piles / drilled shafts (batch),30,2030-11-10,2030-12-09,,Pile Contractor,300000,270000
+660,3.17.6,Zone 17 - cap beams & pile caps,14,2030-12-10,2030-12-23,,Concrete Contractor,120000,108000
+661,3.17.7,Zone 17 - erect pylon segments 1-5,21,2030-12-30,2031-01-19,,Steel Erector,180000,162000
+662,3.17.8,Zone 17 - install tube supports & saddles,14,2031-01-24,2031-02-06,,Assembly Crew,90000,81000
+663,3.17.9,Zone 17 - tube section lift & place (10 sections),30,2031-02-08,2031-03-09,,Heavy Lift,250000,225000
+664,3.17.10,Zone 17 - tube welding & seal welding,14,2031-03-10,2031-03-23,,Welding Team,80000,72000
+665,3.17.11,Zone 17 - NDT & pressure testing,10,2031-03-25,2031-04-03,,QA Team,40000,36000
+666,3.17.12,Zone 17 - pipework & HVAC for tube segment,21,2031-04-09,2031-04-29,,MEP Contractor,90000,81000
+667,3.17.13,Zone 17 - install access hatches & maintenance walkways,10,2031-05-04,2031-05-13,,Steel Erector,30000,27000
+668,3.17.14,Zone 17 - local controller & sensors install,14,2031-05-14,2031-05-27,,Control Systems,50000,45000
+669,3.17.15,Zone 17 - cable tray & fiber install,10,2031-05-29,2031-06-07,,Telco Contractor,30000,27000
+670,3.17.16,Zone 17 - access road rehabilitation,7,2031-06-13,2031-06-19,,Civil Contractor,15000,13500
+671,3.18.1,Zone 18 - mobilize site compound,14,2030-10-28,2030-11-10,,Construction Contractor,50000,45000
+672,3.18.2,Zone 18 - establish access roads,21,2030-11-02,2030-11-22,,Civil Contractor,80000,72000
+673,3.18.3,Zone 18 - utility diversions & protections,28,2030-11-07,2030-12-04,,Utilities Contractor,100000,90000
+674,3.18.4,Zone 18 - pile layout & markout,7,2030-11-09,2030-11-15,,Survey Team,15000,13500
+675,3.18.5,Zone 18 - bore piles / drilled shafts (batch),30,2030-11-17,2030-12-16,,Pile Contractor,300000,270000
+676,3.18.6,Zone 18 - cap beams & pile caps,14,2030-12-17,2030-12-30,,Concrete Contractor,120000,108000
+677,3.18.7,Zone 18 - erect pylon segments 1-5,21,2031-01-06,2031-01-26,,Steel Erector,180000,162000
+678,3.18.8,Zone 18 - install tube supports & saddles,14,2031-01-31,2031-02-13,,Assembly Crew,90000,81000
+679,3.18.9,Zone 18 - tube section lift & place (10 sections),30,2031-02-15,2031-03-16,,Heavy Lift,250000,225000
+680,3.18.10,Zone 18 - tube welding & seal welding,14,2031-03-17,2031-03-30,,Welding Team,80000,72000
+681,3.18.11,Zone 18 - NDT & pressure testing,10,2031-04-01,2031-04-10,,QA Team,40000,36000
+682,3.18.12,Zone 18 - pipework & HVAC for tube segment,21,2031-04-16,2031-05-06,,MEP Contractor,90000,81000
+683,3.18.13,Zone 18 - install access hatches & maintenance walkways,10,2031-05-11,2031-05-20,,Steel Erector,30000,27000
+684,3.18.14,Zone 18 - local controller & sensors install,14,2031-05-21,2031-06-03,,Control Systems,50000,45000
+685,3.18.15,Zone 18 - cable tray & fiber install,10,2031-06-05,2031-06-14,,Telco Contractor,30000,27000
+686,3.18.16,Zone 18 - access road rehabilitation,7,2031-06-20,2031-06-26,,Civil Contractor,15000,13500
+687,3.19.1,Zone 19 - mobilize site compound,14,2030-11-04,2030-11-17,,Construction Contractor,50000,45000
+688,3.19.2,Zone 19 - establish access roads,21,2030-11-09,2030-11-29,,Civil Contractor,80000,72000
+689,3.19.3,Zone 19 - utility diversions & protections,28,2030-11-14,2030-12-11,,Utilities Contractor,100000,90000
+690,3.19.4,Zone 19 - pile layout & markout,7,2030-11-16,2030-11-22,,Survey Team,15000,13500
+691,3.19.5,Zone 19 - bore piles / drilled shafts (batch),30,2030-11-24,2030-12-23,,Pile Contractor,300000,270000
+692,3.19.6,Zone 19 - cap beams & pile caps,14,2030-12-24,2031-01-06,,Concrete Contractor,120000,108000
+693,3.19.7,Zone 19 - erect pylon segments 1-5,21,2031-01-13,2031-02-02,,Steel Erector,180000,162000
+694,3.19.8,Zone 19 - install tube supports & saddles,14,2031-02-07,2031-02-20,,Assembly Crew,90000,81000
+695,3.19.9,Zone 19 - tube section lift & place (10 sections),30,2031-02-22,2031-03-23,,Heavy Lift,250000,225000
+696,3.19.10,Zone 19 - tube welding & seal welding,14,2031-03-24,2031-04-06,,Welding Team,80000,72000
+697,3.19.11,Zone 19 - NDT & pressure testing,10,2031-04-08,2031-04-17,,QA Team,40000,36000
+698,3.19.12,Zone 19 - pipework & HVAC for tube segment,21,2031-04-23,2031-05-13,,MEP Contractor,90000,81000
+699,3.19.13,Zone 19 - install access hatches & maintenance walkways,10,2031-05-18,2031-05-27,,Steel Erector,30000,27000
+700,3.19.14,Zone 19 - local controller & sensors install,14,2031-05-28,2031-06-10,,Control Systems,50000,45000
+701,3.19.15,Zone 19 - cable tray & fiber install,10,2031-06-12,2031-06-21,,Telco Contractor,30000,27000
+702,3.19.16,Zone 19 - access road rehabilitation,7,2031-06-27,2031-07-03,,Civil Contractor,15000,13500
+703,3.20.1,Zone 20 - mobilize site compound,14,2030-11-11,2030-11-24,,Construction Contractor,50000,45000
+704,3.20.2,Zone 20 - establish access roads,21,2030-11-16,2030-12-06,,Civil Contractor,80000,72000
+705,3.20.3,Zone 20 - utility diversions & protections,28,2030-11-21,2030-12-18,,Utilities Contractor,100000,90000
+706,3.20.4,Zone 20 - pile layout & markout,7,2030-11-23,2030-11-29,,Survey Team,15000,13500
+707,3.20.5,Zone 20 - bore piles / drilled shafts (batch),30,2030-12-01,2030-12-30,,Pile Contractor,300000,270000
+708,3.20.6,Zone 20 - cap beams & pile caps,14,2030-12-31,2031-01-13,,Concrete Contractor,120000,108000
+709,3.20.7,Zone 20 - erect pylon segments 1-5,21,2031-01-20,2031-02-09,,Steel Erector,180000,162000
+710,3.20.8,Zone 20 - install tube supports & saddles,14,2031-02-14,2031-02-27,,Assembly Crew,90000,81000
+711,3.20.9,Zone 20 - tube section lift & place (10 sections),30,2031-03-01,2031-03-30,,Heavy Lift,250000,225000
+712,3.20.10,Zone 20 - tube welding & seal welding,14,2031-03-31,2031-04-13,,Welding Team,80000,72000
+713,3.20.11,Zone 20 - NDT & pressure testing,10,2031-04-15,2031-04-24,,QA Team,40000,36000
+714,3.20.12,Zone 20 - pipework & HVAC for tube segment,21,2031-04-30,2031-05-20,,MEP Contractor,90000,81000
+715,3.20.13,Zone 20 - install access hatches & maintenance walkways,10,2031-05-25,2031-06-03,,Steel Erector,30000,27000
+716,3.20.14,Zone 20 - local controller & sensors install,14,2031-06-04,2031-06-17,,Control Systems,50000,45000
+717,3.20.15,Zone 20 - cable tray & fiber install,10,2031-06-19,2031-06-28,,Telco Contractor,30000,27000
+718,3.20.16,Zone 20 - access road rehabilitation,7,2031-07-04,2031-07-10,,Civil Contractor,15000,13500
+719,3.21.1,Zone 21 - mobilize site compound,14,2030-11-18,2030-12-01,,Construction Contractor,50000,45000
+720,3.21.2,Zone 21 - establish access roads,21,2030-11-23,2030-12-13,,Civil Contractor,80000,72000
+721,3.21.3,Zone 21 - utility diversions & protections,28,2030-11-28,2030-12-25,,Utilities Contractor,100000,90000
+722,3.21.4,Zone 21 - pile layout & markout,7,2030-11-30,2030-12-06,,Survey Team,15000,13500
+723,3.21.5,Zone 21 - bore piles / drilled shafts (batch),30,2030-12-08,2031-01-06,,Pile Contractor,300000,270000
+724,3.21.6,Zone 21 - cap beams & pile caps,14,2031-01-07,2031-01-20,,Concrete Contractor,120000,108000
+725,3.21.7,Zone 21 - erect pylon segments 1-5,21,2031-01-27,2031-02-16,,Steel Erector,180000,162000
+726,3.21.8,Zone 21 - install tube supports & saddles,14,2031-02-21,2031-03-06,,Assembly Crew,90000,81000
+727,3.21.9,Zone 21 - tube section lift & place (10 sections),30,2031-03-08,2031-04-06,,Heavy Lift,250000,225000
+728,3.21.10,Zone 21 - tube welding & seal welding,14,2031-04-07,2031-04-20,,Welding Team,80000,72000
+729,3.21.11,Zone 21 - NDT & pressure testing,10,2031-04-22,2031-05-01,,QA Team,40000,36000
+730,3.21.12,Zone 21 - pipework & HVAC for tube segment,21,2031-05-07,2031-05-27,,MEP Contractor,90000,81000
+731,3.21.13,Zone 21 - install access hatches & maintenance walkways,10,2031-06-01,2031-06-10,,Steel Erector,30000,27000
+732,3.21.14,Zone 21 - local controller & sensors install,14,2031-06-11,2031-06-24,,Control Systems,50000,45000
+733,3.21.15,Zone 21 - cable tray & fiber install,10,2031-06-26,2031-07-05,,Telco Contractor,30000,27000
+734,3.21.16,Zone 21 - access road rehabilitation,7,2031-07-11,2031-07-17,,Civil Contractor,15000,13500
+735,3.22.1,Zone 22 - mobilize site compound,14,2030-11-25,2030-12-08,,Construction Contractor,50000,45000
+736,3.22.2,Zone 22 - establish access roads,21,2030-11-30,2030-12-20,,Civil Contractor,80000,72000
+737,3.22.3,Zone 22 - utility diversions & protections,28,2030-12-05,2031-01-01,,Utilities Contractor,100000,90000
+738,3.22.4,Zone 22 - pile layout & markout,7,2030-12-07,2030-12-13,,Survey Team,15000,13500
+739,3.22.5,Zone 22 - bore piles / drilled shafts (batch),30,2030-12-15,2031-01-13,,Pile Contractor,300000,270000
+740,3.22.6,Zone 22 - cap beams & pile caps,14,2031-01-14,2031-01-27,,Concrete Contractor,120000,108000
+741,3.22.7,Zone 22 - erect pylon segments 1-5,21,2031-02-03,2031-02-23,,Steel Erector,180000,162000
+742,3.22.8,Zone 22 - install tube supports & saddles,14,2031-02-28,2031-03-13,,Assembly Crew,90000,81000
+743,3.22.9,Zone 22 - tube section lift & place (10 sections),30,2031-03-15,2031-04-13,,Heavy Lift,250000,225000
+744,3.22.10,Zone 22 - tube welding & seal welding,14,2031-04-14,2031-04-27,,Welding Team,80000,72000
+745,3.22.11,Zone 22 - NDT & pressure testing,10,2031-04-29,2031-05-08,,QA Team,40000,36000
+746,3.22.12,Zone 22 - pipework & HVAC for tube segment,21,2031-05-14,2031-06-03,,MEP Contractor,90000,81000
+747,3.22.13,Zone 22 - install access hatches & maintenance walkways,10,2031-06-08,2031-06-17,,Steel Erector,30000,27000
+748,3.22.14,Zone 22 - local controller & sensors install,14,2031-06-18,2031-07-01,,Control Systems,50000,45000
+749,3.22.15,Zone 22 - cable tray & fiber install,10,2031-07-03,2031-07-12,,Telco Contractor,30000,27000
+750,3.22.16,Zone 22 - access road rehabilitation,7,2031-07-18,2031-07-24,,Civil Contractor,15000,13500
+751,3.23.1,Zone 23 - mobilize site compound,14,2030-12-02,2030-12-15,,Construction Contractor,50000,45000
+752,3.23.2,Zone 23 - establish access roads,21,2030-12-07,2030-12-27,,Civil Contractor,80000,72000
+753,3.23.3,Zone 23 - utility diversions & protections,28,2030-12-12,2031-01-08,,Utilities Contractor,100000,90000
+754,3.23.4,Zone 23 - pile layout & markout,7,2030-12-14,2030-12-20,,Survey Team,15000,13500
+755,3.23.5,Zone 23 - bore piles / drilled shafts (batch),30,2030-12-22,2031-01-20,,Pile Contractor,300000,270000
+756,3.23.6,Zone 23 - cap beams & pile caps,14,2031-01-21,2031-02-03,,Concrete Contractor,120000,108000
+757,3.23.7,Zone 23 - erect pylon segments 1-5,21,2031-02-10,2031-03-02,,Steel Erector,180000,162000
+758,3.23.8,Zone 23 - install tube supports & saddles,14,2031-03-07,2031-03-20,,Assembly Crew,90000,81000
+759,3.23.9,Zone 23 - tube section lift & place (10 sections),30,2031-03-22,2031-04-20,,Heavy Lift,250000,225000
+760,3.23.10,Zone 23 - tube welding & seal welding,14,2031-04-21,2031-05-04,,Welding Team,80000,72000
+761,3.23.11,Zone 23 - NDT & pressure testing,10,2031-05-06,2031-05-15,,QA Team,40000,36000
+762,3.23.12,Zone 23 - pipework & HVAC for tube segment,21,2031-05-21,2031-06-10,,MEP Contractor,90000,81000
+763,3.23.13,Zone 23 - install access hatches & maintenance walkways,10,2031-06-15,2031-06-24,,Steel Erector,30000,27000
+764,3.23.14,Zone 23 - local controller & sensors install,14,2031-06-25,2031-07-08,,Control Systems,50000,45000
+765,3.23.15,Zone 23 - cable tray & fiber install,10,2031-07-10,2031-07-19,,Telco Contractor,30000,27000
+766,3.23.16,Zone 23 - access road rehabilitation,7,2031-07-25,2031-07-31,,Civil Contractor,15000,13500
+767,3.24.1,Zone 24 - mobilize site compound,14,2030-12-09,2030-12-22,,Construction Contractor,50000,45000
+768,3.24.2,Zone 24 - establish access roads,21,2030-12-14,2031-01-03,,Civil Contractor,80000,72000
+769,3.24.3,Zone 24 - utility diversions & protections,28,2030-12-19,2031-01-15,,Utilities Contractor,100000,90000
+770,3.24.4,Zone 24 - pile layout & markout,7,2030-12-21,2030-12-27,,Survey Team,15000,13500
+771,3.24.5,Zone 24 - bore piles / drilled shafts (batch),30,2030-12-29,2031-01-27,,Pile Contractor,300000,270000
+772,3.24.6,Zone 24 - cap beams & pile caps,14,2031-01-28,2031-02-10,,Concrete Contractor,120000,108000
+773,3.24.7,Zone 24 - erect pylon segments 1-5,21,2031-02-17,2031-03-09,,Steel Erector,180000,162000
+774,3.24.8,Zone 24 - install tube supports & saddles,14,2031-03-14,2031-03-27,,Assembly Crew,90000,81000
+775,3.24.9,Zone 24 - tube section lift & place (10 sections),30,2031-03-29,2031-04-27,,Heavy Lift,250000,225000
+776,3.24.10,Zone 24 - tube welding & seal welding,14,2031-04-28,2031-05-11,,Welding Team,80000,72000
+777,3.24.11,Zone 24 - NDT & pressure testing,10,2031-05-13,2031-05-22,,QA Team,40000,36000
+778,3.24.12,Zone 24 - pipework & HVAC for tube segment,21,2031-05-28,2031-06-17,,MEP Contractor,90000,81000
+779,3.24.13,Zone 24 - install access hatches & maintenance walkways,10,2031-06-22,2031-07-01,,Steel Erector,30000,27000
+780,3.24.14,Zone 24 - local controller & sensors install,14,2031-07-02,2031-07-15,,Control Systems,50000,45000
+781,3.24.15,Zone 24 - cable tray & fiber install,10,2031-07-17,2031-07-26,,Telco Contractor,30000,27000
+782,3.24.16,Zone 24 - access road rehabilitation,7,2031-08-01,2031-08-07,,Civil Contractor,15000,13500
+783,3.25.1,Zone 25 - mobilize site compound,14,2030-12-16,2030-12-29,,Construction Contractor,50000,45000
+784,3.25.2,Zone 25 - establish access roads,21,2030-12-21,2031-01-10,,Civil Contractor,80000,72000
+785,3.25.3,Zone 25 - utility diversions & protections,28,2030-12-26,2031-01-22,,Utilities Contractor,100000,90000
+786,3.25.4,Zone 25 - pile layout & markout,7,2030-12-28,2031-01-03,,Survey Team,15000,13500
+787,3.25.5,Zone 25 - bore piles / drilled shafts (batch),30,2031-01-05,2031-02-03,,Pile Contractor,300000,270000
+788,3.25.6,Zone 25 - cap beams & pile caps,14,2031-02-04,2031-02-17,,Concrete Contractor,120000,108000
+789,3.25.7,Zone 25 - erect pylon segments 1-5,21,2031-02-24,2031-03-16,,Steel Erector,180000,162000
+790,3.25.8,Zone 25 - install tube supports & saddles,14,2031-03-21,2031-04-03,,Assembly Crew,90000,81000
+791,3.25.9,Zone 25 - tube section lift & place (10 sections),30,2031-04-05,2031-05-04,,Heavy Lift,250000,225000
+792,3.25.10,Zone 25 - tube welding & seal welding,14,2031-05-05,2031-05-18,,Welding Team,80000,72000
+793,3.25.11,Zone 25 - NDT & pressure testing,10,2031-05-20,2031-05-29,,QA Team,40000,36000
+794,3.25.12,Zone 25 - pipework & HVAC for tube segment,21,2031-06-04,2031-06-24,,MEP Contractor,90000,81000
+795,3.25.13,Zone 25 - install access hatches & maintenance walkways,10,2031-06-29,2031-07-08,,Steel Erector,30000,27000
+796,3.25.14,Zone 25 - local controller & sensors install,14,2031-07-09,2031-07-22,,Control Systems,50000,45000
+797,3.25.15,Zone 25 - cable tray & fiber install,10,2031-07-24,2031-08-02,,Telco Contractor,30000,27000
+798,3.25.16,Zone 25 - access road rehabilitation,7,2031-08-08,2031-08-14,,Civil Contractor,15000,13500
+799,3.26.1,Zone 26 - mobilize site compound,14,2030-12-23,2031-01-05,,Construction Contractor,50000,45000
+800,3.26.2,Zone 26 - establish access roads,21,2030-12-28,2031-01-17,,Civil Contractor,80000,72000
+801,3.26.3,Zone 26 - utility diversions & protections,28,2031-01-02,2031-01-29,,Utilities Contractor,100000,90000
+802,3.26.4,Zone 26 - pile layout & markout,7,2031-01-04,2031-01-10,,Survey Team,15000,13500
+803,3.26.5,Zone 26 - bore piles / drilled shafts (batch),30,2031-01-12,2031-02-10,,Pile Contractor,300000,270000
+804,3.26.6,Zone 26 - cap beams & pile caps,14,2031-02-11,2031-02-24,,Concrete Contractor,120000,108000
+805,3.26.7,Zone 26 - erect pylon segments 1-5,21,2031-03-03,2031-03-23,,Steel Erector,180000,162000
+806,3.26.8,Zone 26 - install tube supports & saddles,14,2031-03-28,2031-04-10,,Assembly Crew,90000,81000
+807,3.26.9,Zone 26 - tube section lift & place (10 sections),30,2031-04-12,2031-05-11,,Heavy Lift,250000,225000
+808,3.26.10,Zone 26 - tube welding & seal welding,14,2031-05-12,2031-05-25,,Welding Team,80000,72000
+809,3.26.11,Zone 26 - NDT & pressure testing,10,2031-05-27,2031-06-05,,QA Team,40000,36000
+810,3.26.12,Zone 26 - pipework & HVAC for tube segment,21,2031-06-11,2031-07-01,,MEP Contractor,90000,81000
+811,3.26.13,Zone 26 - install access hatches & maintenance walkways,10,2031-07-06,2031-07-15,,Steel Erector,30000,27000
+812,3.26.14,Zone 26 - local controller & sensors install,14,2031-07-16,2031-07-29,,Control Systems,50000,45000
+813,3.26.15,Zone 26 - cable tray & fiber install,10,2031-07-31,2031-08-09,,Telco Contractor,30000,27000
+814,3.26.16,Zone 26 - access road rehabilitation,7,2031-08-15,2031-08-21,,Civil Contractor,15000,13500
+815,3.27.1,Zone 27 - mobilize site compound,14,2030-12-30,2031-01-12,,Construction Contractor,50000,45000
+816,3.27.2,Zone 27 - establish access roads,21,2031-01-04,2031-01-24,,Civil Contractor,80000,72000
+817,3.27.3,Zone 27 - utility diversions & protections,28,2031-01-09,2031-02-05,,Utilities Contractor,100000,90000
+818,3.27.4,Zone 27 - pile layout & markout,7,2031-01-11,2031-01-17,,Survey Team,15000,13500
+819,3.27.5,Zone 27 - bore piles / drilled shafts (batch),30,2031-01-19,2031-02-17,,Pile Contractor,300000,270000
+820,3.27.6,Zone 27 - cap beams & pile caps,14,2031-02-18,2031-03-03,,Concrete Contractor,120000,108000
+821,3.27.7,Zone 27 - erect pylon segments 1-5,21,2031-03-10,2031-03-30,,Steel Erector,180000,162000
+822,3.27.8,Zone 27 - install tube supports & saddles,14,2031-04-04,2031-04-17,,Assembly Crew,90000,81000
+823,3.27.9,Zone 27 - tube section lift & place (10 sections),30,2031-04-19,2031-05-18,,Heavy Lift,250000,225000
+824,3.27.10,Zone 27 - tube welding & seal welding,14,2031-05-19,2031-06-01,,Welding Team,80000,72000
+825,3.27.11,Zone 27 - NDT & pressure testing,10,2031-06-03,2031-06-12,,QA Team,40000,36000
+826,3.27.12,Zone 27 - pipework & HVAC for tube segment,21,2031-06-18,2031-07-08,,MEP Contractor,90000,81000
+827,3.27.13,Zone 27 - install access hatches & maintenance walkways,10,2031-07-13,2031-07-22,,Steel Erector,30000,27000
+828,3.27.14,Zone 27 - local controller & sensors install,14,2031-07-23,2031-08-05,,Control Systems,50000,45000
+829,3.27.15,Zone 27 - cable tray & fiber install,10,2031-08-07,2031-08-16,,Telco Contractor,30000,27000
+830,3.27.16,Zone 27 - access road rehabilitation,7,2031-08-22,2031-08-28,,Civil Contractor,15000,13500
+831,3.28.1,Zone 28 - mobilize site compound,14,2031-01-06,2031-01-19,,Construction Contractor,50000,45000
+832,3.28.2,Zone 28 - establish access roads,21,2031-01-11,2031-01-31,,Civil Contractor,80000,72000
+833,3.28.3,Zone 28 - utility diversions & protections,28,2031-01-16,2031-02-12,,Utilities Contractor,100000,90000
+834,3.28.4,Zone 28 - pile layout & markout,7,2031-01-18,2031-01-24,,Survey Team,15000,13500
+835,3.28.5,Zone 28 - bore piles / drilled shafts (batch),30,2031-01-26,2031-02-24,,Pile Contractor,300000,270000
+836,3.28.6,Zone 28 - cap beams & pile caps,14,2031-02-25,2031-03-10,,Concrete Contractor,120000,108000
+837,3.28.7,Zone 28 - erect pylon segments 1-5,21,2031-03-17,2031-04-06,,Steel Erector,180000,162000
+838,3.28.8,Zone 28 - install tube supports & saddles,14,2031-04-11,2031-04-24,,Assembly Crew,90000,81000
+839,3.28.9,Zone 28 - tube section lift & place (10 sections),30,2031-04-26,2031-05-25,,Heavy Lift,250000,225000
+840,3.28.10,Zone 28 - tube welding & seal welding,14,2031-05-26,2031-06-08,,Welding Team,80000,72000
+841,3.28.11,Zone 28 - NDT & pressure testing,10,2031-06-10,2031-06-19,,QA Team,40000,36000
+842,3.28.12,Zone 28 - pipework & HVAC for tube segment,21,2031-06-25,2031-07-15,,MEP Contractor,90000,81000
+843,3.28.13,Zone 28 - install access hatches & maintenance walkways,10,2031-07-20,2031-07-29,,Steel Erector,30000,27000
+844,3.28.14,Zone 28 - local controller & sensors install,14,2031-07-30,2031-08-12,,Control Systems,50000,45000
+845,3.28.15,Zone 28 - cable tray & fiber install,10,2031-08-14,2031-08-23,,Telco Contractor,30000,27000
+846,3.28.16,Zone 28 - access road rehabilitation,7,2031-08-29,2031-09-04,,Civil Contractor,15000,13500
+847,3.29.1,Zone 29 - mobilize site compound,14,2031-01-13,2031-01-26,,Construction Contractor,50000,45000
+848,3.29.2,Zone 29 - establish access roads,21,2031-01-18,2031-02-07,,Civil Contractor,80000,72000
+849,3.29.3,Zone 29 - utility diversions & protections,28,2031-01-23,2031-02-19,,Utilities Contractor,100000,90000
+850,3.29.4,Zone 29 - pile layout & markout,7,2031-01-25,2031-01-31,,Survey Team,15000,13500
+851,3.29.5,Zone 29 - bore piles / drilled shafts (batch),30,2031-02-02,2031-03-03,,Pile Contractor,300000,270000
+852,3.29.6,Zone 29 - cap beams & pile caps,14,2031-03-04,2031-03-17,,Concrete Contractor,120000,108000
+853,3.29.7,Zone 29 - erect pylon segments 1-5,21,2031-03-24,2031-04-13,,Steel Erector,180000,162000
+854,3.29.8,Zone 29 - install tube supports & saddles,14,2031-04-18,2031-05-01,,Assembly Crew,90000,81000
+855,3.29.9,Zone 29 - tube section lift & place (10 sections),30,2031-05-03,2031-06-01,,Heavy Lift,250000,225000
+856,3.29.10,Zone 29 - tube welding & seal welding,14,2031-06-02,2031-06-15,,Welding Team,80000,72000
+857,3.29.11,Zone 29 - NDT & pressure testing,10,2031-06-17,2031-06-26,,QA Team,40000,36000
+858,3.29.12,Zone 29 - pipework & HVAC for tube segment,21,2031-07-02,2031-07-22,,MEP Contractor,90000,81000
+859,3.29.13,Zone 29 - install access hatches & maintenance walkways,10,2031-07-27,2031-08-05,,Steel Erector,30000,27000
+860,3.29.14,Zone 29 - local controller & sensors install,14,2031-08-06,2031-08-19,,Control Systems,50000,45000
+861,3.29.15,Zone 29 - cable tray & fiber install,10,2031-08-21,2031-08-30,,Telco Contractor,30000,27000
+862,3.29.16,Zone 29 - access road rehabilitation,7,2031-09-05,2031-09-11,,Civil Contractor,15000,13500
+863,3.30.1,Zone 30 - mobilize site compound,14,2031-01-20,2031-02-02,,Construction Contractor,50000,45000
+864,3.30.2,Zone 30 - establish access roads,21,2031-01-25,2031-02-14,,Civil Contractor,80000,72000
+865,3.30.3,Zone 30 - utility diversions & protections,28,2031-01-30,2031-02-26,,Utilities Contractor,100000,90000
+866,3.30.4,Zone 30 - pile layout & markout,7,2031-02-01,2031-02-07,,Survey Team,15000,13500
+867,3.30.5,Zone 30 - bore piles / drilled shafts (batch),30,2031-02-09,2031-03-10,,Pile Contractor,300000,270000
+868,3.30.6,Zone 30 - cap beams & pile caps,14,2031-03-11,2031-03-24,,Concrete Contractor,120000,108000
+869,3.30.7,Zone 30 - erect pylon segments 1-5,21,2031-03-31,2031-04-20,,Steel Erector,180000,162000
+870,3.30.8,Zone 30 - install tube supports & saddles,14,2031-04-25,2031-05-08,,Assembly Crew,90000,81000
+871,3.30.9,Zone 30 - tube section lift & place (10 sections),30,2031-05-10,2031-06-08,,Heavy Lift,250000,225000
+872,3.30.10,Zone 30 - tube welding & seal welding,14,2031-06-09,2031-06-22,,Welding Team,80000,72000
+873,3.30.11,Zone 30 - NDT & pressure testing,10,2031-06-24,2031-07-03,,QA Team,40000,36000
+874,3.30.12,Zone 30 - pipework & HVAC for tube segment,21,2031-07-09,2031-07-29,,MEP Contractor,90000,81000
+875,3.30.13,Zone 30 - install access hatches & maintenance walkways,10,2031-08-03,2031-08-12,,Steel Erector,30000,27000
+876,3.30.14,Zone 30 - local controller & sensors install,14,2031-08-13,2031-08-26,,Control Systems,50000,45000
+877,3.30.15,Zone 30 - cable tray & fiber install,10,2031-08-28,2031-09-06,,Telco Contractor,30000,27000
+878,3.30.16,Zone 30 - access road rehabilitation,7,2031-09-12,2031-09-18,,Civil Contractor,15000,13500
+879,3.31.1,Zone 31 - mobilize site compound,14,2031-01-27,2031-02-09,,Construction Contractor,50000,45000
+880,3.31.2,Zone 31 - establish access roads,21,2031-02-01,2031-02-21,,Civil Contractor,80000,72000
+881,3.31.3,Zone 31 - utility diversions & protections,28,2031-02-06,2031-03-05,,Utilities Contractor,100000,90000
+882,3.31.4,Zone 31 - pile layout & markout,7,2031-02-08,2031-02-14,,Survey Team,15000,13500
+883,3.31.5,Zone 31 - bore piles / drilled shafts (batch),30,2031-02-16,2031-03-17,,Pile Contractor,300000,270000
+884,3.31.6,Zone 31 - cap beams & pile caps,14,2031-03-18,2031-03-31,,Concrete Contractor,120000,108000
+885,3.31.7,Zone 31 - erect pylon segments 1-5,21,2031-04-07,2031-04-27,,Steel Erector,180000,162000
+886,3.31.8,Zone 31 - install tube supports & saddles,14,2031-05-02,2031-05-15,,Assembly Crew,90000,81000
+887,3.31.9,Zone 31 - tube section lift & place (10 sections),30,2031-05-17,2031-06-15,,Heavy Lift,250000,225000
+888,3.31.10,Zone 31 - tube welding & seal welding,14,2031-06-16,2031-06-29,,Welding Team,80000,72000
+889,3.31.11,Zone 31 - NDT & pressure testing,10,2031-07-01,2031-07-10,,QA Team,40000,36000
+890,3.31.12,Zone 31 - pipework & HVAC for tube segment,21,2031-07-16,2031-08-05,,MEP Contractor,90000,81000
+891,3.31.13,Zone 31 - install access hatches & maintenance walkways,10,2031-08-10,2031-08-19,,Steel Erector,30000,27000
+892,3.31.14,Zone 31 - local controller & sensors install,14,2031-08-20,2031-09-02,,Control Systems,50000,45000
+893,3.31.15,Zone 31 - cable tray & fiber install,10,2031-09-04,2031-09-13,,Telco Contractor,30000,27000
+894,3.31.16,Zone 31 - access road rehabilitation,7,2031-09-19,2031-09-25,,Civil Contractor,15000,13500
+895,3.32.1,Zone 32 - mobilize site compound,14,2031-02-03,2031-02-16,,Construction Contractor,50000,45000
+896,3.32.2,Zone 32 - establish access roads,21,2031-02-08,2031-02-28,,Civil Contractor,80000,72000
+897,3.32.3,Zone 32 - utility diversions & protections,28,2031-02-13,2031-03-12,,Utilities Contractor,100000,90000
+898,3.32.4,Zone 32 - pile layout & markout,7,2031-02-15,2031-02-21,,Survey Team,15000,13500
+899,3.32.5,Zone 32 - bore piles / drilled shafts (batch),30,2031-02-23,2031-03-24,,Pile Contractor,300000,270000
+900,3.32.6,Zone 32 - cap beams & pile caps,14,2031-03-25,2031-04-07,,Concrete Contractor,120000,108000
+901,3.32.7,Zone 32 - erect pylon segments 1-5,21,2031-04-14,2031-05-04,,Steel Erector,180000,162000
+902,3.32.8,Zone 32 - install tube supports & saddles,14,2031-05-09,2031-05-22,,Assembly Crew,90000,81000
+903,3.32.9,Zone 32 - tube section lift & place (10 sections),30,2031-05-24,2031-06-22,,Heavy Lift,250000,225000
+904,3.32.10,Zone 32 - tube welding & seal welding,14,2031-06-23,2031-07-06,,Welding Team,80000,72000
+905,3.32.11,Zone 32 - NDT & pressure testing,10,2031-07-08,2031-07-17,,QA Team,40000,36000
+906,3.32.12,Zone 32 - pipework & HVAC for tube segment,21,2031-07-23,2031-08-12,,MEP Contractor,90000,81000
+907,3.32.13,Zone 32 - install access hatches & maintenance walkways,10,2031-08-17,2031-08-26,,Steel Erector,30000,27000
+908,3.32.14,Zone 32 - local controller & sensors install,14,2031-08-27,2031-09-09,,Control Systems,50000,45000
+909,3.32.15,Zone 32 - cable tray & fiber install,10,2031-09-11,2031-09-20,,Telco Contractor,30000,27000
+910,3.32.16,Zone 32 - access road rehabilitation,7,2031-09-26,2031-10-02,,Civil Contractor,15000,13500
+911,3.33.1,Zone 33 - mobilize site compound,14,2031-02-10,2031-02-23,,Construction Contractor,50000,45000
+912,3.33.2,Zone 33 - establish access roads,21,2031-02-15,2031-03-07,,Civil Contractor,80000,72000
+913,3.33.3,Zone 33 - utility diversions & protections,28,2031-02-20,2031-03-19,,Utilities Contractor,100000,90000
+914,3.33.4,Zone 33 - pile layout & markout,7,2031-02-22,2031-02-28,,Survey Team,15000,13500
+915,3.33.5,Zone 33 - bore piles / drilled shafts (batch),30,2031-03-02,2031-03-31,,Pile Contractor,300000,270000
+916,3.33.6,Zone 33 - cap beams & pile caps,14,2031-04-01,2031-04-14,,Concrete Contractor,120000,108000
+917,3.33.7,Zone 33 - erect pylon segments 1-5,21,2031-04-21,2031-05-11,,Steel Erector,180000,162000
+918,3.33.8,Zone 33 - install tube supports & saddles,14,2031-05-16,2031-05-29,,Assembly Crew,90000,81000
+919,3.33.9,Zone 33 - tube section lift & place (10 sections),30,2031-05-31,2031-06-29,,Heavy Lift,250000,225000
+920,3.33.10,Zone 33 - tube welding & seal welding,14,2031-06-30,2031-07-13,,Welding Team,80000,72000
+921,3.33.11,Zone 33 - NDT & pressure testing,10,2031-07-15,2031-07-24,,QA Team,40000,36000
+922,3.33.12,Zone 33 - pipework & HVAC for tube segment,21,2031-07-30,2031-08-19,,MEP Contractor,90000,81000
+923,3.33.13,Zone 33 - install access hatches & maintenance walkways,10,2031-08-24,2031-09-02,,Steel Erector,30000,27000
+924,3.33.14,Zone 33 - local controller & sensors install,14,2031-09-03,2031-09-16,,Control Systems,50000,45000
+925,3.33.15,Zone 33 - cable tray & fiber install,10,2031-09-18,2031-09-27,,Telco Contractor,30000,27000
+926,3.33.16,Zone 33 - access road rehabilitation,7,2031-10-03,2031-10-09,,Civil Contractor,15000,13500
+927,3.34.1,Zone 34 - mobilize site compound,14,2031-02-17,2031-03-02,,Construction Contractor,50000,45000
+928,3.34.2,Zone 34 - establish access roads,21,2031-02-22,2031-03-14,,Civil Contractor,80000,72000
+929,3.34.3,Zone 34 - utility diversions & protections,28,2031-02-27,2031-03-26,,Utilities Contractor,100000,90000
+930,3.34.4,Zone 34 - pile layout & markout,7,2031-03-01,2031-03-07,,Survey Team,15000,13500
+931,3.34.5,Zone 34 - bore piles / drilled shafts (batch),30,2031-03-09,2031-04-07,,Pile Contractor,300000,270000
+932,3.34.6,Zone 34 - cap beams & pile caps,14,2031-04-08,2031-04-21,,Concrete Contractor,120000,108000
+933,3.34.7,Zone 34 - erect pylon segments 1-5,21,2031-04-28,2031-05-18,,Steel Erector,180000,162000
+934,3.34.8,Zone 34 - install tube supports & saddles,14,2031-05-23,2031-06-05,,Assembly Crew,90000,81000
+935,3.34.9,Zone 34 - tube section lift & place (10 sections),30,2031-06-07,2031-07-06,,Heavy Lift,250000,225000
+936,3.34.10,Zone 34 - tube welding & seal welding,14,2031-07-07,2031-07-20,,Welding Team,80000,72000
+937,3.34.11,Zone 34 - NDT & pressure testing,10,2031-07-22,2031-07-31,,QA Team,40000,36000
+938,3.34.12,Zone 34 - pipework & HVAC for tube segment,21,2031-08-06,2031-08-26,,MEP Contractor,90000,81000
+939,3.34.13,Zone 34 - install access hatches & maintenance walkways,10,2031-08-31,2031-09-09,,Steel Erector,30000,27000
+940,3.34.14,Zone 34 - local controller & sensors install,14,2031-09-10,2031-09-23,,Control Systems,50000,45000
+941,3.34.15,Zone 34 - cable tray & fiber install,10,2031-09-25,2031-10-04,,Telco Contractor,30000,27000
+942,3.34.16,Zone 34 - access road rehabilitation,7,2031-10-10,2031-10-16,,Civil Contractor,15000,13500
+943,3.35.1,Zone 35 - mobilize site compound,14,2031-02-24,2031-03-09,,Construction Contractor,50000,45000
+944,3.35.2,Zone 35 - establish access roads,21,2031-03-01,2031-03-21,,Civil Contractor,80000,72000
+945,3.35.3,Zone 35 - utility diversions & protections,28,2031-03-06,2031-04-02,,Utilities Contractor,100000,90000
+946,3.35.4,Zone 35 - pile layout & markout,7,2031-03-08,2031-03-14,,Survey Team,15000,13500
+947,3.35.5,Zone 35 - bore piles / drilled shafts (batch),30,2031-03-16,2031-04-14,,Pile Contractor,300000,270000
+948,3.35.6,Zone 35 - cap beams & pile caps,14,2031-04-15,2031-04-28,,Concrete Contractor,120000,108000
+949,3.35.7,Zone 35 - erect pylon segments 1-5,21,2031-05-05,2031-05-25,,Steel Erector,180000,162000
+950,3.35.8,Zone 35 - install tube supports & saddles,14,2031-05-30,2031-06-12,,Assembly Crew,90000,81000
+951,3.35.9,Zone 35 - tube section lift & place (10 sections),30,2031-06-14,2031-07-13,,Heavy Lift,250000,225000
+952,3.35.10,Zone 35 - tube welding & seal welding,14,2031-07-14,2031-07-27,,Welding Team,80000,72000
+953,3.35.11,Zone 35 - NDT & pressure testing,10,2031-07-29,2031-08-07,,QA Team,40000,36000
+954,3.35.12,Zone 35 - pipework & HVAC for tube segment,21,2031-08-13,2031-09-02,,MEP Contractor,90000,81000
+955,3.35.13,Zone 35 - install access hatches & maintenance walkways,10,2031-09-07,2031-09-16,,Steel Erector,30000,27000
+956,3.35.14,Zone 35 - local controller & sensors install,14,2031-09-17,2031-09-30,,Control Systems,50000,45000
+957,3.35.15,Zone 35 - cable tray & fiber install,10,2031-10-02,2031-10-11,,Telco Contractor,30000,27000
+958,3.35.16,Zone 35 - access road rehabilitation,7,2031-10-17,2031-10-23,,Civil Contractor,15000,13500
+959,3.36.1,Zone 36 - mobilize site compound,14,2031-03-03,2031-03-16,,Construction Contractor,50000,45000
+960,3.36.2,Zone 36 - establish access roads,21,2031-03-08,2031-03-28,,Civil Contractor,80000,72000
+961,3.36.3,Zone 36 - utility diversions & protections,28,2031-03-13,2031-04-09,,Utilities Contractor,100000,90000
+962,3.36.4,Zone 36 - pile layout & markout,7,2031-03-15,2031-03-21,,Survey Team,15000,13500
+963,3.36.5,Zone 36 - bore piles / drilled shafts (batch),30,2031-03-23,2031-04-21,,Pile Contractor,300000,270000
+964,3.36.6,Zone 36 - cap beams & pile caps,14,2031-04-22,2031-05-05,,Concrete Contractor,120000,108000
+965,3.36.7,Zone 36 - erect pylon segments 1-5,21,2031-05-12,2031-06-01,,Steel Erector,180000,162000
+966,3.36.8,Zone 36 - install tube supports & saddles,14,2031-06-06,2031-06-19,,Assembly Crew,90000,81000
+967,3.36.9,Zone 36 - tube section lift & place (10 sections),30,2031-06-21,2031-07-20,,Heavy Lift,250000,225000
+968,3.36.10,Zone 36 - tube welding & seal welding,14,2031-07-21,2031-08-03,,Welding Team,80000,72000
+969,3.36.11,Zone 36 - NDT & pressure testing,10,2031-08-05,2031-08-14,,QA Team,40000,36000
+970,3.36.12,Zone 36 - pipework & HVAC for tube segment,21,2031-08-20,2031-09-09,,MEP Contractor,90000,81000
+971,3.36.13,Zone 36 - install access hatches & maintenance walkways,10,2031-09-14,2031-09-23,,Steel Erector,30000,27000
+972,3.36.14,Zone 36 - local controller & sensors install,14,2031-09-24,2031-10-07,,Control Systems,50000,45000
+973,3.36.15,Zone 36 - cable tray & fiber install,10,2031-10-09,2031-10-18,,Telco Contractor,30000,27000
+974,3.36.16,Zone 36 - access road rehabilitation,7,2031-10-24,2031-10-30,,Civil Contractor,15000,13500
+975,3.37.1,Zone 37 - mobilize site compound,14,2031-03-10,2031-03-23,,Construction Contractor,50000,45000
+976,3.37.2,Zone 37 - establish access roads,21,2031-03-15,2031-04-04,,Civil Contractor,80000,72000
+977,3.37.3,Zone 37 - utility diversions & protections,28,2031-03-20,2031-04-16,,Utilities Contractor,100000,90000
+978,3.37.4,Zone 37 - pile layout & markout,7,2031-03-22,2031-03-28,,Survey Team,15000,13500
+979,3.37.5,Zone 37 - bore piles / drilled shafts (batch),30,2031-03-30,2031-04-28,,Pile Contractor,300000,270000
+980,3.37.6,Zone 37 - cap beams & pile caps,14,2031-04-29,2031-05-12,,Concrete Contractor,120000,108000
+981,3.37.7,Zone 37 - erect pylon segments 1-5,21,2031-05-19,2031-06-08,,Steel Erector,180000,162000
+982,3.37.8,Zone 37 - install tube supports & saddles,14,2031-06-13,2031-06-26,,Assembly Crew,90000,81000
+983,3.37.9,Zone 37 - tube section lift & place (10 sections),30,2031-06-28,2031-07-27,,Heavy Lift,250000,225000
+984,3.37.10,Zone 37 - tube welding & seal welding,14,2031-07-28,2031-08-10,,Welding Team,80000,72000
+985,3.37.11,Zone 37 - NDT & pressure testing,10,2031-08-12,2031-08-21,,QA Team,40000,36000
+986,3.37.12,Zone 37 - pipework & HVAC for tube segment,21,2031-08-27,2031-09-16,,MEP Contractor,90000,81000
+987,3.37.13,Zone 37 - install access hatches & maintenance walkways,10,2031-09-21,2031-09-30,,Steel Erector,30000,27000
+988,3.37.14,Zone 37 - local controller & sensors install,14,2031-10-01,2031-10-14,,Control Systems,50000,45000
+989,3.37.15,Zone 37 - cable tray & fiber install,10,2031-10-16,2031-10-25,,Telco Contractor,30000,27000
+990,3.37.16,Zone 37 - access road rehabilitation,7,2031-10-31,2031-11-06,,Civil Contractor,15000,13500
+991,3.38.1,Zone 38 - mobilize site compound,14,2031-03-17,2031-03-30,,Construction Contractor,50000,45000
+992,3.38.2,Zone 38 - establish access roads,21,2031-03-22,2031-04-11,,Civil Contractor,80000,72000
+993,3.38.3,Zone 38 - utility diversions & protections,28,2031-03-27,2031-04-23,,Utilities Contractor,100000,90000
+994,3.38.4,Zone 38 - pile layout & markout,7,2031-03-29,2031-04-04,,Survey Team,15000,13500
+995,3.38.5,Zone 38 - bore piles / drilled shafts (batch),30,2031-04-06,2031-05-05,,Pile Contractor,300000,270000
+996,3.38.6,Zone 38 - cap beams & pile caps,14,2031-05-06,2031-05-19,,Concrete Contractor,120000,108000
+997,3.38.7,Zone 38 - erect pylon segments 1-5,21,2031-05-26,2031-06-15,,Steel Erector,180000,162000
+998,3.38.8,Zone 38 - install tube supports & saddles,14,2031-06-20,2031-07-03,,Assembly Crew,90000,81000
+999,3.38.9,Zone 38 - tube section lift & place (10 sections),30,2031-07-05,2031-08-03,,Heavy Lift,250000,225000
+1000,3.38.10,Zone 38 - tube welding & seal welding,14,2031-08-04,2031-08-17,,Welding Team,80000,72000
+1001,3.38.11,Zone 38 - NDT & pressure testing,10,2031-08-19,2031-08-28,,QA Team,40000,36000
+1002,3.38.12,Zone 38 - pipework & HVAC for tube segment,21,2031-09-03,2031-09-23,,MEP Contractor,90000,81000
+1003,3.38.13,Zone 38 - install access hatches & maintenance walkways,10,2031-09-28,2031-10-07,,Steel Erector,30000,27000
+1004,3.38.14,Zone 38 - local controller & sensors install,14,2031-10-08,2031-10-21,,Control Systems,50000,45000
+1005,3.38.15,Zone 38 - cable tray & fiber install,10,2031-10-23,2031-11-01,,Telco Contractor,30000,27000
+1006,3.38.16,Zone 38 - access road rehabilitation,7,2031-11-07,2031-11-13,,Civil Contractor,15000,13500
+1007,3.39.1,Zone 39 - mobilize site compound,14,2031-03-24,2031-04-06,,Construction Contractor,50000,45000
+1008,3.39.2,Zone 39 - establish access roads,21,2031-03-29,2031-04-18,,Civil Contractor,80000,72000
+1009,3.39.3,Zone 39 - utility diversions & protections,28,2031-04-03,2031-04-30,,Utilities Contractor,100000,90000
+1010,3.39.4,Zone 39 - pile layout & markout,7,2031-04-05,2031-04-11,,Survey Team,15000,13500
+1011,3.39.5,Zone 39 - bore piles / drilled shafts (batch),30,2031-04-13,2031-05-12,,Pile Contractor,300000,270000
+1012,3.39.6,Zone 39 - cap beams & pile caps,14,2031-05-13,2031-05-26,,Concrete Contractor,120000,108000
+1013,3.39.7,Zone 39 - erect pylon segments 1-5,21,2031-06-02,2031-06-22,,Steel Erector,180000,162000
+1014,3.39.8,Zone 39 - install tube supports & saddles,14,2031-06-27,2031-07-10,,Assembly Crew,90000,81000
+1015,3.39.9,Zone 39 - tube section lift & place (10 sections),30,2031-07-12,2031-08-10,,Heavy Lift,250000,225000
+1016,3.39.10,Zone 39 - tube welding & seal welding,14,2031-08-11,2031-08-24,,Welding Team,80000,72000
+1017,3.39.11,Zone 39 - NDT & pressure testing,10,2031-08-26,2031-09-04,,QA Team,40000,36000
+1018,3.39.12,Zone 39 - pipework & HVAC for tube segment,21,2031-09-10,2031-09-30,,MEP Contractor,90000,81000
+1019,3.39.13,Zone 39 - install access hatches & maintenance walkways,10,2031-10-05,2031-10-14,,Steel Erector,30000,27000
+1020,3.39.14,Zone 39 - local controller & sensors install,14,2031-10-15,2031-10-28,,Control Systems,50000,45000
+1021,3.39.15,Zone 39 - cable tray & fiber install,10,2031-10-30,2031-11-08,,Telco Contractor,30000,27000
+1022,3.39.16,Zone 39 - access road rehabilitation,7,2031-11-14,2031-11-20,,Civil Contractor,15000,13500
+1023,3.40.1,Zone 40 - mobilize site compound,14,2031-03-31,2031-04-13,,Construction Contractor,50000,45000
+1024,3.40.2,Zone 40 - establish access roads,21,2031-04-05,2031-04-25,,Civil Contractor,80000,72000
+1025,3.40.3,Zone 40 - utility diversions & protections,28,2031-04-10,2031-05-07,,Utilities Contractor,100000,90000
+1026,3.40.4,Zone 40 - pile layout & markout,7,2031-04-12,2031-04-18,,Survey Team,15000,13500
+1027,3.40.5,Zone 40 - bore piles / drilled shafts (batch),30,2031-04-20,2031-05-19,,Pile Contractor,300000,270000
+1028,3.40.6,Zone 40 - cap beams & pile caps,14,2031-05-20,2031-06-02,,Concrete Contractor,120000,108000
+1029,3.40.7,Zone 40 - erect pylon segments 1-5,21,2031-06-09,2031-06-29,,Steel Erector,180000,162000
+1030,3.40.8,Zone 40 - install tube supports & saddles,14,2031-07-04,2031-07-17,,Assembly Crew,90000,81000
+1031,3.40.9,Zone 40 - tube section lift & place (10 sections),30,2031-07-19,2031-08-17,,Heavy Lift,250000,225000
+1032,3.40.10,Zone 40 - tube welding & seal welding,14,2031-08-18,2031-08-31,,Welding Team,80000,72000
+1033,3.40.11,Zone 40 - NDT & pressure testing,10,2031-09-02,2031-09-11,,QA Team,40000,36000
+1034,3.40.12,Zone 40 - pipework & HVAC for tube segment,21,2031-09-17,2031-10-07,,MEP Contractor,90000,81000
+1035,3.40.13,Zone 40 - install access hatches & maintenance walkways,10,2031-10-12,2031-10-21,,Steel Erector,30000,27000
+1036,3.40.14,Zone 40 - local controller & sensors install,14,2031-10-22,2031-11-04,,Control Systems,50000,45000
+1037,3.40.15,Zone 40 - cable tray & fiber install,10,2031-11-06,2031-11-15,,Telco Contractor,30000,27000
+1038,3.40.16,Zone 40 - access road rehabilitation,7,2031-11-21,2031-11-27,,Civil Contractor,15000,13500
+1039,3.41.1,Zone 41 - mobilize site compound,14,2031-04-07,2031-04-20,,Construction Contractor,50000,45000
+1040,3.41.2,Zone 41 - establish access roads,21,2031-04-12,2031-05-02,,Civil Contractor,80000,72000
+1041,3.41.3,Zone 41 - utility diversions & protections,28,2031-04-17,2031-05-14,,Utilities Contractor,100000,90000
+1042,3.41.4,Zone 41 - pile layout & markout,7,2031-04-19,2031-04-25,,Survey Team,15000,13500
+1043,3.41.5,Zone 41 - bore piles / drilled shafts (batch),30,2031-04-27,2031-05-26,,Pile Contractor,300000,270000
+1044,3.41.6,Zone 41 - cap beams & pile caps,14,2031-05-27,2031-06-09,,Concrete Contractor,120000,108000
+1045,3.41.7,Zone 41 - erect pylon segments 1-5,21,2031-06-16,2031-07-06,,Steel Erector,180000,162000
+1046,3.41.8,Zone 41 - install tube supports & saddles,14,2031-07-11,2031-07-24,,Assembly Crew,90000,81000
+1047,3.41.9,Zone 41 - tube section lift & place (10 sections),30,2031-07-26,2031-08-24,,Heavy Lift,250000,225000
+1048,3.41.10,Zone 41 - tube welding & seal welding,14,2031-08-25,2031-09-07,,Welding Team,80000,72000
+1049,3.41.11,Zone 41 - NDT & pressure testing,10,2031-09-09,2031-09-18,,QA Team,40000,36000
+1050,3.41.12,Zone 41 - pipework & HVAC for tube segment,21,2031-09-24,2031-10-14,,MEP Contractor,90000,81000
+1051,3.41.13,Zone 41 - install access hatches & maintenance walkways,10,2031-10-19,2031-10-28,,Steel Erector,30000,27000
+1052,3.41.14,Zone 41 - local controller & sensors install,14,2031-10-29,2031-11-11,,Control Systems,50000,45000
+1053,3.41.15,Zone 41 - cable tray & fiber install,10,2031-11-13,2031-11-22,,Telco Contractor,30000,27000
+1054,3.41.16,Zone 41 - access road rehabilitation,7,2031-11-28,2031-12-04,,Civil Contractor,15000,13500
+1055,3.42.1,Zone 42 - mobilize site compound,14,2031-04-14,2031-04-27,,Construction Contractor,50000,45000
+1056,3.42.2,Zone 42 - establish access roads,21,2031-04-19,2031-05-09,,Civil Contractor,80000,72000
+1057,3.42.3,Zone 42 - utility diversions & protections,28,2031-04-24,2031-05-21,,Utilities Contractor,100000,90000
+1058,3.42.4,Zone 42 - pile layout & markout,7,2031-04-26,2031-05-02,,Survey Team,15000,13500
+1059,3.42.5,Zone 42 - bore piles / drilled shafts (batch),30,2031-05-04,2031-06-02,,Pile Contractor,300000,270000
+1060,3.42.6,Zone 42 - cap beams & pile caps,14,2031-06-03,2031-06-16,,Concrete Contractor,120000,108000
+1061,3.42.7,Zone 42 - erect pylon segments 1-5,21,2031-06-23,2031-07-13,,Steel Erector,180000,162000
+1062,3.42.8,Zone 42 - install tube supports & saddles,14,2031-07-18,2031-07-31,,Assembly Crew,90000,81000
+1063,3.42.9,Zone 42 - tube section lift & place (10 sections),30,2031-08-02,2031-08-31,,Heavy Lift,250000,225000
+1064,3.42.10,Zone 42 - tube welding & seal welding,14,2031-09-01,2031-09-14,,Welding Team,80000,72000
+1065,3.42.11,Zone 42 - NDT & pressure testing,10,2031-09-16,2031-09-25,,QA Team,40000,36000
+1066,3.42.12,Zone 42 - pipework & HVAC for tube segment,21,2031-10-01,2031-10-21,,MEP Contractor,90000,81000
+1067,3.42.13,Zone 42 - install access hatches & maintenance walkways,10,2031-10-26,2031-11-04,,Steel Erector,30000,27000
+1068,3.42.14,Zone 42 - local controller & sensors install,14,2031-11-05,2031-11-18,,Control Systems,50000,45000
+1069,3.42.15,Zone 42 - cable tray & fiber install,10,2031-11-20,2031-11-29,,Telco Contractor,30000,27000
+1070,3.42.16,Zone 42 - access road rehabilitation,7,2031-12-05,2031-12-11,,Civil Contractor,15000,13500
+1071,3.43.1,Zone 43 - mobilize site compound,14,2031-04-21,2031-05-04,,Construction Contractor,50000,45000
+1072,3.43.2,Zone 43 - establish access roads,21,2031-04-26,2031-05-16,,Civil Contractor,80000,72000
+1073,3.43.3,Zone 43 - utility diversions & protections,28,2031-05-01,2031-05-28,,Utilities Contractor,100000,90000
+1074,3.43.4,Zone 43 - pile layout & markout,7,2031-05-03,2031-05-09,,Survey Team,15000,13500
+1075,3.43.5,Zone 43 - bore piles / drilled shafts (batch),30,2031-05-11,2031-06-09,,Pile Contractor,300000,270000
+1076,3.43.6,Zone 43 - cap beams & pile caps,14,2031-06-10,2031-06-23,,Concrete Contractor,120000,108000
+1077,3.43.7,Zone 43 - erect pylon segments 1-5,21,2031-06-30,2031-07-20,,Steel Erector,180000,162000
+1078,3.43.8,Zone 43 - install tube supports & saddles,14,2031-07-25,2031-08-07,,Assembly Crew,90000,81000
+1079,3.43.9,Zone 43 - tube section lift & place (10 sections),30,2031-08-09,2031-09-07,,Heavy Lift,250000,225000
+1080,3.43.10,Zone 43 - tube welding & seal welding,14,2031-09-08,2031-09-21,,Welding Team,80000,72000
+1081,3.43.11,Zone 43 - NDT & pressure testing,10,2031-09-23,2031-10-02,,QA Team,40000,36000
+1082,3.43.12,Zone 43 - pipework & HVAC for tube segment,21,2031-10-08,2031-10-28,,MEP Contractor,90000,81000
+1083,3.43.13,Zone 43 - install access hatches & maintenance walkways,10,2031-11-02,2031-11-11,,Steel Erector,30000,27000
+1084,3.43.14,Zone 43 - local controller & sensors install,14,2031-11-12,2031-11-25,,Control Systems,50000,45000
+1085,3.43.15,Zone 43 - cable tray & fiber install,10,2031-11-27,2031-12-06,,Telco Contractor,30000,27000
+1086,3.43.16,Zone 43 - access road rehabilitation,7,2031-12-12,2031-12-18,,Civil Contractor,15000,13500
+1087,3.44.1,Zone 44 - mobilize site compound,14,2031-04-28,2031-05-11,,Construction Contractor,50000,45000
+1088,3.44.2,Zone 44 - establish access roads,21,2031-05-03,2031-05-23,,Civil Contractor,80000,72000
+1089,3.44.3,Zone 44 - utility diversions & protections,28,2031-05-08,2031-06-04,,Utilities Contractor,100000,90000
+1090,3.44.4,Zone 44 - pile layout & markout,7,2031-05-10,2031-05-16,,Survey Team,15000,13500
+1091,3.44.5,Zone 44 - bore piles / drilled shafts (batch),30,2031-05-18,2031-06-16,,Pile Contractor,300000,270000
+1092,3.44.6,Zone 44 - cap beams & pile caps,14,2031-06-17,2031-06-30,,Concrete Contractor,120000,108000
+1093,3.44.7,Zone 44 - erect pylon segments 1-5,21,2031-07-07,2031-07-27,,Steel Erector,180000,162000
+1094,3.44.8,Zone 44 - install tube supports & saddles,14,2031-08-01,2031-08-14,,Assembly Crew,90000,81000
+1095,3.44.9,Zone 44 - tube section lift & place (10 sections),30,2031-08-16,2031-09-14,,Heavy Lift,250000,225000
+1096,3.44.10,Zone 44 - tube welding & seal welding,14,2031-09-15,2031-09-28,,Welding Team,80000,72000
+1097,3.44.11,Zone 44 - NDT & pressure testing,10,2031-09-30,2031-10-09,,QA Team,40000,36000
+1098,3.44.12,Zone 44 - pipework & HVAC for tube segment,21,2031-10-15,2031-11-04,,MEP Contractor,90000,81000
+1099,3.44.13,Zone 44 - install access hatches & maintenance walkways,10,2031-11-09,2031-11-18,,Steel Erector,30000,27000
+1100,3.44.14,Zone 44 - local controller & sensors install,14,2031-11-19,2031-12-02,,Control Systems,50000,45000
+1101,3.44.15,Zone 44 - cable tray & fiber install,10,2031-12-04,2031-12-13,,Telco Contractor,30000,27000
+1102,3.44.16,Zone 44 - access road rehabilitation,7,2031-12-19,2031-12-25,,Civil Contractor,15000,13500
+1103,3.45.1,Zone 45 - mobilize site compound,14,2031-05-05,2031-05-18,,Construction Contractor,50000,45000
+1104,3.45.2,Zone 45 - establish access roads,21,2031-05-10,2031-05-30,,Civil Contractor,80000,72000
+1105,3.45.3,Zone 45 - utility diversions & protections,28,2031-05-15,2031-06-11,,Utilities Contractor,100000,90000
+1106,3.45.4,Zone 45 - pile layout & markout,7,2031-05-17,2031-05-23,,Survey Team,15000,13500
+1107,3.45.5,Zone 45 - bore piles / drilled shafts (batch),30,2031-05-25,2031-06-23,,Pile Contractor,300000,270000
+1108,3.45.6,Zone 45 - cap beams & pile caps,14,2031-06-24,2031-07-07,,Concrete Contractor,120000,108000
+1109,3.45.7,Zone 45 - erect pylon segments 1-5,21,2031-07-14,2031-08-03,,Steel Erector,180000,162000
+1110,3.45.8,Zone 45 - install tube supports & saddles,14,2031-08-08,2031-08-21,,Assembly Crew,90000,81000
+1111,3.45.9,Zone 45 - tube section lift & place (10 sections),30,2031-08-23,2031-09-21,,Heavy Lift,250000,225000
+1112,3.45.10,Zone 45 - tube welding & seal welding,14,2031-09-22,2031-10-05,,Welding Team,80000,72000
+1113,3.45.11,Zone 45 - NDT & pressure testing,10,2031-10-07,2031-10-16,,QA Team,40000,36000
+1114,3.45.12,Zone 45 - pipework & HVAC for tube segment,21,2031-10-22,2031-11-11,,MEP Contractor,90000,81000
+1115,3.45.13,Zone 45 - install access hatches & maintenance walkways,10,2031-11-16,2031-11-25,,Steel Erector,30000,27000
+1116,3.45.14,Zone 45 - local controller & sensors install,14,2031-11-26,2031-12-09,,Control Systems,50000,45000
+1117,3.45.15,Zone 45 - cable tray & fiber install,10,2031-12-11,2031-12-20,,Telco Contractor,30000,27000
+1118,3.45.16,Zone 45 - access road rehabilitation,7,2031-12-26,2032-01-01,,Civil Contractor,15000,13500
+1119,3.46.1,Zone 46 - mobilize site compound,14,2031-05-12,2031-05-25,,Construction Contractor,50000,45000
+1120,3.46.2,Zone 46 - establish access roads,21,2031-05-17,2031-06-06,,Civil Contractor,80000,72000
+1121,3.46.3,Zone 46 - utility diversions & protections,28,2031-05-22,2031-06-18,,Utilities Contractor,100000,90000
+1122,3.46.4,Zone 46 - pile layout & markout,7,2031-05-24,2031-05-30,,Survey Team,15000,13500
+1123,3.46.5,Zone 46 - bore piles / drilled shafts (batch),30,2031-06-01,2031-06-30,,Pile Contractor,300000,270000
+1124,3.46.6,Zone 46 - cap beams & pile caps,14,2031-07-01,2031-07-14,,Concrete Contractor,120000,108000
+1125,3.46.7,Zone 46 - erect pylon segments 1-5,21,2031-07-21,2031-08-10,,Steel Erector,180000,162000
+1126,3.46.8,Zone 46 - install tube supports & saddles,14,2031-08-15,2031-08-28,,Assembly Crew,90000,81000
+1127,3.46.9,Zone 46 - tube section lift & place (10 sections),30,2031-08-30,2031-09-28,,Heavy Lift,250000,225000
+1128,3.46.10,Zone 46 - tube welding & seal welding,14,2031-09-29,2031-10-12,,Welding Team,80000,72000
+1129,3.46.11,Zone 46 - NDT & pressure testing,10,2031-10-14,2031-10-23,,QA Team,40000,36000
+1130,3.46.12,Zone 46 - pipework & HVAC for tube segment,21,2031-10-29,2031-11-18,,MEP Contractor,90000,81000
+1131,3.46.13,Zone 46 - install access hatches & maintenance walkways,10,2031-11-23,2031-12-02,,Steel Erector,30000,27000
+1132,3.46.14,Zone 46 - local controller & sensors install,14,2031-12-03,2031-12-16,,Control Systems,50000,45000
+1133,3.46.15,Zone 46 - cable tray & fiber install,10,2031-12-18,2031-12-27,,Telco Contractor,30000,27000
+1134,3.46.16,Zone 46 - access road rehabilitation,7,2032-01-02,2032-01-08,,Civil Contractor,15000,13500
+1135,3.47.1,Zone 47 - mobilize site compound,14,2031-05-19,2031-06-01,,Construction Contractor,50000,45000
+1136,3.47.2,Zone 47 - establish access roads,21,2031-05-24,2031-06-13,,Civil Contractor,80000,72000
+1137,3.47.3,Zone 47 - utility diversions & protections,28,2031-05-29,2031-06-25,,Utilities Contractor,100000,90000
+1138,3.47.4,Zone 47 - pile layout & markout,7,2031-05-31,2031-06-06,,Survey Team,15000,13500
+1139,3.47.5,Zone 47 - bore piles / drilled shafts (batch),30,2031-06-08,2031-07-07,,Pile Contractor,300000,270000
+1140,3.47.6,Zone 47 - cap beams & pile caps,14,2031-07-08,2031-07-21,,Concrete Contractor,120000,108000
+1141,3.47.7,Zone 47 - erect pylon segments 1-5,21,2031-07-28,2031-08-17,,Steel Erector,180000,162000
+1142,3.47.8,Zone 47 - install tube supports & saddles,14,2031-08-22,2031-09-04,,Assembly Crew,90000,81000
+1143,3.47.9,Zone 47 - tube section lift & place (10 sections),30,2031-09-06,2031-10-05,,Heavy Lift,250000,225000
+1144,3.47.10,Zone 47 - tube welding & seal welding,14,2031-10-06,2031-10-19,,Welding Team,80000,72000
+1145,3.47.11,Zone 47 - NDT & pressure testing,10,2031-10-21,2031-10-30,,QA Team,40000,36000
+1146,3.47.12,Zone 47 - pipework & HVAC for tube segment,21,2031-11-05,2031-11-25,,MEP Contractor,90000,81000
+1147,3.47.13,Zone 47 - install access hatches & maintenance walkways,10,2031-11-30,2031-12-09,,Steel Erector,30000,27000
+1148,3.47.14,Zone 47 - local controller & sensors install,14,2031-12-10,2031-12-23,,Control Systems,50000,45000
+1149,3.47.15,Zone 47 - cable tray & fiber install,10,2031-12-25,2032-01-03,,Telco Contractor,30000,27000
+1150,3.47.16,Zone 47 - access road rehabilitation,7,2032-01-09,2032-01-15,,Civil Contractor,15000,13500
+1151,3.48.1,Zone 48 - mobilize site compound,14,2031-05-26,2031-06-08,,Construction Contractor,50000,45000
+1152,3.48.2,Zone 48 - establish access roads,21,2031-05-31,2031-06-20,,Civil Contractor,80000,72000
+1153,3.48.3,Zone 48 - utility diversions & protections,28,2031-06-05,2031-07-02,,Utilities Contractor,100000,90000
+1154,3.48.4,Zone 48 - pile layout & markout,7,2031-06-07,2031-06-13,,Survey Team,15000,13500
+1155,3.48.5,Zone 48 - bore piles / drilled shafts (batch),30,2031-06-15,2031-07-14,,Pile Contractor,300000,270000
+1156,3.48.6,Zone 48 - cap beams & pile caps,14,2031-07-15,2031-07-28,,Concrete Contractor,120000,108000
+1157,3.48.7,Zone 48 - erect pylon segments 1-5,21,2031-08-04,2031-08-24,,Steel Erector,180000,162000
+1158,3.48.8,Zone 48 - install tube supports & saddles,14,2031-08-29,2031-09-11,,Assembly Crew,90000,81000
+1159,3.48.9,Zone 48 - tube section lift & place (10 sections),30,2031-09-13,2031-10-12,,Heavy Lift,250000,225000
+1160,3.48.10,Zone 48 - tube welding & seal welding,14,2031-10-13,2031-10-26,,Welding Team,80000,72000
+1161,3.48.11,Zone 48 - NDT & pressure testing,10,2031-10-28,2031-11-06,,QA Team,40000,36000
+1162,3.48.12,Zone 48 - pipework & HVAC for tube segment,21,2031-11-12,2031-12-02,,MEP Contractor,90000,81000
+1163,3.48.13,Zone 48 - install access hatches & maintenance walkways,10,2031-12-07,2031-12-16,,Steel Erector,30000,27000
+1164,3.48.14,Zone 48 - local controller & sensors install,14,2031-12-17,2031-12-30,,Control Systems,50000,45000
+1165,3.48.15,Zone 48 - cable tray & fiber install,10,2032-01-01,2032-01-10,,Telco Contractor,30000,27000
+1166,3.48.16,Zone 48 - access road rehabilitation,7,2032-01-16,2032-01-22,,Civil Contractor,15000,13500
+1167,3.49.1,Zone 49 - mobilize site compound,14,2031-06-02,2031-06-15,,Construction Contractor,50000,45000
+1168,3.49.2,Zone 49 - establish access roads,21,2031-06-07,2031-06-27,,Civil Contractor,80000,72000
+1169,3.49.3,Zone 49 - utility diversions & protections,28,2031-06-12,2031-07-09,,Utilities Contractor,100000,90000
+1170,3.49.4,Zone 49 - pile layout & markout,7,2031-06-14,2031-06-20,,Survey Team,15000,13500
+1171,3.49.5,Zone 49 - bore piles / drilled shafts (batch),30,2031-06-22,2031-07-21,,Pile Contractor,300000,270000
+1172,3.49.6,Zone 49 - cap beams & pile caps,14,2031-07-22,2031-08-04,,Concrete Contractor,120000,108000
+1173,3.49.7,Zone 49 - erect pylon segments 1-5,21,2031-08-11,2031-08-31,,Steel Erector,180000,162000
+1174,3.49.8,Zone 49 - install tube supports & saddles,14,2031-09-05,2031-09-18,,Assembly Crew,90000,81000
+1175,3.49.9,Zone 49 - tube section lift & place (10 sections),30,2031-09-20,2031-10-19,,Heavy Lift,250000,225000
+1176,3.49.10,Zone 49 - tube welding & seal welding,14,2031-10-20,2031-11-02,,Welding Team,80000,72000
+1177,3.49.11,Zone 49 - NDT & pressure testing,10,2031-11-04,2031-11-13,,QA Team,40000,36000
+1178,3.49.12,Zone 49 - pipework & HVAC for tube segment,21,2031-11-19,2031-12-09,,MEP Contractor,90000,81000
+1179,3.49.13,Zone 49 - install access hatches & maintenance walkways,10,2031-12-14,2031-12-23,,Steel Erector,30000,27000
+1180,3.49.14,Zone 49 - local controller & sensors install,14,2031-12-24,2032-01-06,,Control Systems,50000,45000
+1181,3.49.15,Zone 49 - cable tray & fiber install,10,2032-01-08,2032-01-17,,Telco Contractor,30000,27000
+1182,3.49.16,Zone 49 - access road rehabilitation,7,2032-01-23,2032-01-29,,Civil Contractor,15000,13500
+1183,3.50.1,Zone 50 - mobilize site compound,14,2031-06-09,2031-06-22,,Construction Contractor,50000,45000
+1184,3.50.2,Zone 50 - establish access roads,21,2031-06-14,2031-07-04,,Civil Contractor,80000,72000
+1185,3.50.3,Zone 50 - utility diversions & protections,28,2031-06-19,2031-07-16,,Utilities Contractor,100000,90000
+1186,3.50.4,Zone 50 - pile layout & markout,7,2031-06-21,2031-06-27,,Survey Team,15000,13500
+1187,3.50.5,Zone 50 - bore piles / drilled shafts (batch),30,2031-06-29,2031-07-28,,Pile Contractor,300000,270000
+1188,3.50.6,Zone 50 - cap beams & pile caps,14,2031-07-29,2031-08-11,,Concrete Contractor,120000,108000
+1189,3.50.7,Zone 50 - erect pylon segments 1-5,21,2031-08-18,2031-09-07,,Steel Erector,180000,162000
+1190,3.50.8,Zone 50 - install tube supports & saddles,14,2031-09-12,2031-09-25,,Assembly Crew,90000,81000
+1191,3.50.9,Zone 50 - tube section lift & place (10 sections),30,2031-09-27,2031-10-26,,Heavy Lift,250000,225000
+1192,3.50.10,Zone 50 - tube welding & seal welding,14,2031-10-27,2031-11-09,,Welding Team,80000,72000
+1193,3.50.11,Zone 50 - NDT & pressure testing,10,2031-11-11,2031-11-20,,QA Team,40000,36000
+1194,3.50.12,Zone 50 - pipework & HVAC for tube segment,21,2031-11-26,2031-12-16,,MEP Contractor,90000,81000
+1195,3.50.13,Zone 50 - install access hatches & maintenance walkways,10,2031-12-21,2031-12-30,,Steel Erector,30000,27000
+1196,3.50.14,Zone 50 - local controller & sensors install,14,2031-12-31,2032-01-13,,Control Systems,50000,45000
+1197,3.50.15,Zone 50 - cable tray & fiber install,10,2032-01-15,2032-01-24,,Telco Contractor,30000,27000
+1198,3.50.16,Zone 50 - access road rehabilitation,7,2032-01-30,2032-02-05,,Civil Contractor,15000,13500
+1199,3.51.1,Zone 51 - mobilize site compound,14,2031-06-16,2031-06-29,,Construction Contractor,50000,45000
+1200,3.51.2,Zone 51 - establish access roads,21,2031-06-21,2031-07-11,,Civil Contractor,80000,72000
+1201,3.51.3,Zone 51 - utility diversions & protections,28,2031-06-26,2031-07-23,,Utilities Contractor,100000,90000
+1202,3.51.4,Zone 51 - pile layout & markout,7,2031-06-28,2031-07-04,,Survey Team,15000,13500
+1203,3.51.5,Zone 51 - bore piles / drilled shafts (batch),30,2031-07-06,2031-08-04,,Pile Contractor,300000,270000
+1204,3.51.6,Zone 51 - cap beams & pile caps,14,2031-08-05,2031-08-18,,Concrete Contractor,120000,108000
+1205,3.51.7,Zone 51 - erect pylon segments 1-5,21,2031-08-25,2031-09-14,,Steel Erector,180000,162000
+1206,3.51.8,Zone 51 - install tube supports & saddles,14,2031-09-19,2031-10-02,,Assembly Crew,90000,81000
+1207,3.51.9,Zone 51 - tube section lift & place (10 sections),30,2031-10-04,2031-11-02,,Heavy Lift,250000,225000
+1208,3.51.10,Zone 51 - tube welding & seal welding,14,2031-11-03,2031-11-16,,Welding Team,80000,72000
+1209,3.51.11,Zone 51 - NDT & pressure testing,10,2031-11-18,2031-11-27,,QA Team,40000,36000
+1210,3.51.12,Zone 51 - pipework & HVAC for tube segment,21,2031-12-03,2031-12-23,,MEP Contractor,90000,81000
+1211,3.51.13,Zone 51 - install access hatches & maintenance walkways,10,2031-12-28,2032-01-06,,Steel Erector,30000,27000
+1212,3.51.14,Zone 51 - local controller & sensors install,14,2032-01-07,2032-01-20,,Control Systems,50000,45000
+1213,3.51.15,Zone 51 - cable tray & fiber install,10,2032-01-22,2032-01-31,,Telco Contractor,30000,27000
+1214,3.51.16,Zone 51 - access road rehabilitation,7,2032-02-06,2032-02-12,,Civil Contractor,15000,13500
+1215,3.52.1,Zone 52 - mobilize site compound,14,2031-06-23,2031-07-06,,Construction Contractor,50000,45000
+1216,3.52.2,Zone 52 - establish access roads,21,2031-06-28,2031-07-18,,Civil Contractor,80000,72000
+1217,3.52.3,Zone 52 - utility diversions & protections,28,2031-07-03,2031-07-30,,Utilities Contractor,100000,90000
+1218,3.52.4,Zone 52 - pile layout & markout,7,2031-07-05,2031-07-11,,Survey Team,15000,13500
+1219,3.52.5,Zone 52 - bore piles / drilled shafts (batch),30,2031-07-13,2031-08-11,,Pile Contractor,300000,270000
+1220,3.52.6,Zone 52 - cap beams & pile caps,14,2031-08-12,2031-08-25,,Concrete Contractor,120000,108000
+1221,3.52.7,Zone 52 - erect pylon segments 1-5,21,2031-09-01,2031-09-21,,Steel Erector,180000,162000
+1222,3.52.8,Zone 52 - install tube supports & saddles,14,2031-09-26,2031-10-09,,Assembly Crew,90000,81000
+1223,3.52.9,Zone 52 - tube section lift & place (10 sections),30,2031-10-11,2031-11-09,,Heavy Lift,250000,225000
+1224,3.52.10,Zone 52 - tube welding & seal welding,14,2031-11-10,2031-11-23,,Welding Team,80000,72000
+1225,3.52.11,Zone 52 - NDT & pressure testing,10,2031-11-25,2031-12-04,,QA Team,40000,36000
+1226,3.52.12,Zone 52 - pipework & HVAC for tube segment,21,2031-12-10,2031-12-30,,MEP Contractor,90000,81000
+1227,3.52.13,Zone 52 - install access hatches & maintenance walkways,10,2032-01-04,2032-01-13,,Steel Erector,30000,27000
+1228,3.52.14,Zone 52 - local controller & sensors install,14,2032-01-14,2032-01-27,,Control Systems,50000,45000
+1229,3.52.15,Zone 52 - cable tray & fiber install,10,2032-01-29,2032-02-07,,Telco Contractor,30000,27000
+1230,3.52.16,Zone 52 - access road rehabilitation,7,2032-02-13,2032-02-19,,Civil Contractor,15000,13500
+1231,3.53.1,Zone 53 - mobilize site compound,14,2031-06-30,2031-07-13,,Construction Contractor,50000,45000
+1232,3.53.2,Zone 53 - establish access roads,21,2031-07-05,2031-07-25,,Civil Contractor,80000,72000
+1233,3.53.3,Zone 53 - utility diversions & protections,28,2031-07-10,2031-08-06,,Utilities Contractor,100000,90000
+1234,3.53.4,Zone 53 - pile layout & markout,7,2031-07-12,2031-07-18,,Survey Team,15000,13500
+1235,3.53.5,Zone 53 - bore piles / drilled shafts (batch),30,2031-07-20,2031-08-18,,Pile Contractor,300000,270000
+1236,3.53.6,Zone 53 - cap beams & pile caps,14,2031-08-19,2031-09-01,,Concrete Contractor,120000,108000
+1237,3.53.7,Zone 53 - erect pylon segments 1-5,21,2031-09-08,2031-09-28,,Steel Erector,180000,162000
+1238,3.53.8,Zone 53 - install tube supports & saddles,14,2031-10-03,2031-10-16,,Assembly Crew,90000,81000
+1239,3.53.9,Zone 53 - tube section lift & place (10 sections),30,2031-10-18,2031-11-16,,Heavy Lift,250000,225000
+1240,3.53.10,Zone 53 - tube welding & seal welding,14,2031-11-17,2031-11-30,,Welding Team,80000,72000
+1241,3.53.11,Zone 53 - NDT & pressure testing,10,2031-12-02,2031-12-11,,QA Team,40000,36000
+1242,3.53.12,Zone 53 - pipework & HVAC for tube segment,21,2031-12-17,2032-01-06,,MEP Contractor,90000,81000
+1243,3.53.13,Zone 53 - install access hatches & maintenance walkways,10,2032-01-11,2032-01-20,,Steel Erector,30000,27000
+1244,3.53.14,Zone 53 - local controller & sensors install,14,2032-01-21,2032-02-03,,Control Systems,50000,45000
+1245,3.53.15,Zone 53 - cable tray & fiber install,10,2032-02-05,2032-02-14,,Telco Contractor,30000,27000
+1246,3.53.16,Zone 53 - access road rehabilitation,7,2032-02-20,2032-02-26,,Civil Contractor,15000,13500
+1247,3.54.1,Zone 54 - mobilize site compound,14,2031-07-07,2031-07-20,,Construction Contractor,50000,45000
+1248,3.54.2,Zone 54 - establish access roads,21,2031-07-12,2031-08-01,,Civil Contractor,80000,72000
+1249,3.54.3,Zone 54 - utility diversions & protections,28,2031-07-17,2031-08-13,,Utilities Contractor,100000,90000
+1250,3.54.4,Zone 54 - pile layout & markout,7,2031-07-19,2031-07-25,,Survey Team,15000,13500
+1251,3.54.5,Zone 54 - bore piles / drilled shafts (batch),30,2031-07-27,2031-08-25,,Pile Contractor,300000,270000
+1252,3.54.6,Zone 54 - cap beams & pile caps,14,2031-08-26,2031-09-08,,Concrete Contractor,120000,108000
+1253,3.54.7,Zone 54 - erect pylon segments 1-5,21,2031-09-15,2031-10-05,,Steel Erector,180000,162000
+1254,3.54.8,Zone 54 - install tube supports & saddles,14,2031-10-10,2031-10-23,,Assembly Crew,90000,81000
+1255,3.54.9,Zone 54 - tube section lift & place (10 sections),30,2031-10-25,2031-11-23,,Heavy Lift,250000,225000
+1256,3.54.10,Zone 54 - tube welding & seal welding,14,2031-11-24,2031-12-07,,Welding Team,80000,72000
+1257,3.54.11,Zone 54 - NDT & pressure testing,10,2031-12-09,2031-12-18,,QA Team,40000,36000
+1258,3.54.12,Zone 54 - pipework & HVAC for tube segment,21,2031-12-24,2032-01-13,,MEP Contractor,90000,81000
+1259,3.54.13,Zone 54 - install access hatches & maintenance walkways,10,2032-01-18,2032-01-27,,Steel Erector,30000,27000
+1260,3.54.14,Zone 54 - local controller & sensors install,14,2032-01-28,2032-02-10,,Control Systems,50000,45000
+1261,3.54.15,Zone 54 - cable tray & fiber install,10,2032-02-12,2032-02-21,,Telco Contractor,30000,27000
+1262,3.54.16,Zone 54 - access road rehabilitation,7,2032-02-27,2032-03-04,,Civil Contractor,15000,13500
+1263,3.55.1,Zone 55 - mobilize site compound,14,2031-07-14,2031-07-27,,Construction Contractor,50000,45000
+1264,3.55.2,Zone 55 - establish access roads,21,2031-07-19,2031-08-08,,Civil Contractor,80000,72000
+1265,3.55.3,Zone 55 - utility diversions & protections,28,2031-07-24,2031-08-20,,Utilities Contractor,100000,90000
+1266,3.55.4,Zone 55 - pile layout & markout,7,2031-07-26,2031-08-01,,Survey Team,15000,13500
+1267,3.55.5,Zone 55 - bore piles / drilled shafts (batch),30,2031-08-03,2031-09-01,,Pile Contractor,300000,270000
+1268,3.55.6,Zone 55 - cap beams & pile caps,14,2031-09-02,2031-09-15,,Concrete Contractor,120000,108000
+1269,3.55.7,Zone 55 - erect pylon segments 1-5,21,2031-09-22,2031-10-12,,Steel Erector,180000,162000
+1270,3.55.8,Zone 55 - install tube supports & saddles,14,2031-10-17,2031-10-30,,Assembly Crew,90000,81000
+1271,3.55.9,Zone 55 - tube section lift & place (10 sections),30,2031-11-01,2031-11-30,,Heavy Lift,250000,225000
+1272,3.55.10,Zone 55 - tube welding & seal welding,14,2031-12-01,2031-12-14,,Welding Team,80000,72000
+1273,3.55.11,Zone 55 - NDT & pressure testing,10,2031-12-16,2031-12-25,,QA Team,40000,36000
+1274,3.55.12,Zone 55 - pipework & HVAC for tube segment,21,2031-12-31,2032-01-20,,MEP Contractor,90000,81000
+1275,3.55.13,Zone 55 - install access hatches & maintenance walkways,10,2032-01-25,2032-02-03,,Steel Erector,30000,27000
+1276,3.55.14,Zone 55 - local controller & sensors install,14,2032-02-04,2032-02-17,,Control Systems,50000,45000
+1277,3.55.15,Zone 55 - cable tray & fiber install,10,2032-02-19,2032-02-28,,Telco Contractor,30000,27000
+1278,3.55.16,Zone 55 - access road rehabilitation,7,2032-03-05,2032-03-11,,Civil Contractor,15000,13500
+1279,3.56.1,Zone 56 - mobilize site compound,14,2031-07-21,2031-08-03,,Construction Contractor,50000,45000
+1280,3.56.2,Zone 56 - establish access roads,21,2031-07-26,2031-08-15,,Civil Contractor,80000,72000
+1281,3.56.3,Zone 56 - utility diversions & protections,28,2031-07-31,2031-08-27,,Utilities Contractor,100000,90000
+1282,3.56.4,Zone 56 - pile layout & markout,7,2031-08-02,2031-08-08,,Survey Team,15000,13500
+1283,3.56.5,Zone 56 - bore piles / drilled shafts (batch),30,2031-08-10,2031-09-08,,Pile Contractor,300000,270000
+1284,3.56.6,Zone 56 - cap beams & pile caps,14,2031-09-09,2031-09-22,,Concrete Contractor,120000,108000
+1285,3.56.7,Zone 56 - erect pylon segments 1-5,21,2031-09-29,2031-10-19,,Steel Erector,180000,162000
+1286,3.56.8,Zone 56 - install tube supports & saddles,14,2031-10-24,2031-11-06,,Assembly Crew,90000,81000
+1287,3.56.9,Zone 56 - tube section lift & place (10 sections),30,2031-11-08,2031-12-07,,Heavy Lift,250000,225000
+1288,3.56.10,Zone 56 - tube welding & seal welding,14,2031-12-08,2031-12-21,,Welding Team,80000,72000
+1289,3.56.11,Zone 56 - NDT & pressure testing,10,2031-12-23,2032-01-01,,QA Team,40000,36000
+1290,3.56.12,Zone 56 - pipework & HVAC for tube segment,21,2032-01-07,2032-01-27,,MEP Contractor,90000,81000
+1291,3.56.13,Zone 56 - install access hatches & maintenance walkways,10,2032-02-01,2032-02-10,,Steel Erector,30000,27000
+1292,3.56.14,Zone 56 - local controller & sensors install,14,2032-02-11,2032-02-24,,Control Systems,50000,45000
+1293,3.56.15,Zone 56 - cable tray & fiber install,10,2032-02-26,2032-03-06,,Telco Contractor,30000,27000
+1294,3.56.16,Zone 56 - access road rehabilitation,7,2032-03-12,2032-03-18,,Civil Contractor,15000,13500
+1295,3.57.1,Zone 57 - mobilize site compound,14,2031-07-28,2031-08-10,,Construction Contractor,50000,45000
+1296,3.57.2,Zone 57 - establish access roads,21,2031-08-02,2031-08-22,,Civil Contractor,80000,72000
+1297,3.57.3,Zone 57 - utility diversions & protections,28,2031-08-07,2031-09-03,,Utilities Contractor,100000,90000
+1298,3.57.4,Zone 57 - pile layout & markout,7,2031-08-09,2031-08-15,,Survey Team,15000,13500
+1299,3.57.5,Zone 57 - bore piles / drilled shafts (batch),30,2031-08-17,2031-09-15,,Pile Contractor,300000,270000
+1300,3.57.6,Zone 57 - cap beams & pile caps,14,2031-09-16,2031-09-29,,Concrete Contractor,120000,108000
+1301,3.57.7,Zone 57 - erect pylon segments 1-5,21,2031-10-06,2031-10-26,,Steel Erector,180000,162000
+1302,3.57.8,Zone 57 - install tube supports & saddles,14,2031-10-31,2031-11-13,,Assembly Crew,90000,81000
+1303,3.57.9,Zone 57 - tube section lift & place (10 sections),30,2031-11-15,2031-12-14,,Heavy Lift,250000,225000
+1304,3.57.10,Zone 57 - tube welding & seal welding,14,2031-12-15,2031-12-28,,Welding Team,80000,72000
+1305,3.57.11,Zone 57 - NDT & pressure testing,10,2031-12-30,2032-01-08,,QA Team,40000,36000
+1306,3.57.12,Zone 57 - pipework & HVAC for tube segment,21,2032-01-14,2032-02-03,,MEP Contractor,90000,81000
+1307,3.57.13,Zone 57 - install access hatches & maintenance walkways,10,2032-02-08,2032-02-17,,Steel Erector,30000,27000
+1308,3.57.14,Zone 57 - local controller & sensors install,14,2032-02-18,2032-03-02,,Control Systems,50000,45000
+1309,3.57.15,Zone 57 - cable tray & fiber install,10,2032-03-04,2032-03-13,,Telco Contractor,30000,27000
+1310,3.57.16,Zone 57 - access road rehabilitation,7,2032-03-19,2032-03-25,,Civil Contractor,15000,13500
+1311,3.58.1,Zone 58 - mobilize site compound,14,2031-08-04,2031-08-17,,Construction Contractor,50000,45000
+1312,3.58.2,Zone 58 - establish access roads,21,2031-08-09,2031-08-29,,Civil Contractor,80000,72000
+1313,3.58.3,Zone 58 - utility diversions & protections,28,2031-08-14,2031-09-10,,Utilities Contractor,100000,90000
+1314,3.58.4,Zone 58 - pile layout & markout,7,2031-08-16,2031-08-22,,Survey Team,15000,13500
+1315,3.58.5,Zone 58 - bore piles / drilled shafts (batch),30,2031-08-24,2031-09-22,,Pile Contractor,300000,270000
+1316,3.58.6,Zone 58 - cap beams & pile caps,14,2031-09-23,2031-10-06,,Concrete Contractor,120000,108000
+1317,3.58.7,Zone 58 - erect pylon segments 1-5,21,2031-10-13,2031-11-02,,Steel Erector,180000,162000
+1318,3.58.8,Zone 58 - install tube supports & saddles,14,2031-11-07,2031-11-20,,Assembly Crew,90000,81000
+1319,3.58.9,Zone 58 - tube section lift & place (10 sections),30,2031-11-22,2031-12-21,,Heavy Lift,250000,225000
+1320,3.58.10,Zone 58 - tube welding & seal welding,14,2031-12-22,2032-01-04,,Welding Team,80000,72000
+1321,3.58.11,Zone 58 - NDT & pressure testing,10,2032-01-06,2032-01-15,,QA Team,40000,36000
+1322,3.58.12,Zone 58 - pipework & HVAC for tube segment,21,2032-01-21,2032-02-10,,MEP Contractor,90000,81000
+1323,3.58.13,Zone 58 - install access hatches & maintenance walkways,10,2032-02-15,2032-02-24,,Steel Erector,30000,27000
+1324,3.58.14,Zone 58 - local controller & sensors install,14,2032-02-25,2032-03-09,,Control Systems,50000,45000
+1325,3.58.15,Zone 58 - cable tray & fiber install,10,2032-03-11,2032-03-20,,Telco Contractor,30000,27000
+1326,3.58.16,Zone 58 - access road rehabilitation,7,2032-03-26,2032-04-01,,Civil Contractor,15000,13500
+1327,3.59.1,Zone 59 - mobilize site compound,14,2031-08-11,2031-08-24,,Construction Contractor,50000,45000
+1328,3.59.2,Zone 59 - establish access roads,21,2031-08-16,2031-09-05,,Civil Contractor,80000,72000
+1329,3.59.3,Zone 59 - utility diversions & protections,28,2031-08-21,2031-09-17,,Utilities Contractor,100000,90000
+1330,3.59.4,Zone 59 - pile layout & markout,7,2031-08-23,2031-08-29,,Survey Team,15000,13500
+1331,3.59.5,Zone 59 - bore piles / drilled shafts (batch),30,2031-08-31,2031-09-29,,Pile Contractor,300000,270000
+1332,3.59.6,Zone 59 - cap beams & pile caps,14,2031-09-30,2031-10-13,,Concrete Contractor,120000,108000
+1333,3.59.7,Zone 59 - erect pylon segments 1-5,21,2031-10-20,2031-11-09,,Steel Erector,180000,162000
+1334,3.59.8,Zone 59 - install tube supports & saddles,14,2031-11-14,2031-11-27,,Assembly Crew,90000,81000
+1335,3.59.9,Zone 59 - tube section lift & place (10 sections),30,2031-11-29,2031-12-28,,Heavy Lift,250000,225000
+1336,3.59.10,Zone 59 - tube welding & seal welding,14,2031-12-29,2032-01-11,,Welding Team,80000,72000
+1337,3.59.11,Zone 59 - NDT & pressure testing,10,2032-01-13,2032-01-22,,QA Team,40000,36000
+1338,3.59.12,Zone 59 - pipework & HVAC for tube segment,21,2032-01-28,2032-02-17,,MEP Contractor,90000,81000
+1339,3.59.13,Zone 59 - install access hatches & maintenance walkways,10,2032-02-22,2032-03-02,,Steel Erector,30000,27000
+1340,3.59.14,Zone 59 - local controller & sensors install,14,2032-03-03,2032-03-16,,Control Systems,50000,45000
+1341,3.59.15,Zone 59 - cable tray & fiber install,10,2032-03-18,2032-03-27,,Telco Contractor,30000,27000
+1342,3.59.16,Zone 59 - access road rehabilitation,7,2032-04-02,2032-04-08,,Civil Contractor,15000,13500
+1343,3.60.1,Zone 60 - mobilize site compound,14,2031-08-18,2031-08-31,,Construction Contractor,50000,45000
+1344,3.60.2,Zone 60 - establish access roads,21,2031-08-23,2031-09-12,,Civil Contractor,80000,72000
+1345,3.60.3,Zone 60 - utility diversions & protections,28,2031-08-28,2031-09-24,,Utilities Contractor,100000,90000
+1346,3.60.4,Zone 60 - pile layout & markout,7,2031-08-30,2031-09-05,,Survey Team,15000,13500
+1347,3.60.5,Zone 60 - bore piles / drilled shafts (batch),30,2031-09-07,2031-10-06,,Pile Contractor,300000,270000
+1348,3.60.6,Zone 60 - cap beams & pile caps,14,2031-10-07,2031-10-20,,Concrete Contractor,120000,108000
+1349,3.60.7,Zone 60 - erect pylon segments 1-5,21,2031-10-27,2031-11-16,,Steel Erector,180000,162000
+1350,3.60.8,Zone 60 - install tube supports & saddles,14,2031-11-21,2031-12-04,,Assembly Crew,90000,81000
+1351,3.60.9,Zone 60 - tube section lift & place (10 sections),30,2031-12-06,2032-01-04,,Heavy Lift,250000,225000
+1352,3.60.10,Zone 60 - tube welding & seal welding,14,2032-01-05,2032-01-18,,Welding Team,80000,72000
+1353,3.60.11,Zone 60 - NDT & pressure testing,10,2032-01-20,2032-01-29,,QA Team,40000,36000
+1354,3.60.12,Zone 60 - pipework & HVAC for tube segment,21,2032-02-04,2032-02-24,,MEP Contractor,90000,81000
+1355,3.60.13,Zone 60 - install access hatches & maintenance walkways,10,2032-02-29,2032-03-09,,Steel Erector,30000,27000
+1356,3.60.14,Zone 60 - local controller & sensors install,14,2032-03-10,2032-03-23,,Control Systems,50000,45000
+1357,3.60.15,Zone 60 - cable tray & fiber install,10,2032-03-25,2032-04-03,,Telco Contractor,30000,27000
+1358,3.60.16,Zone 60 - access road rehabilitation,7,2032-04-09,2032-04-15,,Civil Contractor,15000,13500
+1359,3.X1,Major portal & ramp construction - Port A,180,2030-07-11,2031-01-06,,Civil Contractor,5000000,4500000
+1360,3.X2,Undersea short crossing - immersed tube design & install,540,2030-08-20,2032-02-10,,Marine Contractor,80000000,72000000
+1361,3.X3,Mountain tunnel TBM drives - segment production,720,2030-10-09,2032-09-27,,TBM Contractor,120000000,110000000
+1362,3.S1.1,Station 1 - site clearance,14,2030-07-01,2030-07-14,,Construction Contractor,50000,45000
+1363,3.S1.2,Station 1 - piling & foundation,60,2030-07-08,2030-09-05,,Pile Contractor,400000,360000
+1364,3.S1.3,Station 1 - structure frame,120,2030-09-09,2031-01-06,,Main Contractor,1500000,1350000
+1365,3.S1.4,Station 1 - platform & docking systems,90,2031-01-17,2031-04-16,,Mechanical Contractor,600000,540000
+1366,3.S1.5,Station 1 - airlock & pressure systems,90,2031-02-16,2031-05-16,,Vacuum Systems,400000,360000
+1367,3.S1.6,Station 1 - MEP & BMS,120,2031-03-18,2031-07-15,,MEP Contractor,500000,450000
+1368,3.S1.7,Station 1 - passenger flow & finishes,60,2031-07-16,2031-09-13,,Interior Contractor,200000,180000
+1369,3.S1.8,Station 1 - testing & commissioning,30,2031-09-24,2031-10-23,,Commissioning Team,80000,72000
+1370,3.S2.1,Station 2 - site clearance,14,2030-08-30,2030-09-12,,Construction Contractor,50000,45000
+1371,3.S2.2,Station 2 - piling & foundation,60,2030-09-06,2030-11-04,,Pile Contractor,400000,360000
+1372,3.S2.3,Station 2 - structure frame,120,2030-11-08,2031-03-07,,Main Contractor,1500000,1350000
+1373,3.S2.4,Station 2 - platform & docking systems,90,2031-03-18,2031-06-15,,Mechanical Contractor,600000,540000
+1374,3.S2.5,Station 2 - airlock & pressure systems,90,2031-04-17,2031-07-15,,Vacuum Systems,400000,360000
+1375,3.S2.6,Station 2 - MEP & BMS,120,2031-05-17,2031-09-13,,MEP Contractor,500000,450000
+1376,3.S2.7,Station 2 - passenger flow & finishes,60,2031-09-14,2031-11-12,,Interior Contractor,200000,180000
+1377,3.S2.8,Station 2 - testing & commissioning,30,2031-11-23,2031-12-22,,Commissioning Team,80000,72000
+1378,3.S3.1,Station 3 - site clearance,14,2030-10-29,2030-11-11,,Construction Contractor,50000,45000
+1379,3.S3.2,Station 3 - piling & foundation,60,2030-11-05,2031-01-03,,Pile Contractor,400000,360000
+1380,3.S3.3,Station 3 - structure frame,120,2031-01-07,2031-05-06,,Main Contractor,1500000,1350000
+1381,3.S3.4,Station 3 - platform & docking systems,90,2031-05-17,2031-08-14,,Mechanical Contractor,600000,540000
+1382,3.S3.5,Station 3 - airlock & pressure systems,90,2031-06-16,2031-09-13,,Vacuum Systems,400000,360000
+1383,3.S3.6,Station 3 - MEP & BMS,120,2031-07-16,2031-11-12,,MEP Contractor,500000,450000
+1384,3.S3.7,Station 3 - passenger flow & finishes,60,2031-11-13,2032-01-11,,Interior Contractor,200000,180000
+1385,3.S3.8,Station 3 - testing & commissioning,30,2032-01-22,2032-02-20,,Commissioning Team,80000,72000
+1386,3.S4.1,Station 4 - site clearance,14,2030-12-28,2031-01-10,,Construction Contractor,50000,45000
+1387,3.S4.2,Station 4 - piling & foundation,60,2031-01-04,2031-03-04,,Pile Contractor,400000,360000
+1388,3.S4.3,Station 4 - structure frame,120,2031-03-08,2031-07-05,,Main Contractor,1500000,1350000
+1389,3.S4.4,Station 4 - platform & docking systems,90,2031-07-16,2031-10-13,,Mechanical Contractor,600000,540000
+1390,3.S4.5,Station 4 - airlock & pressure systems,90,2031-08-15,2031-11-12,,Vacuum Systems,400000,360000
+1391,3.S4.6,Station 4 - MEP & BMS,120,2031-09-14,2032-01-11,,MEP Contractor,500000,450000
+1392,3.S4.7,Station 4 - passenger flow & finishes,60,2032-01-12,2032-03-11,,Interior Contractor,200000,180000
+1393,3.S4.8,Station 4 - testing & commissioning,30,2032-03-22,2032-04-20,,Commissioning Team,80000,72000
+1394,3.S5.1,Station 5 - site clearance,14,2031-02-26,2031-03-11,,Construction Contractor,50000,45000
+1395,3.S5.2,Station 5 - piling & foundation,60,2031-03-05,2031-05-03,,Pile Contractor,400000,360000
+1396,3.S5.3,Station 5 - structure frame,120,2031-05-07,2031-09-03,,Main Contractor,1500000,1350000
+1397,3.S5.4,Station 5 - platform & docking systems,90,2031-09-14,2031-12-12,,Mechanical Contractor,600000,540000
+1398,3.S5.5,Station 5 - airlock & pressure systems,90,2031-10-14,2032-01-11,,Vacuum Systems,400000,360000
+1399,3.S5.6,Station 5 - MEP & BMS,120,2031-11-13,2032-03-11,,MEP Contractor,500000,450000
+1400,3.S5.7,Station 5 - passenger flow & finishes,60,2032-03-12,2032-05-10,,Interior Contractor,200000,180000
+1401,3.S5.8,Station 5 - testing & commissioning,30,2032-05-21,2032-06-19,,Commissioning Team,80000,72000
+1402,3.S6.1,Station 6 - site clearance,14,2031-04-27,2031-05-10,,Construction Contractor,50000,45000
+1403,3.S6.2,Station 6 - piling & foundation,60,2031-05-04,2031-07-02,,Pile Contractor,400000,360000
+1404,3.S6.3,Station 6 - structure frame,120,2031-07-06,2031-11-02,,Main Contractor,1500000,1350000
+1405,3.S6.4,Station 6 - platform & docking systems,90,2031-11-13,2032-02-10,,Mechanical Contractor,600000,540000
+1406,3.S6.5,Station 6 - airlock & pressure systems,90,2031-12-13,2032-03-11,,Vacuum Systems,400000,360000
+1407,3.S6.6,Station 6 - MEP & BMS,120,2032-01-12,2032-05-10,,MEP Contractor,500000,450000
+1408,3.S6.7,Station 6 - passenger flow & finishes,60,2032-05-11,2032-07-09,,Interior Contractor,200000,180000
+1409,3.S6.8,Station 6 - testing & commissioning,30,2032-07-20,2032-08-18,,Commissioning Team,80000,72000
+1410,3.S7.1,Station 7 - site clearance,14,2031-06-26,2031-07-09,,Construction Contractor,50000,45000
+1411,3.S7.2,Station 7 - piling & foundation,60,2031-07-03,2031-08-31,,Pile Contractor,400000,360000
+1412,3.S7.3,Station 7 - structure frame,120,2031-09-04,2032-01-01,,Main Contractor,1500000,1350000
+1413,3.S7.4,Station 7 - platform & docking systems,90,2032-01-12,2032-04-10,,Mechanical Contractor,600000,540000
+1414,3.S7.5,Station 7 - airlock & pressure systems,90,2032-02-11,2032-05-10,,Vacuum Systems,400000,360000
+1415,3.S7.6,Station 7 - MEP & BMS,120,2032-03-12,2032-07-09,,MEP Contractor,500000,450000
+1416,3.S7.7,Station 7 - passenger flow & finishes,60,2032-07-10,2032-09-07,,Interior Contractor,200000,180000
+1417,3.S7.8,Station 7 - testing & commissioning,30,2032-09-18,2032-10-17,,Commissioning Team,80000,72000
+1418,3.S8.1,Station 8 - site clearance,14,2031-08-25,2031-09-07,,Construction Contractor,50000,45000
+1419,3.S8.2,Station 8 - piling & foundation,60,2031-09-01,2031-10-30,,Pile Contractor,400000,360000
+1420,3.S8.3,Station 8 - structure frame,120,2031-11-03,2032-03-01,,Main Contractor,1500000,1350000
+1421,3.S8.4,Station 8 - platform & docking systems,90,2032-03-12,2032-06-09,,Mechanical Contractor,600000,540000
+1422,3.S8.5,Station 8 - airlock & pressure systems,90,2032-04-11,2032-07-09,,Vacuum Systems,400000,360000
+1423,3.S8.6,Station 8 - MEP & BMS,120,2032-05-11,2032-09-07,,MEP Contractor,500000,450000
+1424,3.S8.7,Station 8 - passenger flow & finishes,60,2032-09-08,2032-11-06,,Interior Contractor,200000,180000
+1425,3.S8.8,Station 8 - testing & commissioning,30,2032-11-17,2032-12-16,,Commissioning Team,80000,72000
+1426,3.S9.1,Station 9 - site clearance,14,2031-10-24,2031-11-06,,Construction Contractor,50000,45000
+1427,3.S9.2,Station 9 - piling & foundation,60,2031-10-31,2031-12-29,,Pile Contractor,400000,360000
+1428,3.S9.3,Station 9 - structure frame,120,2032-01-02,2032-04-30,,Main Contractor,1500000,1350000
+1429,3.S9.4,Station 9 - platform & docking systems,90,2032-05-11,2032-08-08,,Mechanical Contractor,600000,540000
+1430,3.S9.5,Station 9 - airlock & pressure systems,90,2032-06-10,2032-09-07,,Vacuum Systems,400000,360000
+1431,3.S9.6,Station 9 - MEP & BMS,120,2032-07-10,2032-11-06,,MEP Contractor,500000,450000
+1432,3.S9.7,Station 9 - passenger flow & finishes,60,2032-11-07,2033-01-05,,Interior Contractor,200000,180000
+1433,3.S9.8,Station 9 - testing & commissioning,30,2033-01-16,2033-02-14,,Commissioning Team,80000,72000
+1434,3.S10.1,Station 10 - site clearance,14,2031-12-23,2032-01-05,,Construction Contractor,50000,45000
+1435,3.S10.2,Station 10 - piling & foundation,60,2031-12-30,2032-02-27,,Pile Contractor,400000,360000
+1436,3.S10.3,Station 10 - structure frame,120,2032-03-02,2032-06-29,,Main Contractor,1500000,1350000
+1437,3.S10.4,Station 10 - platform & docking systems,90,2032-07-10,2032-10-07,,Mechanical Contractor,600000,540000
+1438,3.S10.5,Station 10 - airlock & pressure systems,90,2032-08-09,2032-11-06,,Vacuum Systems,400000,360000
+1439,3.S10.6,Station 10 - MEP & BMS,120,2032-09-08,2033-01-05,,MEP Contractor,500000,450000
+1440,3.S10.7,Station 10 - passenger flow & finishes,60,2033-01-06,2033-03-06,,Interior Contractor,200000,180000
+1441,3.S10.8,Station 10 - testing & commissioning,30,2033-03-17,2033-04-15,,Commissioning Team,80000,72000
+1442,3.S11.1,Station 11 - site clearance,14,2032-02-21,2032-03-05,,Construction Contractor,50000,45000
+1443,3.S11.2,Station 11 - piling & foundation,60,2032-02-28,2032-04-27,,Pile Contractor,400000,360000
+1444,3.S11.3,Station 11 - structure frame,120,2032-05-01,2032-08-28,,Main Contractor,1500000,1350000
+1445,3.S11.4,Station 11 - platform & docking systems,90,2032-09-08,2032-12-06,,Mechanical Contractor,600000,540000
+1446,3.S11.5,Station 11 - airlock & pressure systems,90,2032-10-08,2033-01-05,,Vacuum Systems,400000,360000
+1447,3.S11.6,Station 11 - MEP & BMS,120,2032-11-07,2033-03-06,,MEP Contractor,500000,450000
+1448,3.S11.7,Station 11 - passenger flow & finishes,60,2033-03-07,2033-05-05,,Interior Contractor,200000,180000
+1449,3.S11.8,Station 11 - testing & commissioning,30,2033-05-16,2033-06-14,,Commissioning Team,80000,72000
+1450,3.S12.1,Station 12 - site clearance,14,2032-04-21,2032-05-04,,Construction Contractor,50000,45000
+1451,3.S12.2,Station 12 - piling & foundation,60,2032-04-28,2032-06-26,,Pile Contractor,400000,360000
+1452,3.S12.3,Station 12 - structure frame,120,2032-06-30,2032-10-27,,Main Contractor,1500000,1350000
+1453,3.S12.4,Station 12 - platform & docking systems,90,2032-11-07,2033-02-04,,Mechanical Contractor,600000,540000
+1454,3.S12.5,Station 12 - airlock & pressure systems,90,2032-12-07,2033-03-06,,Vacuum Systems,400000,360000
+1455,3.S12.6,Station 12 - MEP & BMS,120,2033-01-06,2033-05-05,,MEP Contractor,500000,450000
+1456,3.S12.7,Station 12 - passenger flow & finishes,60,2033-05-06,2033-07-04,,Interior Contractor,200000,180000
+1457,3.S12.8,Station 12 - testing & commissioning,30,2033-07-15,2033-08-13,,Commissioning Team,80000,72000
+1458,4.1,Expansion 1 - procurement & planning,180,2038-01-11,2038-07-09,,Procurement,200000,180000
+1459,4.2,Expansion 2 - procurement & planning,180,2038-01-21,2038-07-19,,Procurement,200000,180000
+1460,4.3,Expansion 3 - procurement & planning,180,2038-01-31,2038-07-29,,Procurement,200000,180000
+1461,4.4,Expansion 4 - procurement & planning,180,2038-02-10,2038-08-08,,Procurement,200000,180000
+1462,4.5,Expansion 5 - procurement & planning,180,2038-02-20,2038-08-18,,Procurement,200000,180000
+1463,4.6,Expansion 6 - procurement & planning,180,2038-03-02,2038-08-28,,Procurement,200000,180000
+1464,4.7,Expansion 7 - procurement & planning,180,2038-03-12,2038-09-07,,Procurement,200000,180000
+1465,4.8,Expansion 8 - procurement & planning,180,2038-03-22,2038-09-17,,Procurement,200000,180000
+1466,4.9,Expansion 9 - procurement & planning,180,2038-04-01,2038-09-27,,Procurement,200000,180000
+1467,4.10,Expansion 10 - procurement & planning,180,2038-04-11,2038-10-07,,Procurement,200000,180000
+1468,4.11,Expansion 11 - procurement & planning,180,2038-04-21,2038-10-17,,Procurement,200000,180000
+1469,4.12,Expansion 12 - procurement & planning,180,2038-05-01,2038-10-27,,Procurement,200000,180000
+1470,4.13,Expansion 13 - procurement & planning,180,2038-05-11,2038-11-06,,Procurement,200000,180000
+1471,4.14,Expansion 14 - procurement & planning,180,2038-05-21,2038-11-16,,Procurement,200000,180000
+1472,4.15,Expansion 15 - procurement & planning,180,2038-05-31,2038-11-26,,Procurement,200000,180000
+1473,4.16,Expansion 16 - procurement & planning,180,2038-06-10,2038-12-06,,Procurement,200000,180000
+1474,4.17,Expansion 17 - procurement & planning,180,2038-06-20,2038-12-16,,Procurement,200000,180000
+1475,4.18,Expansion 18 - procurement & planning,180,2038-06-30,2038-12-26,,Procurement,200000,180000
+1476,4.19,Expansion 19 - procurement & planning,180,2038-07-10,2039-01-05,,Procurement,200000,180000
+1477,4.20,Expansion 20 - procurement & planning,180,2038-07-20,2039-01-15,,Procurement,200000,180000
+1478,4.21,Expansion 21 - procurement & planning,180,2038-07-30,2039-01-25,,Procurement,200000,180000
+1479,4.22,Expansion 22 - procurement & planning,180,2038-08-09,2039-02-04,,Procurement,200000,180000
+1480,4.23,Expansion 23 - procurement & planning,180,2038-08-19,2039-02-14,,Procurement,200000,180000
+1481,4.24,Expansion 24 - procurement & planning,180,2038-08-29,2039-02-24,,Procurement,200000,180000
+1482,4.25,Expansion 25 - procurement & planning,180,2038-09-08,2039-03-06,,Procurement,200000,180000
+1483,4.26,Expansion 26 - procurement & planning,180,2038-09-18,2039-03-16,,Procurement,200000,180000
+1484,4.27,Expansion 27 - procurement & planning,180,2038-09-28,2039-03-26,,Procurement,200000,180000
+1485,4.28,Expansion 28 - procurement & planning,180,2038-10-08,2039-04-05,,Procurement,200000,180000
+1486,4.29,Expansion 29 - procurement & planning,180,2038-10-18,2039-04-15,,Procurement,200000,180000
+1487,4.30,Expansion 30 - procurement & planning,180,2038-10-28,2039-04-25,,Procurement,200000,180000
+1488,4.31,Expansion 31 - procurement & planning,180,2038-11-07,2039-05-05,,Procurement,200000,180000
+1489,4.32,Expansion 32 - procurement & planning,180,2038-11-17,2039-05-15,,Procurement,200000,180000
+1490,4.33,Expansion 33 - procurement & planning,180,2038-11-27,2039-05-25,,Procurement,200000,180000
+1491,4.34,Expansion 34 - procurement & planning,180,2038-12-07,2039-06-04,,Procurement,200000,180000
+1492,4.35,Expansion 35 - procurement & planning,180,2038-12-17,2039-06-14,,Procurement,200000,180000
+1493,4.36,Expansion 36 - procurement & planning,180,2038-12-27,2039-06-24,,Procurement,200000,180000
+1494,4.37,Expansion 37 - procurement & planning,180,2039-01-06,2039-07-04,,Procurement,200000,180000
+1495,4.38,Expansion 38 - procurement & planning,180,2039-01-16,2039-07-14,,Procurement,200000,180000
+1496,4.39,Expansion 39 - procurement & planning,180,2039-01-26,2039-07-24,,Procurement,200000,180000
+1497,4.40,Expansion 40 - procurement & planning,180,2039-02-05,2039-08-03,,Procurement,200000,180000
+1498,4.41,Expansion 41 - procurement & planning,180,2039-02-15,2039-08-13,,Procurement,200000,180000
+1499,4.42,Expansion 42 - procurement & planning,180,2039-02-25,2039-08-23,,Procurement,200000,180000
+1500,4.43,Expansion 43 - procurement & planning,180,2039-03-07,2039-09-02,,Procurement,200000,180000
+1501,4.44,Expansion 44 - procurement & planning,180,2039-03-17,2039-09-12,,Procurement,200000,180000
+1502,4.45,Expansion 45 - procurement & planning,180,2039-03-27,2039-09-22,,Procurement,200000,180000
+1503,4.46,Expansion 46 - procurement & planning,180,2039-04-06,2039-10-02,,Procurement,200000,180000
+1504,4.47,Expansion 47 - procurement & planning,180,2039-04-16,2039-10-12,,Procurement,200000,180000
+1505,4.48,Expansion 48 - procurement & planning,180,2039-04-26,2039-10-22,,Procurement,200000,180000
+1506,4.49,Expansion 49 - procurement & planning,180,2039-05-06,2039-11-01,,Procurement,200000,180000
+1507,4.50,Expansion 50 - procurement & planning,180,2039-05-16,2039-11-11,,Procurement,200000,180000
+1508,4.51,Expansion 51 - procurement & planning,180,2039-05-26,2039-11-21,,Procurement,200000,180000
+1509,4.52,Expansion 52 - procurement & planning,180,2039-06-05,2039-12-01,,Procurement,200000,180000
+1510,4.53,Expansion 53 - procurement & planning,180,2039-06-15,2039-12-11,,Procurement,200000,180000
+1511,4.54,Expansion 54 - procurement & planning,180,2039-06-25,2039-12-21,,Procurement,200000,180000
+1512,4.55,Expansion 55 - procurement & planning,180,2039-07-05,2039-12-31,,Procurement,200000,180000
+1513,4.56,Expansion 56 - procurement & planning,180,2039-07-15,2040-01-10,,Procurement,200000,180000
+1514,4.57,Expansion 57 - procurement & planning,180,2039-07-25,2040-01-20,,Procurement,200000,180000
+1515,4.58,Expansion 58 - procurement & planning,180,2039-08-04,2040-01-30,,Procurement,200000,180000
+1516,4.59,Expansion 59 - procurement & planning,180,2039-08-14,2040-02-09,,Procurement,200000,180000
+1517,4.60,Expansion 60 - procurement & planning,180,2039-08-24,2040-02-19,,Procurement,200000,180000
+1518,5.1,OM 1 - recruit & train operations staff batch 1,90,2048-01-08,2048-04-06,,Operations Team,50000,45000
+1519,5.2,OM 2 - recruit & train operations staff batch 2,90,2048-01-15,2048-04-13,,Operations Team,50000,45000
+1520,5.3,OM 3 - recruit & train operations staff batch 3,90,2048-01-22,2048-04-20,,Operations Team,50000,45000
+1521,5.4,OM 4 - recruit & train operations staff batch 4,90,2048-01-29,2048-04-27,,Operations Team,50000,45000
+1522,5.5,OM 5 - recruit & train operations staff batch 5,90,2048-02-05,2048-05-04,,Operations Team,50000,45000
+1523,5.6,OM 6 - recruit & train operations staff batch 6,90,2048-02-12,2048-05-11,,Operations Team,50000,45000
+1524,5.7,OM 7 - recruit & train operations staff batch 7,90,2048-02-19,2048-05-18,,Operations Team,50000,45000
+1525,5.8,OM 8 - recruit & train operations staff batch 8,90,2048-02-26,2048-05-25,,Operations Team,50000,45000
+1526,5.9,OM 9 - recruit & train operations staff batch 9,90,2048-03-04,2048-06-01,,Operations Team,50000,45000
+1527,5.10,OM 10 - recruit & train operations staff batch 10,90,2048-03-11,2048-06-08,,Operations Team,50000,45000
+1528,5.11,OM 11 - recruit & train operations staff batch 11,90,2048-03-18,2048-06-15,,Operations Team,50000,45000
+1529,5.12,OM 12 - recruit & train operations staff batch 12,90,2048-03-25,2048-06-22,,Operations Team,50000,45000
+1530,5.13,OM 13 - recruit & train operations staff batch 13,90,2048-04-01,2048-06-29,,Operations Team,50000,45000
+1531,5.14,OM 14 - recruit & train operations staff batch 14,90,2048-04-08,2048-07-06,,Operations Team,50000,45000
+1532,5.15,OM 15 - recruit & train operations staff batch 15,90,2048-04-15,2048-07-13,,Operations Team,50000,45000
+1533,5.16,OM 16 - recruit & train operations staff batch 16,90,2048-04-22,2048-07-20,,Operations Team,50000,45000
+1534,5.17,OM 17 - recruit & train operations staff batch 17,90,2048-04-29,2048-07-27,,Operations Team,50000,45000
+1535,5.18,OM 18 - recruit & train operations staff batch 18,90,2048-05-06,2048-08-03,,Operations Team,50000,45000
+1536,5.19,OM 19 - recruit & train operations staff batch 19,90,2048-05-13,2048-08-10,,Operations Team,50000,45000
+1537,5.20,OM 20 - recruit & train operations staff batch 20,90,2048-05-20,2048-08-17,,Operations Team,50000,45000
+1538,5.21,OM 21 - recruit & train operations staff batch 21,90,2048-05-27,2048-08-24,,Operations Team,50000,45000
+1539,5.22,OM 22 - recruit & train operations staff batch 22,90,2048-06-03,2048-08-31,,Operations Team,50000,45000
+1540,5.23,OM 23 - recruit & train operations staff batch 23,90,2048-06-10,2048-09-07,,Operations Team,50000,45000
+1541,5.24,OM 24 - recruit & train operations staff batch 24,90,2048-06-17,2048-09-14,,Operations Team,50000,45000
+1542,5.25,OM 25 - recruit & train operations staff batch 25,90,2048-06-24,2048-09-21,,Operations Team,50000,45000
+1543,5.26,OM 26 - recruit & train operations staff batch 26,90,2048-07-01,2048-09-28,,Operations Team,50000,45000
+1544,5.27,OM 27 - recruit & train operations staff batch 27,90,2048-07-08,2048-10-05,,Operations Team,50000,45000
+1545,5.28,OM 28 - recruit & train operations staff batch 28,90,2048-07-15,2048-10-12,,Operations Team,50000,45000
+1546,5.29,OM 29 - recruit & train operations staff batch 29,90,2048-07-22,2048-10-19,,Operations Team,50000,45000
+1547,5.30,OM 30 - recruit & train operations staff batch 30,90,2048-07-29,2048-10-26,,Operations Team,50000,45000
+1548,5.31,OM 31 - recruit & train operations staff batch 31,90,2048-08-05,2048-11-02,,Operations Team,50000,45000
+1549,5.32,OM 32 - recruit & train operations staff batch 32,90,2048-08-12,2048-11-09,,Operations Team,50000,45000
+1550,5.33,OM 33 - recruit & train operations staff batch 33,90,2048-08-19,2048-11-16,,Operations Team,50000,45000
+1551,5.34,OM 34 - recruit & train operations staff batch 34,90,2048-08-26,2048-11-23,,Operations Team,50000,45000
+1552,5.35,OM 35 - recruit & train operations staff batch 35,90,2048-09-02,2048-11-30,,Operations Team,50000,45000
+1553,5.36,OM 36 - recruit & train operations staff batch 36,90,2048-09-09,2048-12-07,,Operations Team,50000,45000
+1554,5.37,OM 37 - recruit & train operations staff batch 37,90,2048-09-16,2048-12-14,,Operations Team,50000,45000
+1555,5.38,OM 38 - recruit & train operations staff batch 38,90,2048-09-23,2048-12-21,,Operations Team,50000,45000
+1556,5.39,OM 39 - recruit & train operations staff batch 39,90,2048-09-30,2048-12-28,,Operations Team,50000,45000
+1557,5.40,OM 40 - recruit & train operations staff batch 40,90,2048-10-07,2049-01-04,,Operations Team,50000,45000
